@@ -167,7 +167,7 @@ function Home() {
       
       <tbody>
       <tr className="border-b border-gray-200">
-          <td className="py-3 px-4">Dr. Honey Pahuja </td>
+          <td className="py-3 px-4">Dr. Hunny Pahuja </td>
           <td className="py-3 px-4">icetis2025@cgc.ac.in</td>
           <td className="py-3 px-4">+91 97292 88808</td>
           <td className="py-3 px-4">
