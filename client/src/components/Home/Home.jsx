@@ -104,7 +104,7 @@ function Home() {
     <img src="" className="flex-1 w-1/5 h-auto object-contain" />
     <img src="" className="flex-1 w-1/5 h-auto object-contain" />
     <img src="" className="flex-1 w-1/5 h-auto object-contain" /> */}
-    <p>ABCD</p>
+    <p>PBCD</p>
     <p>EFGH</p>
     <p>IJKL</p>
     <p>MNOP</p>
