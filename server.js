@@ -19,7 +19,7 @@ app.get('*', (req, res) => {
 });
 
 app.post('/api/send-email', (req, res) => {
-  const { name, email, message } = req.body;
+  const { name, email,contact, message  } = req.body;
 
   // Set up nodemailer transport
   const transporter = nodemailer.createTransport({
@@ -35,7 +35,7 @@ app.post('/api/send-email', (req, res) => {
     from: email,
     to: 'kashyapshiven2002@gmail.com',
     subject: 'ICETIS 2025 Contact Form Submission',
-    text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
+    text: `Name: ${name}\nEmail: ${email}\nContact: ${contact}\nMessage: ${message}`,
   };
 
   // Mail format and content for the user

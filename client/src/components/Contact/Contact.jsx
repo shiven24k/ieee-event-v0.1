@@ -5,6 +5,7 @@ function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    contact:'',
     message: ''
   });
 
@@ -48,7 +49,7 @@ function Contact() {
               <input type="text" name="email" placeholder="Enter Email Address" className="form-control input-sm w-full mb-4 p-2 border rounded-md" value={formData.email} onChange={handleChange} />
               
               <label className="block mb-2">Mobile Number</label>
-              <input type="text" name="phone" placeholder="Enter Mobile Number" className="form-control input-sm w-full mb-4 p-2 border rounded-md" />
+              <input type="text" name="phone" placeholder="Enter Mobile Number" className="form-control input-sm w-full mb-4 p-2 border rounded-md" value={formData.contact} onChange={handleChange} />
               
               <label className="block mb-2">Enter Message</label>
               <textarea rows="5" placeholder="Enter Your Message" className="form-control input-sm w-full mb-4 p-2 border rounded-md" name="message" value={formData.message} onChange={handleChange}></textarea>
