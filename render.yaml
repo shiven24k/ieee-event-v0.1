@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: my-backend
+    env: node
+    plan: free
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && node app.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+
+  - type: web
+    name: my-frontend
+    env: static
+    plan: free
+    staticPublishPath: client/build
+    buildCommand: cd client && npm install && npm run build
