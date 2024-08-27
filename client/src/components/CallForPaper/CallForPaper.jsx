@@ -9,7 +9,7 @@ function CallForPaper(){
       <div className=" mt-5 container mx-auto py-3 bg-cover bg-no-repeat w-full px-4">
       <div className="bg-gray-100 p-5 rounded-lg shadow-lg mt-10">
         <div className="flex justify-between items-center mb-2">
-          <h2 className="text-2xl font-bold">CALL FOR PAPER</h2>
+          <h1 className="text-2xl font-bold">CALL FOR PAPER</h1>
           
         </div>
         <div className="flex flex-col text-justify items-center mb-5 md:flex-row">
@@ -21,10 +21,12 @@ function CallForPaper(){
      The objective of the International Conference on Emerging Technologies and Intelligent Systems (ICETIS-2025) is to provide a global forum for researchers, practitioners, industry experts, and academicians to present and discuss the latest advancements, challenges, and innovations in the fields of emerging technologies and intelligent systems. The conference aims to facilitate the exchange of knowledge, foster interdisciplinary collaboration, and explore the integration of intelligent systems with emerging technologies to address complex global challenges.
 
   </p>
-  {/* <div className='flex flex-col gap-5 items-center'>
-  <button className='rounded-lg w-[15em] bg-red-600 text-white font-semibold px-4 py-2'>Click here to Download</button>
-  <button className='rounded-lg w-[10em] bg-red-600 text-white font-semibold px-4 py-2'>Submit Paper</button>
-  </div> */}
+  <div >
+      <h2 className="text-2xl font-bold mb-4">Publications Opportunity</h2>
+      <p className="mb-4">
+        Selected research papers will be considered for publication in an IEEE (SCOPUS Indexed) conference after a thorough peer-review process. All abstracts will be published in the conference proceedings. Researchers are responsible for covering any additional publication costs. This opportunity provides valuable visibility for your work, so ensure your submission meets the required standards.
+      </p>
+    </div>
   
 </div>
 
