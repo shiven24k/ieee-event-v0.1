@@ -3,6 +3,7 @@ function PaperSubmission(){
     return (
         <div className=" mt-5 container mx-auto py-3 bg-cover bg-no-repeat w-full px-4">
       <div className="bg-gray-100 p-5 rounded-lg shadow-lg mt-10">
+      <h1 className="text-3xl font-bold mb-5 text-center">Paper Submission</h1>
       <h2 className="text-2xl font-bold mb-4">Selection Criteria</h2>
       <ul className="list-disc list-inside mb-4">
         <li>Originality of idea</li>
