@@ -173,7 +173,7 @@ function Home() {
           <td className="py-3 px-4">ICETIS Official Mail </td>
           <td className="py-3 px-4">icetis@cgc.ac.in</td>
           <td className="py-3 px-4"></td>
-          {/* <td className="py-3 px-4">
+          {/* <td className="py-3 px-4"> 
             <ul className="list-disc list-inside">
               <li className="list-none"><a href="https://www.linkedin.com/in/dr-hunny-pahuja-7b11ba56?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="text-blue-500 hover:underline">Linkedin</a></li>
              
