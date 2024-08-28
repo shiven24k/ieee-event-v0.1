@@ -10,6 +10,8 @@ import ed from "../../assets/ed.png";
 import ed_dcpd from "../../assets/ed-dcpd.png";
 import da from "../../assets/da.png";
 import shivani from "../../assets/shivani.jpg";
+import reg from "../../assets/reg.png";
+import pradeepReddy from "../../assets/pradeepReddy.jpeg";
 function About() {
   return (
     <div>
@@ -83,6 +85,33 @@ function About() {
             
           </div>
         </div>
+        {/* partons */}
+      <div>
+          <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+            <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
+               PARTONS
+            </h1>
+          </div>
+          <div className="flex w-full items-center justify-center text-2xl">
+            <ProfileCard
+              name="Dr. Vinay Goyal"
+              title="Executive Director, CGC Jhanjeri"
+              imageSrc={ed}
+            />
+            <ProfileCard
+              name="Dr. Ansih Gupta"
+              title="Director Academics, CGC Jhanjeri"
+              imageSrc={da}
+            />
+            <ProfileCard
+              name="Dr. Anupamdeep Sharma"
+              title="Registrar, CGC Jhanjeri"
+              imageSrc={reg}
+            />
+         
+            
+          </div>
+        </div>
 
         {/* general chair */}
         <div>
@@ -93,14 +122,42 @@ function About() {
           </div>
           <div className="flex w-full items-center justify-center text-2xl">
           <ProfileCard
-              name="Dr. Vinay Goyal"
-              title="Executive Director, CGC Jhanjeri"
-              imageSrc={ed}
+              name="Dr. Pradeep Reddy"
+              title="Director Engineering"
+              imageSrc={pradeepReddy}
             />
             <ProfileCard
-              name="Dr. Anish Gupta"
-              title="Director Academics, CGC Jhanjeri"
-               imageSrc={da}
+              name="Dr. Hunny Pahuja"
+              title="HoD ECE, CGC Jhanjeri"
+               imageSrc={HunnyPahuja}
+            />
+          </div>
+        </div>
+        {/* general co-chair */}
+        <div>
+          <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+            <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
+              GENERAL CO-CHAIR
+            </h1>
+          </div>
+          <div className="flex w-full items-center justify-center text-2xl">
+          <ProfileCard
+              name="Dr. Ashwani K Sharnma"
+              // title="Director Engineering"
+              // imageSrc={pradeepReddy}
+            />
+            <ProfileCard
+              name="Dr. Sajjan Singh"
+              // title="Director Engineering"
+              // imageSrc={pradeepReddy}
+            /><ProfileCard
+              name="Dr. Viaks Deep Mann"
+              // title="Director Engineering"
+              // imageSrc={pradeepReddy}
+            /><ProfileCard
+              name="Dr. Rini Saxsena"
+              // title="Director Engineering"
+              // imageSrc={pradeepReddy}
             />
           </div>
         </div>
@@ -120,8 +177,23 @@ function About() {
             />
           </div>
         </div>
+        {/* conference co-chair */}
+        <div>
+          <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto">
+            <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
+              CONFERENCE CO-CHAIR
+            </h1>
+          </div>
+          <div className="flex w-full items-center justify-center text-2xl">
+            <ProfileCard
+              name="Dr. Shivani Goyal"
+              title="Assistant Professor"
+              imageSrc={shivani}
+            />
+          </div>
+        </div>
 
-        {/* technical program chair */}
+        {/* technical program chair
         <div>
           <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
             <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
@@ -140,7 +212,7 @@ function About() {
               imageSrc={shivani}
             />
           </div>
-        </div>
+        </div> */}
 
         {/* publication chair */}
         <div>
@@ -150,6 +222,16 @@ function About() {
             </h1>
           </div>
           <div className="flex w-full items-center justify-center text-2xl">
+            <ProfileCard
+              name="Dr. Sarabpreet Kaur"
+              title="Professor"
+              //imageSrc={Mirgendra}
+            />
+            <ProfileCard
+              name="Dr. Ankita Aggarwal"
+              title="Associate Professor"
+              //imageSrc={Mirgendra}
+            />
             <ProfileCard
               name="Dr. Mirgendra"
               title="Associate Professor"
