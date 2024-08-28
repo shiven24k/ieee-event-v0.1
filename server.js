@@ -19,7 +19,10 @@ app.get('*', (req, res) => {
 });
 
 app.post('/api/send-email', (req, res) => {
-  const { name, email,phone, message  } = req.body;
+  const { name, email, phone, message } = req.body;
+
+  // // Log the request body to verify the fields
+  // console.log('Request Body:', req.body);
 
   // Set up nodemailer transport
   const transporter = nodemailer.createTransport({
