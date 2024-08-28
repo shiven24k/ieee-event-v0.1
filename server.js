@@ -36,9 +36,9 @@ app.post('/api/send-email', (req, res) => {
   // Mail format and content for the admin
   const adminMailOptions = {
     from: email,
-    to: 'kashyapshiven2002@gmail.com',
+    to: 'icetis@cgc.ac.in',
     subject: 'ICETIS 2025 Contact Form Submission',
-    text: `Name: ${name}\nEmail: ${email}\nContact: ${phone}\nMessage: ${message}`,
+    text: `Name: ${name}\nEmail: ${email}\nContact: ${phone}\nQuery: ${message}`,
   };
 
   // Mail format and content for the user
