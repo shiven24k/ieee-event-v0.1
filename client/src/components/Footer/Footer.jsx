@@ -19,7 +19,7 @@ function Footer() {
                   <ul className="text-white dark:text-gray-400 font-medium">
                   
                       <li className="mb-4">
-                          <a href="#" className="hover:underline">icetis2025@cgc.ac.in</a>
+                          <a href="#" className="hover:underline">icetis@cgc.ac.in</a>
                       </li>
                   </ul>
               </div>
