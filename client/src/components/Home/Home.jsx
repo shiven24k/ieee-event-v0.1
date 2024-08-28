@@ -35,49 +35,57 @@ function Home() {
     Important Dates:
     <br /> <br />
     <div className="font-normal text-sm sm:text-base md:text-lg lg:text-xl">
-      <div className="flex flex-col sm:flex-row items-center justify-center">
-        <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-          Full Paper Submission Deadline:
-        </span>
-        <div className="flex items-center flex-col ml-6 sm:ml-8">
-          <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-            12 May, 2025
-          </span>
-        </div>
-      </div>
-    </div>
-    <div className="flex flex-col sm:flex-row items-center justify-center mt-2">
+  <div className="flex flex-col sm:flex-row items-center justify-center">
+    <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+      Last date of Paper Submission:
+    </span>
+    <div className="flex items-center flex-col ml-6 sm:ml-8">
       <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-        Acceptance Notification Deadline:
-      </span>
-      <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
-        9 June, 2025
+        16th April, 2025
       </span>
     </div>
-    <div className="flex flex-col sm:flex-row items-center justify-center mt-2">
-      <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-        Camera Ready Manuscript Deadline:
-      </span>
-      <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
-        9 July, 2025
-      </span>
-    </div>
-    <div className="flex flex-col sm:flex-row items-center justify-center mt-2">
-      <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-        Conference Registration Deadline:
-      </span>
-      <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
-        11 August, 2025
-      </span>
-    </div>
-    <div className="flex flex-col sm:flex-row items-center justify-center mt-2">
-      <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-        Conference Dates:
-      </span>
-      <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
-        11-13 September, 2025
-      </span>
-    </div>
+  </div>
+</div>
+<div className="flex flex-col sm:flex-row items-center justify-center mt-2">
+  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+    Review Process to be Closed:
+  </span>
+  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
+    9th June, 2025
+  </span>
+</div>
+<div className="flex flex-col sm:flex-row items-center justify-center mt-2">
+  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+    Final Acceptance:
+  </span>
+  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
+    1st July, 2025
+  </span>
+</div>
+<div className="flex flex-col sm:flex-row items-center justify-center mt-2">
+  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+    Camera Ready Paper/ Registration:
+  </span>
+  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
+    8th August, 2025
+  </span>
+</div>
+<div className="flex flex-col sm:flex-row items-center justify-center mt-2">
+  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+    Conference Date:
+  </span>
+  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
+    18th-20th, September, 2025
+  </span>
+</div>
+<div className="flex flex-col sm:flex-row items-center justify-center mt-2">
+  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+    Email ID:
+  </span>
+  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
+    icetis@cgc.ac.in
+  </span>
+</div>
   </h4>
 </div>
       </div>
@@ -125,19 +133,14 @@ function Home() {
           <div className="w-full lg:w-1/2 order-2 lg:order-1 p-0">
             <div className="w-full flex flex-col items-start py-8 pl-10%">
               <p className="text-justify font-sans text-black font-normal text-shadow-lg p-5">
+              The objective of the
+                
                 {" "}
                 <strong>
                   “International Conference on Emerging Technology, and
                   Intelligent Systems (ICETIS-2025)”
                 </strong>{" "}
-                is the leading platform for presenting the latest advancements
-                and research discoveries in integrated circuits, microwave
-                technology, communication, and next-generation computing, this
-                conference will convene top researchers, engineers, and
-                scientists from around the globe. The driving force behind this
-                event is the urgent need to accommodate the rapidly increasing
-                number of intelligent devices while ensuring the efficiency of
-                communication systems.
+                 is to provide a global forum for researchers, practitioners, industry experts, and academicians to present and discuss the latest advancements, challenges, and innovations in the fields of emerging technologies and intelligent systems. The conference aims to facilitate the exchange of knowledge, foster interdisciplinary collaboration, and explore the integration of intelligent systems with emerging technologies to address complex global challenges.
               </p>
             </div>
           </div>

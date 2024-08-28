@@ -4,6 +4,11 @@ function PaperSubmission(){
         <div className=" mt-5 container mx-auto py-3 bg-cover bg-no-repeat w-full px-4">
       <div className="bg-gray-100 p-5 rounded-lg shadow-lg mt-10">
       <h1 className="text-3xl font-bold mb-5 text-center">Paper Submission</h1>
+      <h2 className="text-2xl font-bold mb-4">Publications Opportunity</h2>
+      <p className="mb-4">
+      Selected research papers will be considered for publication in an IEEE (SCOPUS Indexed) conference after a thorough peer-review process. All abstracts will be published in the conference proceedings. Researchers are responsible for covering any additional publication costs. This opportunity provides valuable visibility for your work, so ensure your submission meets the required standards.
+      </p>
+     
       <h2 className="text-2xl font-bold mb-4">Selection Criteria</h2>
       <ul className="list-disc list-inside mb-4">
         <li>Originality of idea</li>
@@ -18,7 +23,12 @@ function PaperSubmission(){
       <p className="mb-4">
         Authors are requested to submit their original research papers in IEEE format through the submission link - 
       </p>
-      <div className="flex  mt-6 mb-6">
+      <div className="flex  mt-6 mb-6 flex-col gap-5 items-center">
+        <a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank" rel="noopener noreferrer">
+          <button className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600">
+            Click here to Download IEEE Format
+          </button>
+        </a>
         <a href="https://cmt3.research.microsoft.com/Conference" target="_blank" rel="noopener noreferrer">
           <button className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600">
             Click Here
@@ -28,8 +38,10 @@ function PaperSubmission(){
 
       <h2 className="text-2xl font-bold mb-4">Guide Lines for Authors</h2>
       <h3 className="text-xl font-semibold mb-2">Paper Specifications</h3>
+      <div className='mb-2'>
+      <span >Use IEEE template to meet formatting requirements. Your paper must comply with the following:</span>
+      </div>
       <ul className="list-disc list-inside mb-4">
-        <li>Use IEEE template to meet formatting requirements. Your paper must comply with the following:</li>
         <li>Paper Length: Maximum 6 pages</li>
         <li>Paper Size: US Letter (8.5” x 11”)</li>
         <li>Fonts: Embed ALL fonts in your PDF file. Avoid the use of Type 3 fonts.</li>
@@ -38,7 +50,9 @@ function PaperSubmission(){
         <li>Do NOT page number your paper.</li>
         <li>Do NOT apply security settings to your PDF file.</li>
       </ul>
-      <p className="mb-4">Note: Deviations from the above paper specifications will result in the rejection of your submission.</p>
+      <div className="mb-4">
+      <i >Note: Deviations from the above paper specifications will result in the rejection of your submission.</i>
+      </div>
 
       <h3 className="text-xl font-semibold mb-2">Final Submission Procedure</h3>
       <ul className="list-disc list-inside mb-4">
@@ -50,7 +64,7 @@ function PaperSubmission(){
         <li>Log in using the same username and password you created during your initial submission.</li>
         <li>Do NOT apply security settings to your PDF file.</li>
       </ul>
-      <p className="mb-4">MANDATORY: You must pay for conference registration BEFORE you will be allowed to upload your final paper. You will need your registration code in order to proceed. Prospective authors are requested to submit full length paper no longer than six (6) pages. The paper must clearly state the objectives of the work, its significance in the advancement of scientific and technical knowledge.</p>
+      <p className="mb-4"> <span className='text-red-500 font-semibold'>MANDATORY:</span> You must pay for conference registration BEFORE you will be allowed to upload your final paper. You will need your registration code in order to proceed. Prospective authors are requested to submit full length paper no longer than six (6) pages. The paper must clearly state the objectives of the work, its significance in the advancement of scientific and technical knowledge.</p>
 
       <h3 className="text-xl font-semibold mb-2">Plagiarism Policy</h3>
       <p className="mb-4">
