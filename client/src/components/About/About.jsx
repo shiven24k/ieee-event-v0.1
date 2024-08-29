@@ -235,7 +235,7 @@ function About() {
             />
             <ProfileCard
               name="Dr. Sajjan Singh"
-              // title="Director Engineering"
+               title="Vice Principal"
                imageSrc={sajjan}
             /><ProfileCard
               name="Dr. Vikas Deep Mann"
@@ -247,7 +247,7 @@ function About() {
               imageSrc={hodcse}
             /><ProfileCard
               name="Dr. Anmol Gautam"
-              title="Vice Principal"
+              title="Associate Professor"
               // imageSrc={pradeepReddy}
             />
           </div>
