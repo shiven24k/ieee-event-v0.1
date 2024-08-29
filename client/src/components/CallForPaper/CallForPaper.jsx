@@ -23,12 +23,12 @@ function CallForPaper(){
      The objective of the International Conference on Emerging Technologies and Intelligent Systems (ICETIS-2025) is to provide a global forum for researchers, practitioners, industry experts, and academicians to present and discuss the latest advancements, challenges, and innovations in the fields of emerging technologies and intelligent systems. The conference aims to facilitate the exchange of knowledge, foster interdisciplinary collaboration, and explore the integration of intelligent systems with emerging technologies to address complex global challenges.
 
   </p>
-  <div >
+  {/* <div >
       <h2 className="text-2xl font-bold mb-4">Publications Opportunity</h2>
       <p className="mb-4">
         Selected research papers will be considered for publication in an IEEE (SCOPUS Indexed) conference after a thorough peer-review process. All abstracts will be published in the conference proceedings. Researchers are responsible for covering any additional publication costs. This opportunity provides valuable visibility for your work, so ensure your submission meets the required standards.
       </p>
-    </div>
+    </div> */}
   
 </div>
 

@@ -4,10 +4,10 @@ function PaperSubmission(){
         <div className=" mt-5 container mx-auto py-3 bg-cover bg-no-repeat w-full px-4">
       <div className="bg-gray-100 p-5 rounded-lg shadow-lg mt-10">
       <h1 className="text-3xl font-bold mb-5 text-center">Paper Submission</h1>
-      <h2 className="text-2xl font-bold mb-4">Publications Opportunity</h2>
+      {/* <h2 className="text-2xl font-bold mb-4">Publications Opportunity</h2>
       <p className="mb-4">
       Selected research papers will be considered for publication in an IEEE (SCOPUS Indexed) conference after a thorough peer-review process. All abstracts will be published in the conference proceedings. Researchers are responsible for covering any additional publication costs. This opportunity provides valuable visibility for your work, so ensure your submission meets the required standards.
-      </p>
+      </p> */}
      
       <h2 className="text-2xl font-bold mb-4">Selection Criteria</h2>
       <ul className="list-disc list-inside mb-4">

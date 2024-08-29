@@ -12,6 +12,13 @@ import da from "../../assets/da.png";
 import shivani from "../../assets/shivani.jpg";
 import reg from "../../assets/reg.png";
 import pradeepReddy from "../../assets/pradeepReddy.jpeg";
+import ashwani from "../../assets/ashwani.jpg";
+import sajjan from "../../assets/sajjan.jpeg";
+import hodcse from "../../assets/hodcse.jpg";
+import vikasdeep from "../../assets/vikasdeep.jpg";
+import sarabpreet from "../../assets/sarabpreet.jpg";
+import ankita from "../../assets/ankita.jpg";
+
 function About() {
   return (
     <div>
@@ -133,34 +140,7 @@ function About() {
             />
           </div>
         </div>
-        {/* general co-chair */}
-        <div>
-          <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
-            <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
-              GENERAL CO-CHAIR
-            </h1>
-          </div>
-          <div className="flex w-full items-center justify-center text-2xl">
-          <ProfileCard
-              name="Dr. Ashwani K Sharma"
-              // title="Director Engineering"
-              // imageSrc={pradeepReddy}
-            />
-            <ProfileCard
-              name="Dr. Sajjan Singh"
-              // title="Director Engineering"
-              // imageSrc={pradeepReddy}
-            /><ProfileCard
-              name="Dr. Viaks Deep Mann"
-              // title="Director Engineering"
-              // imageSrc={pradeepReddy}
-            /><ProfileCard
-              name="Dr. Rini Saxsena"
-              // title="Director Engineering"
-              // imageSrc={pradeepReddy}
-            />
-          </div>
-        </div>
+       
 
         {/* conference chair */}
         <div>
@@ -225,17 +205,50 @@ function About() {
             <ProfileCard
               name="Dr. Sarabpreet Kaur"
               title="Professor"
-              //imageSrc={Mirgendra}
+              imageSrc={sarabpreet}
             />
             <ProfileCard
               name="Dr. Ankita Aggarwal"
               title="Associate Professor"
-              //imageSrc={Mirgendra}
+              imageSrc={ankita}
             />
             <ProfileCard
               name="Dr. Mirgendra"
               title="Associate Professor"
               imageSrc={Mirgendra}
+            />
+          </div>
+        </div>
+
+         {/* organizing team */}
+         <div>
+          <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+            <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
+              organizing team
+            </h1>
+          </div>
+          <div className="flex w-full items-center justify-center text-2xl">
+          <ProfileCard
+              name="Dr. Ashwani K Sharma"
+              title="HoD Applied Sciences"
+              imageSrc={ashwani}
+            />
+            <ProfileCard
+              name="Dr. Sajjan Singh"
+              // title="Director Engineering"
+               imageSrc={sajjan}
+            /><ProfileCard
+              name="Dr. Vikas Deep Mann"
+              title="HoD ME-Civil"
+              imageSrc={vikasdeep}
+            /><ProfileCard
+              name="Dr. Rini Saxena"
+              title="HoD CSE"
+              imageSrc={hodcse}
+            /><ProfileCard
+              name="Dr. Anmol Gautam"
+              title="Associate Professor"
+              // imageSrc={pradeepReddy}
             />
           </div>
         </div>

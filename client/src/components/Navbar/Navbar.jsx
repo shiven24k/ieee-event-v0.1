@@ -214,31 +214,31 @@ function Navbar() {
           {/* IEEE and CGC Logos */}
           <div className="hidden sm:flex items-center gap-4">
             <img src={ceclogo} className="w-[4em]" alt="CGC Logo" />
-            <div class="navbar-brand__slider ms-2 slick-initialized slick-slider slick-vertical">
+            <div class="ms-2">
   <div class="slick-list draggable h-10 overflow-hidden">
     <div class="slick-track opacity-100 h-48 transform transition-transform duration-500 ease-in-out" >
-      <div class="nbs-item slick-slide slick-cloned w-24" data-slick-index="-1" aria-hidden="true" tabindex="-1">
-        <a href="https://www.cgc.ac.in" tabindex="-1">
+      <div class="slick-slide w-24" >
+        <a href="https://www.cgc.ac.in">
           <img src={nirf} alt="" class="w-28 h-10"/>
         </a>
       </div>
-      <div class="nbs-item slick-slide slick-current slick-active w-24" data-slick-index="0" aria-hidden="false" tabindex="0">
-        <a href="https://www.cgc.ac.in" tabindex="0">
+      <div class="slick-slide w-24" >
+        <a href="https://www.cgc.ac.in" >
           <img src={naac} alt="" class="w-28 h-10"/>
         </a>
       </div>
-      <div class="nbs-item slick-slide w-24" data-slick-index="1" aria-hidden="true" tabindex="-1">
-        <a href="https://www.cgc.ac.in" tabindex="-1">
+      <div class="slick-slide w-24" >
+        <a href="https://www.cgc.ac.in" >
           <img src={nirf} alt="" class="w-28 h-10"/>
         </a>
       </div>
-      <div class="nbs-item slick-slide slick-cloned w-24" data-slick-index="2" aria-hidden="true" tabindex="-1">
-        <a href="https://www.cgc.ac.in" tabindex="-1">
+      <div class="slick-slide w-24" >
+        <a href="https://www.cgc.ac.in" >
           <img src={naac} alt="" class="w-28 h-10"/>
         </a>
       </div>
-      <div class="nbs-item slick-slide slick-cloned w-24" data-slick-index="3" aria-hidden="true" tabindex="-1">
-        <a href="https://www.cgc.ac.in" tabindex="-1">
+      <div class="slick-slide w-24" >
+        <a href="https://www.cgc.ac.in" >
           <img src={nirf} alt="" class="w-28 h-10"/>
         </a>
       </div>

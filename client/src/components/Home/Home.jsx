@@ -34,7 +34,17 @@ function Home() {
   <h4 className="text-center font-sans text-white font-bold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug title">
     Important Dates:
     <br /> <br />
+    
+    <div className="flex flex-col sm:flex-row items-center justify-center mb-2">
+  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+    Conference Date:
+  </span>
+  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
+    18th-20th, September, 2025
+  </span>
+</div>
     <div className="font-normal text-sm sm:text-base md:text-lg lg:text-xl">
+    
   <div className="flex flex-col sm:flex-row items-center justify-center">
     <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
       Last date of Paper Submission:
@@ -48,22 +58,6 @@ function Home() {
 </div>
 <div className="flex flex-col sm:flex-row items-center justify-center mt-2">
   <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-    Review Process to be Closed:
-  </span>
-  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
-    9th June, 2025
-  </span>
-</div>
-<div className="flex flex-col sm:flex-row items-center justify-center mt-2">
-  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-    Final Acceptance:
-  </span>
-  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
-    1st July, 2025
-  </span>
-</div>
-<div className="flex flex-col sm:flex-row items-center justify-center mt-2">
-  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
     Camera Ready Paper/ Registration:
   </span>
   <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
@@ -72,12 +66,23 @@ function Home() {
 </div>
 <div className="flex flex-col sm:flex-row items-center justify-center mt-2">
   <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-    Conference Date:
+    Review Process to be Closed:
   </span>
   <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
-    18th-20th, September, 2025
+    9th June, 2025
   </span>
 </div>
+
+
+<div className="flex flex-col sm:flex-row items-center justify-center mt-2">
+  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+    Final Acceptance:
+  </span>
+  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
+    1st July, 2025
+  </span>
+</div>
+
 <div className="flex flex-col sm:flex-row items-center justify-center mt-2">
   <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
     Email ID:
