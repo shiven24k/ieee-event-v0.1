@@ -13,7 +13,8 @@ function Footer() {
               </a>
               <p className="self-center text-white dark:text-gray-400 font-small">Chandigarh Group of Colleges Jhanjeri Mohali, <br/> State Highway 12A Jhanjeri, <br/>Sahibzada Ajit Singh Nagar, <br/> Punjab 140307 </p>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-8 sm:gap-6">
+              
               <div>
                   <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">E-mail Us At</h2>
                   <ul className="text-white dark:text-gray-400 font-medium">
@@ -23,14 +24,7 @@ function Footer() {
                       </li>
                   </ul>
               </div>
-              <div>
-                  <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">call us at</h2>
-                  <ul className="text-white dark:text-gray-400 font-medium">
-                      <li className="mb-4">
-                          <a href="#" className="hover:underline ">+91 9729288808</a>
-                      </li>
-                  </ul>
-              </div>
+              
               <div>
   <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">quick link</h2>
   <div className="flex gap-5">

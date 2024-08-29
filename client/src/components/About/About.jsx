@@ -142,7 +142,7 @@ function About() {
           </div>
           <div className="flex w-full items-center justify-center text-2xl">
           <ProfileCard
-              name="Dr. Ashwani K Sharnma"
+              name="Dr. Ashwani K Sharma"
               // title="Director Engineering"
               // imageSrc={pradeepReddy}
             />
@@ -170,10 +170,10 @@ function About() {
             </h1>
           </div>
           <div className="flex w-full items-center justify-center text-2xl">
-            <ProfileCard
-              name="Dr. Hunny Pahuja"
-              title="HOD, ECE"
-              imageSrc={HunnyPahuja}
+          <ProfileCard
+              name="Dr. Pradeep Kumar Jindal"
+              title="Associate Professor"
+              imageSrc={PradeepKumar}
             />
           </div>
         </div>
