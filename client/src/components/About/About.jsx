@@ -247,7 +247,7 @@ function About() {
               imageSrc={hodcse}
             /><ProfileCard
               name="Dr. Anmol Gautam"
-              title="Associate Professor"
+              title="Vice Principal"
               // imageSrc={pradeepReddy}
             />
           </div>
