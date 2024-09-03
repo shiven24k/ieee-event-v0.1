@@ -97,6 +97,10 @@ const hierarchy = [
 technicalProgramCommittee.sort((a, b) => {
   return hierarchy.indexOf(a.designation) - hierarchy.indexOf(b.designation);
 });
+// Update the sno values to reflect the new order
+technicalProgramCommittee.forEach((member, index) => {
+  member.sno = index + 1;
+});
 
 const TechnicalProgram = () => {
   return (
