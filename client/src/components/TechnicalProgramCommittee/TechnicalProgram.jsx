@@ -81,6 +81,23 @@ const technicalProgramCommittee = [
   }
 ];
 
+// Define the hierarchy of designations
+const hierarchy = [
+  "Professor",
+  "Professor and Associate Dean R & D",
+  "Deputy Dean Research and Head Liaisoning Research",
+  "Associate Professor",
+  "Associate Professor and Assistant Dean",
+  "Associate Professor and Academic Head",
+  "Assistant Professor",
+  ""
+];
+
+// Sort the array based on the hierarchy
+technicalProgramCommittee.sort((a, b) => {
+  return hierarchy.indexOf(a.designation) - hierarchy.indexOf(b.designation);
+});
+
 const TechnicalProgram = () => {
   return (
     <div>
