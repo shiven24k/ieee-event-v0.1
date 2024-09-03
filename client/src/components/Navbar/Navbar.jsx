@@ -34,7 +34,7 @@ function Navbar() {
     <div>
       {/* Top Banner */}
       {/* <div id="sticky-banner" className={`fixed top-0 left-0 w-full p-2 border-b border-gray-200 bg-gradient-to-r from-red-700 to-red-500 dark:bg-gray-700 dark:border-gray-600 transition-transform duration-300 ${isBannerVisible ? 'translate-y-0' : '-translate-y-full'} z-50`}> */}
-      <div id="sticky-banner" className={"fixed top-0 left-0 w-full p-2 border-b border-gray-200 bg-gradient-to-r from-red-700 to-red-500 dark:bg-gray-700 dark:border-gray-600 transition-transform duration-300 z-50"}>
+      <div id="sticky-banner" className={"fixed top-0 left-0 w-full p-2 border-b border-gray-200 bg-gradient-to-r from-red-700 to-red-500 transition-transform duration-300 z-50"}>
         <div className="flex flex-col sm:flex-row justify-between items-center mx-auto gap-4 sm:gap-32 text-white">
           <div className='flex gap-2 sm:gap-2 items-center'>
             <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -51,7 +51,8 @@ function Navbar() {
           </div>
           <div >
           <Link to="./" className="sm:order-1 text-[#F1F1F1] flex-none text-[30px] sm:text-[20px] font-semibold focus:outline-none focus:opacity-80">
-                  ICETIS 2025
+                  ICETIS 2025 | 
+                  <a >	icetis@cgc.ac.in</a>
             </Link>
           </div>
           <div className='flex gap-2 sm:gap-2 items-center'>

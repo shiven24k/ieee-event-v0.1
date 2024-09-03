@@ -34,63 +34,58 @@ function Home() {
   <h4 className="text-center font-sans text-white font-bold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug title">
     Important Dates:
     <br /> <br />
-    
-    <div className="flex flex-col sm:flex-row items-center justify-center mb-2">
-  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-    Conference Date:
-  </span>
-  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
-    18th-20th, September, 2025
-  </span>
-</div>
-    <div className="font-normal text-sm sm:text-base md:text-lg lg:text-xl">
-    
-  <div className="flex flex-col sm:flex-row items-center justify-center">
-    <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-      Last date of Paper Submission:
-    </span>
-    <div className="flex items-center flex-col ml-6 sm:ml-8">
-      <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-        16th April, 2025
-      </span>
-    </div>
-  </div>
-</div>
-<div className="flex flex-col sm:flex-row items-center justify-center mt-2">
-  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-    Camera Ready Paper/ Registration:
-  </span>
-  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
-    8th August, 2025
-  </span>
-</div>
-<div className="flex flex-col sm:flex-row items-center justify-center mt-2">
-  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-    Review Process to be Closed:
-  </span>
-  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
-    9th June, 2025
-  </span>
-</div>
-
-
-<div className="flex flex-col sm:flex-row items-center justify-center mt-2">
-  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-    Final Acceptance:
-  </span>
-  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
-    1st July, 2025
-  </span>
-</div>
-
-<div className="flex flex-col sm:flex-row items-center justify-center mt-2">
-  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-    Email ID:
-  </span>
-  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
-    icetis@cgc.ac.in
-  </span>
-</div>
+    <table className="table-auto w-full">
+      <tbody>
+        <tr>
+          <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap">
+            Last date of Paper Submission:
+          </td>
+          <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-6 sm:pl-8 whitespace-nowrap">
+            16th April, 2025
+          </td>
+        </tr>
+        <tr>
+          <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap">
+            Review Process to be Closed:
+          </td>
+          <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-6 sm:pl-8 whitespace-nowrap">
+            9th June, 2025
+          </td>
+        </tr>
+        <tr>
+          <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap">
+            Final Acceptance:
+          </td>
+          <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-6 sm:pl-8 whitespace-nowrap">
+            1st July, 2025
+          </td>
+        </tr>
+        <tr>
+          <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap">
+            Camera Ready Paper/ Registration:
+          </td>
+          <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-6 sm:pl-8 whitespace-nowrap">
+            8th August, 2025
+          </td>
+        </tr>
+        <tr>
+          <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap">
+            Conference Date:
+          </td>
+          <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-6 sm:pl-8 whitespace-nowrap">
+            18th-20th, September, 2025
+          </td>
+        </tr>
+        <tr>
+          <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap">
+            Email ID:
+          </td>
+          <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-6 sm:pl-8 whitespace-nowrap">
+            icetis@cgc.ac.in
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </h4>
 </div>
       </div>
