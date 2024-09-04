@@ -19,18 +19,18 @@ function Home() {
         (Hybrid Mode)
       </pre> */}
     </div>
-    <div className="w-full container mx-auto px-4 m-5">
-      <div className="flex flex-wrap">
-        <div className="w-full lg:w-1/2 px-4 py-2">
-          <h4 className="text-center font-sans text-white text-shadow-lg leading-relaxed font-normal text-sm sm:text-base md:text-lg lg:text-xl px-2 sm:px-10 title tittleBoJa">
-            <i>
-              All accepted and presented papers will be considered for
-              inclusion in IEEE Xplore (indexed by Scopus) subject to the
-              quality requirement.
-            </i>
-          </h4>
-        </div>
-        <div className="w-full lg:w-1/2 px-4 pb-">
+    <div className="w-full container mx-auto px-4 ">
+      <div className="flex flex-wrap p-5"> 
+      <div className="w-1/2 px-4 py-2 flex justify-center items-center">
+  <h4 className="text-center text-white text-shadow-lg leading-relaxed font-normal text-sm sm:text-base md:text-lg lg:text-xl px-2 sm:px-10">
+    <i>
+      All accepted and presented papers will be considered for
+      inclusion in IEEE Xplore (indexed by Scopus) subject to the
+      quality requirement.
+    </i>
+  </h4>
+</div>
+        <div className="w-1/2 px-4">
   <h4 className="text-center font-sans text-white font-bold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug title">
     Important Dates:
     <br /> <br />

@@ -33,8 +33,8 @@ const technicalProgramCommittee = [
   },
   {
     sno: 6,
-    name: "Dr. PRASHANT UPADHYAYA",
-    designation: "",
+    name: "Dr. Prashant Upadhyaya",
+    designation: "Associate professor",
     institute: "Chandigarh University"
   },
   {
@@ -78,7 +78,27 @@ const technicalProgramCommittee = [
     name: "Dr. Sanjay Kumar",
     designation: "Professor",
     institute: "Galgotias College of Engineering and Technology, Gr. Noida (U.P)"
+  },
+  {
+    sno: 14,
+    name: "Dr. Sunil Kumar Paswan",
+    designation: "Assistant Professor",
+    institute: "School of Engineering Design and Automation, GNA University, Phagwara, Punjab"
+  },
+  {
+    sno: 15,
+    name: "Dr. Hari Shankar Singh",
+    designation: "Department of Electronics and Communication Engineering",
+    institute: "Thapar Institute of Engineering and Technology, Patiala"
+  },
+  {
+    sno: 16,
+    name: "Dr. Preetinder Kaur",
+    designation: "Associate Professor",
+    institute: "Chandigarh College of Engineering, CGC, Jhanjeri"
   }
+  
+
 ];
 
 // Define the hierarchy of designations

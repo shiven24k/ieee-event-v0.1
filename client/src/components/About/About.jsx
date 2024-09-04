@@ -18,6 +18,7 @@ import hodcse from "../../assets/hodcse.jpg";
 import vikasdeep from "../../assets/vikasdeep.jpg";
 import sarabpreet from "../../assets/sarabpreet.jpg";
 import ankita from "../../assets/ankita.jpg";
+import anmol from "../../assets/anmol.jpg";
 
 function About() {
   return (
@@ -248,7 +249,7 @@ function About() {
             /><ProfileCard
               name="Dr. Anmol Gautam"
               title="Associate Professor"
-              // imageSrc={pradeepReddy}
+              imageSrc={anmol}
             />
           </div>
         </div>
