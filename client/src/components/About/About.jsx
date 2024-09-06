@@ -11,7 +11,7 @@ import ed_dcpd from "../../assets/ed-dcpd.png";
 import da from "../../assets/da.png";
 import shivani from "../../assets/shivani.jpg";
 import reg from "../../assets/reg.png";
-import pradeepReddy from "../../assets/pradeepReddy.jpeg";
+import pradeepReddy from "../../assets/pradeepReddy.jpg";
 import ashwani from "../../assets/ashwani.jpg";
 import sajjan from "../../assets/sajjan.jpeg";
 import hodcse from "../../assets/hodcse.jpg";

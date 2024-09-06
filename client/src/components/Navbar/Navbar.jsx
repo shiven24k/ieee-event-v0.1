@@ -213,7 +213,7 @@ function Navbar() {
             </div>
           </div>
           {/* IEEE and CGC Logos */}
-          <div className="hidden sm:flex items-center gap-4">
+          <div className="flex items-center gap-4">
             <img src={ceclogo} className="w-[4em]" alt="CGC Logo" />
             <div class="ms-2">
   <div class="slick-list draggable h-10 overflow-hidden">
@@ -251,7 +251,7 @@ function Navbar() {
         </div>
       </div>
       {/* Add margin-top to the content below */}
-      <div style={{ marginTop: '10rem' }}>
+      <div className='mt-40'>
         {/* Main content goes here */}
       </div>
     </div>
