@@ -1,24 +1,6 @@
 import React from "react";
 import CGCimage from "../../assets/CGC-image.png";
-import HunnyPahuja from "../../assets/HunnyPahuja.jpg";
-import PradeepKumar from "../../assets/PradeepKumar.jpeg";
-import Mirgendra from "../../assets/Mirgendra.jpg";
-import ProfileCard from "../ProfileCard/ProfileCard";
-import chairman from "../../assets/chairman.png";
-import md from "../../assets/md.png";
-import ed from "../../assets/ed.png";
-import ed_dcpd from "../../assets/ed-dcpd.png";
-import da from "../../assets/da.png";
-import shivani from "../../assets/shivani.jpg";
-import reg from "../../assets/reg.png";
-import pradeepReddy from "../../assets/pradeepReddy.jpg";
-import ashwani from "../../assets/ashwani.jpg";
-import sajjan from "../../assets/sajjan.jpeg";
-import hodcse from "../../assets/hodcse.jpg";
-import vikasdeep from "../../assets/vikasdeep.jpg";
-import sarabpreet from "../../assets/sarabpreet.jpg";
-import ankita from "../../assets/ankita.jpg";
-import anmol from "../../assets/anmol.jpg";
+
 
 function About() {
   return (
@@ -67,192 +49,33 @@ function About() {
             alt="Institute Image"
             className="w-full h-auto rounded-md shadow-md"
           />
-        </div>
-
-        
+        </div>  
       </div>
-      {/* chief partons */}
-      <div>
-          <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
-            <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
-              CHIEF PARTONS
-            </h1>
-          </div>
-          <div className="flex w-full items-center justify-center text-2xl">
-            <ProfileCard
-              name="S. Rashpal Singh Dhaliwal"
-              title="Chairman, CGC Jhanjeri"
-              imageSrc={chairman}
-            />
-            <ProfileCard
-              name="Mr. Arsh Dhaliwal"
-              title="Managing Director, CGC Jhanjeri"
-              imageSrc={md}
-            />
-         
-            
-          </div>
-        </div>
-        {/* partons */}
-      <div>
-          <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
-            <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
-               PARTONS
-            </h1>
-          </div>
-          <div className="flex w-full items-center justify-center text-2xl">
-            <ProfileCard
-              name="Dr. Vinay Goyal"
-              title="Executive Director, CGC Jhanjeri"
-              imageSrc={ed}
-            />
-            <ProfileCard
-              name="Dr. Ansih Gupta"
-              title="Director Academics, CGC Jhanjeri"
-              imageSrc={da}
-            />
-            <ProfileCard
-              name="Dr. Anupamdeep Sharma"
-              title="Registrar, CGC Jhanjeri"
-              imageSrc={reg}
-            />
-         
-            
-          </div>
-        </div>
-
-        {/* general chair */}
-        <div>
-          <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
-            <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
-              GENERAL CHAIR
-            </h1>
-          </div>
-          <div className="flex w-full items-center justify-center text-2xl">
-          <ProfileCard
-              name="Dr. Pradeep Reddy"
-              title="Director Engineering"
-              imageSrc={pradeepReddy}
-            />
-            <ProfileCard
-              name="Dr. Hunny Pahuja"
-              title="HoD ECE, CGC Jhanjeri"
-               imageSrc={HunnyPahuja}
-            />
-          </div>
-        </div>
-       
-
-        {/* conference chair */}
-        <div>
-          <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto">
-            <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
-              CONFERENCE CHAIR
-            </h1>
-          </div>
-          <div className="flex w-full items-center justify-center text-2xl">
-          <ProfileCard
-              name="Dr. Pradeep Kumar Jindal"
-              title="Associate Professor"
-              imageSrc={PradeepKumar}
-            />
-          </div>
-        </div>
-        {/* conference co-chair */}
-        <div>
-          <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto">
-            <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
-              CONFERENCE CO-CHAIR
-            </h1>
-          </div>
-          <div className="flex w-full items-center justify-center text-2xl">
-            <ProfileCard
-              name="Dr. Shivani Goyal"
-              title="Assistant Professor"
-              imageSrc={shivani}
-            />
-          </div>
-        </div>
-
-        {/* technical program chair
-        <div>
-          <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
-            <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
-              TECHNICAL PROGRAM CHAIR
-            </h1>
-          </div>
-          <div className="flex w-full items-center justify-center text-2xl">
-            <ProfileCard
-              name="Dr. Pradeep Kumar Jindal"
-              title="Associate Professor"
-              imageSrc={PradeepKumar}
-            />
-            <ProfileCard
-              name="Dr. Shivani Goyal"
-              title="Assistant Professor"
-              imageSrc={shivani}
-            />
-          </div>
-        </div> */}
-
-        {/* publication chair */}
-        <div>
-          <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
-            <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
-              PUBLICATION CHAIR
-            </h1>
-          </div>
-          <div className="flex w-full items-center justify-center text-2xl">
-            <ProfileCard
-              name="Dr. Sarabpreet Kaur"
-              title="Professor"
-              imageSrc={sarabpreet}
-            />
-            <ProfileCard
-              name="Dr. Ankita Aggarwal"
-              title="Associate Professor"
-              imageSrc={ankita}
-            />
-            <ProfileCard
-              name="Dr. Mirgendra"
-              title="Associate Professor"
-              imageSrc={Mirgendra}
-            />
-          </div>
-        </div>
-
-         {/* organizing team */}
-         <div>
-          <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
-            <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
-              organizing team
-            </h1>
-          </div>
-          <div className="flex w-full items-center justify-center text-2xl">
-          <ProfileCard
-              name="Dr. Ashwani K Sharma"
-              title="HoD Applied Sciences"
-              imageSrc={ashwani}
-            />
-            <ProfileCard
-              name="Dr. Sajjan Singh"
-               title="Vice Principal"
-               imageSrc={sajjan}
-            /><ProfileCard
-              name="Dr. Vikas Deep Mann"
-              title="HoD ME-Civil"
-              imageSrc={vikasdeep}
-            /><ProfileCard
-              name="Dr. Rini Saxena"
-              title="HoD CSE"
-              imageSrc={hodcse}
-            /><ProfileCard
-              name="Dr. Anmol Gautam"
-              title="Associate Professor"
-              imageSrc={anmol}
-            />
-          </div>
-        </div>
+      <div className="flex flex-col md:flex-row items-center justify-center mt-10 p-4">
+  <div className="md:w-1/3 mt-5 md:mt-0 md:mr-5">
+    <img
+      src={CGCimage}
+      alt="Conference Image"
+      className="w-full h-auto rounded-md shadow-md"
+    />
+  </div>
+  <div className="md:w-2/3">
+    <h2 className="text-2xl font-extrabold text-center mb-5">
+      ABOUT THE CONFERENCE
+    </h2>
+    <div className="p-5 mt-10 text-justify  rounded-md">
+      <p>
+        The objective of the
+        {" "}
+        <strong>
+          “International Conference on Emerging Technology, and Intelligent Systems (ICETIS-2025)”
+        </strong>{" "}
+        is to provide a global forum for researchers, practitioners, industry experts, and academicians to present and discuss the latest advancements, challenges, and innovations in the fields of emerging technologies and intelligent systems. The conference aims to facilitate the exchange of knowledge, foster interdisciplinary collaboration, and explore the integration of intelligent systems with emerging technologies to address complex global challenges.
+      </p>
+    </div>
+  </div>
+</div>
+     
     </div>
   );
 }

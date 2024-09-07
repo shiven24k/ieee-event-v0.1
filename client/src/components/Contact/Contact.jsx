@@ -63,10 +63,12 @@ function Contact() {
               <h2 className="text-lg font-bold mb-4">Address</h2>
               <p>Chandigarh Group of Colleges Jhanjeri</p>
               <p>Punjab, Jhanjeri(PB)-140307</p>
+              <p>Dr. Pradeep Kumar Jindal</p>
               <p>Phone: +91 98724 95684</p>
+              <p>Dr. Shivani Goyal</p>
               <p>Phone: +91 8264239901</p>
-              <p>Email at: <a href="mailto:Pardeep.j1881@cgc.ac.in" className="text-blue-500">Pardeep.j1881@cgc.ac.in</a></p>
-              <p>Email at: <a href="mailto:Shivani.j2587@cgc.ac.in" className="text-blue-500">Shivani.j2587@cgc.ac.in</a></p>
+              <p>Email at: <a href="mailto:icetis@cgc.ac.in" className="text-blue-500">icetis@cgc.ac.in</a></p>
+              
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ const technicalProgramCommittee = [
   },
   {
     sno: 2,
-    name: "Neha Sardana",
+    name: "Dr. Neha Sardana",
     designation: "Associate Professor",
     institute: "IIT Ropar"
   },
@@ -109,25 +109,31 @@ const technicalProgramCommittee = [
     designation: "Assistant Professor",
     institute: "KIET Group of Institutions, Delhi-NCR, Ghaziabad"
   }
-  
-
 ];
 
-// Define the hierarchy of designations
+// Define the hierarchy of institutes
 const hierarchy = [
-  "Professor",
-  "Professor and Associate Dean R & D",
-  "Deputy Dean Research and Head Liaisoning Research",
-  "Associate Professor",
-  "Associate Professor and Assistant Dean",
-  "Associate Professor and Academic Head",
-  "Assistant Professor",
+  "IIT, BHU",
+  "IIT Ropar",
+  "Indian Institute of Information Technology Pune (IIIT-P)",
+  "NIT Jalandhar",
+  "KIET Group of Institutions, Delhi-NCR, Ghaziabad",
+  "Punjab Engineering College (Deemed to be University) Chandigarh",
+  "Lovely Professional University",
+  "Chitkara University, Punjab",
+  "Chandigarh University",
+  "SGT University",
+  "Galgotias College of Engineering and Technology, Gr. Noida (U.P)",
+  "School of Engineering Design and Automation, GNA University, Phagwara, Punjab",
+  "Thapar Institute of Engineering and Technology, Patiala",
+  "Chandigarh College of Engineering, CGC, Jhanjeri",
+  "Department of Applied Science, Chandigarh College of Engineering- Chandigarh Group of Colleges Jhanjeri India",
   ""
 ];
 
 // Sort the array based on the hierarchy
 technicalProgramCommittee.sort((a, b) => {
-  return hierarchy.indexOf(a.designation) - hierarchy.indexOf(b.designation);
+  return hierarchy.indexOf(a.institute) - hierarchy.indexOf(b.institute);
 });
 // Update the sno values to reflect the new order
 technicalProgramCommittee.forEach((member, index) => {
@@ -144,27 +150,14 @@ const TechnicalProgram = () => {
             Technical Program Community
           </h1>
         </div>
-        <div className='overflow-x-auto'>
-        <table className="min-w-full bg-white border border-gray-200">
-          <thead>
-            <tr className="bg-red-500 text-white text-sm leading-normal">
-              <th className="px-4 py-2 text-left">S.No</th>
-              <th className="px-4 py-2 text-left">Name</th>
-              <th className="px-4 py-2 text-left">Designation</th>
-              <th className="px-4 py-2 text-left">Institute & Location</th>
-            </tr>
-          </thead>
-          <tbody>
+        <div className="flex w-full text-2xl">
+          <ul className="list-disc pl-5">
             {technicalProgramCommittee.map((member, index) => (
-              <tr key={index}>
-                <td className="border px-4 py-2">{member.sno}</td>
-                <td className="border px-4 py-2">{member.name}</td>
-                <td className="border px-4 py-2">{member.designation}</td>
-                <td className="border px-4 py-2">{member.institute}</td>
-              </tr>
+              <li key={index} className="mb-4">
+                {member.name}, {member.institute}
+              </li>
             ))}
-          </tbody>
-        </table>
+          </ul>
         </div>
       </div>
     </div>

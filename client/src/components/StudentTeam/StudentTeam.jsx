@@ -159,28 +159,28 @@ function StudentTeam() {
        <div className="mt-4 p-4">
   <div className="flex flex-wrap justify-center mb-5">
     <div className="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col items-center">
-      <span className="text-red-600 font-semibold">Name: Vishwas Miglani (ECE-CEC)</span>
-      <span><strong>Responsibilities –&nbsp;</strong>Chairperson</span>
+      <span className=" font-semibold">Vishwas Miglani </span>
+      <span>Chairperson</span>
     </div>
     <div className="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col items-center">
-      <span className="text-red-600 font-semibold">Name: Prakhar Kansal (CEC-ECE)</span>
-      <span><strong>Responsibilities –&nbsp;</strong>Co-Chairperson</span>
+      <span className=" font-semibold">Prakhar Kansal </span>
+      <span>Co-Chairperson</span>
     </div>
     <div className="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col items-center">
-      <span className="text-red-600 font-semibold">Name: Dhananjay Nagar (CEC-ECE)</span>
-      <span><strong>Responsibilities –&nbsp;</strong>Secretary</span>
+      <span className=" font-semibold">Dhananjay Nagar </span>
+      <span>Secretary</span>
     </div>
     <div className="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col items-center">
-      <span className="text-red-600 font-semibold">Name: Uday Sharma (CEC-ECE)</span>
-      <span><strong>Responsibilities –&nbsp;</strong>Treasurer</span>
+      <span className=" font-semibold">Uday Sharma </span>
+      <span>Treasurer</span>
     </div>
     <div className="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col items-center">
-      <span className="text-red-600 font-semibold">Name: Anchal Sangwan (CEC-ECE)</span>
-      <span><strong>Responsibilities –&nbsp;</strong>Vice-Chair</span>
+      <span className="font-semibold">Anchal Sangwan </span>
+      <span>Vice-Chair</span>
     </div>
     <div className="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col items-center">
-      <span className="text-red-600 font-semibold">Name: Aakanksha Dubey (CEC-CSE)</span>
-      <span><strong>Responsibilities –&nbsp;</strong>WebMaster</span>
+      <span className="font-semibold">Aakanksha Dubey </span>
+      <span>WebMaster</span>
     </div>
   
 </div>

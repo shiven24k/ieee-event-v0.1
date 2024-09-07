@@ -37,11 +37,8 @@ function Navbar() {
       <div id="sticky-banner" className={"fixed top-0 left-0 w-full p-2 border-b border-gray-200 bg-gradient-to-r from-red-700 to-red-500 transition-transform duration-300 z-50"}>
         <div className="flex flex-col sm:flex-row justify-between items-center mx-auto gap-4 sm:gap-32 text-white">
           <div className='flex gap-2 sm:gap-2 items-center'>
-            <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-              <path fill="none" d="M0 0h24v24H0V0z"></path>
-              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z"></path>
-            </svg>
-            <p className="text-[1em] sm:text-base">Pardeep.j1881@cgc.ac.in</p>
+            
+            <p className="text-[1em] sm:text-base">Dr. Pradeep Kumar Jindal</p>
             <p className="hidden sm:block">|</p>
             <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
               <path fill="none" d="M0 0h24v24H0V0z"></path>
@@ -56,12 +53,8 @@ function Navbar() {
             </Link>
           </div>
           <div className='flex gap-2 sm:gap-2 items-center'>
-          <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-              <path fill="none" d="M0 0h24v24H0V0z"></path>
-              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z"></path>
-            </svg>
-            
-            <p className="text-sm sm:text-base">Shivani.j2587@cgc.ac.in</p>
+          
+            <p className="text-sm sm:text-base">Dr. Shivani Goyal</p>
             <p className="hidden sm:block">|</p>
             <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
               <path fill="none" d="M0 0h24v24H0V0z"></path>
@@ -74,12 +67,7 @@ function Navbar() {
       {/* Main Navbar */}
       <div className="fixed top-0 pt-14 left-0 w-full flex p-4 flex-wrap sm:justify-start sm:flex-nowrap text-sm bg-white shadow-md z-40">
         <div className="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
-          {/* ICETIS 2025 */}
-          {/* <div>
-            <Link to="./" className="sm:order-1 text-blue-800 flex-none text-[30px] sm:text-[50px] font-semibold focus:outline-none focus:opacity-80">
-                  ICETIS 2025
-            </Link>
-          </div> */}
+         
           <div>
           <a href="https://www.cgc.ac.in" >
              <img src={cgclogo} alt="" class="w-[250px] "/>

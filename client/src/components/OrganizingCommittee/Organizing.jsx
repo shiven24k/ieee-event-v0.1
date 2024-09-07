@@ -22,30 +22,151 @@ const facultyData = [
 const FacultyTable = () => {
   return (
     <div className="container mx-auto p-4">
-    <h1 className="text-3xl font-bold mb-4 text-center">Orgainising Commettiee</h1>
-      <div className='overflow-x-auto'>
-      <table className="min-w-full bg-white border border-gray-200">
-        <thead>
-          <tr className="bg-red-600 text-white uppercase text-sm leading-normal">
-            <th className="py-3 px-6 text-left">Sr. No.</th>
-            <th className="py-3 px-6 text-left">Faculty Name</th>
-            <th className="py-3 px-6 text-left">Designation</th>
-            <th className="py-3 px-6 text-left">Contact Number</th>
-          </tr>
-        </thead>
-        <tbody className="text-sm font-light">
-          {facultyData.map((faculty) => (
-            <tr key={faculty.srNo} className='border-b border-gray-200 hover:bg-gray-100'>
-              <td className="py-3 px-6 text-left whitespace-nowrap">{faculty.srNo}</td>
-              <td className="py-3 px-6 text-left">{faculty.name}</td>
-              <td className="py-3 px-6 text-left">{faculty.designation}</td>
-              <td className="py-3 px-6 text-left">{faculty.contact}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-
+      <h1 className="text-3xl font-bold mb-4 text-center">Organising Committee</h1>
+      
+      {/* Chief Patrons */}
+      <div>
+        <div className="flex flex-wrap mt-6 w-full relative flex-col flex-auto ">
+          <h1 className="mb-5 text-[1.75rem] font-bold text-dark text-4xl uppercase">
+            CHIEF PATRONS
+          </h1>
+        </div>
+        <div className="flex w-full text-2xl">
+          <ul className="list-disc pl-5">
+            <li className="mb-4">
+              S. Rashpal Singh Dhaliwal, Chairman, CGC Jhanjeri
+            </li>
+            <li className="mb-4">
+              Mr. Arsh Dhaliwal, Managing Director, CGC Jhanjeri
+            </li>
+          </ul>
+        </div>
       </div>
+
+      {/* Patrons */}
+      <div>
+        <div className="flex flex-wrap mt-6 w-full relative flex-col flex-auto  ">
+          <h1 className=" mb-5 text-[1.75rem] font-bold text-dark  text-4xl uppercase">
+            PATRONS
+          </h1>
+        </div>
+        <div className="flex w-full text-2xl">
+          <ul className="list-disc pl-5">
+            <li className="mb-4">
+              Dr. Vinay Goyal, Executive Director, CGC Jhanjeri
+            </li>
+            <li className="mb-4">
+              Dr. Anish Gupta, Director Academics, CGC Jhanjeri
+            </li>
+            <li className="mb-4">
+              Dr. Anupamdeep Sharma, Registrar, CGC Jhanjeri
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* General Chair */}
+      <div>
+        <div className="flex flex-wrap mt-6 w-full relative flex-col flex-auto ">
+          <h1 className="mb-5 text-[1.75rem] font-bold text-dark text-4xl uppercase">
+            GENERAL CHAIR
+          </h1>
+        </div>
+        <div className="flex w-full text-2xl">
+          <ul className="list-disc pl-5">
+            <li className="mb-4">
+              Dr. Pradeep Reddy, Director Engineering, CEC, CGC Jhanjeri
+            </li>
+            <li className="mb-4">
+              Dr. Hunny Pahuja, HoD ECE, CGC Jhanjeri, CEC, CGC Jhanjeri
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Organizing Secretary */}
+      <div>
+        <div className="flex flex-wrap mt-6 w-full relative flex-col flex-auto ">
+          <h1 className="mb-5 text-[1.75rem] font-bold text-dark text-4xl uppercase">
+            ORGANIZING SECRETARY
+          </h1>
+        </div>
+        <div className="flex w-full text-2xl">
+          <ul className="list-disc pl-5">
+          <li className="mb-4">
+              Dr. Sajjan Singh, Vice Principal, CCE, CGC Jhanjeri
+            </li>
+            <li className="mb-4">
+              Dr. Ashwani K Sharma, HoD Applied Sciences, CEC, CGC Jhanjeri
+            </li>
+            <li className="mb-4">
+              Dr. Vikas Deep Mann, HoD ME-Civil, CEC, CGC Jhanjeri
+            </li>
+            <li className="mb-4">
+              Dr. Rini Saxena, HoD, CEC, CGC Jhanjeri
+            </li>
+            <li className="mb-4">
+              Dr. Anmol Gautam, Associate Professor, CCE, CGC Jhanjeri
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Conference Chair */}
+      <div>
+        <div className="flex flex-wrap mt-6 w-full relative flex-col flex-auto ">
+          <h1 className="mb-5 text-[1.75rem] font-bold text-dark text-4xl uppercase">
+            CONFERENCE CHAIR
+          </h1>
+        </div>
+        <div className="flex w-full text-2xl">
+          <ul className="list-disc pl-5">
+            <li className="mb-4">
+              Dr. Pradeep Kumar Jindal, CEC, CGC Jhanjeri
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Conference Co-Chair */}
+      <div>
+        <div className="flex flex-wrap mt-6 w-full relative flex-col flex-auto ">
+          <h1 className="mb-5 text-[1.75rem] font-bold text-dark text-4xl uppercase">
+            CONFERENCE CO-CHAIR
+          </h1>
+        </div>
+        <div className="flex w-full text-2xl">
+          <ul className="list-disc pl-5">
+            <li className="mb-4">
+              Dr. Shivani Goyal, CEC, CGC Jhanjeri
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Publication Chair */}
+      <div>
+        <div className="flex flex-wrap mt-6 w-full relative flex-col flex-auto ">
+          <h1 className="mb-5 text-[1.75rem] font-bold text-dark text-4xl uppercase">
+            PUBLICATION CHAIR
+          </h1>
+        </div>
+        <div className="flex w-full text-2xl">
+          <ul className="list-disc pl-5">
+            <li className="mb-4">
+              Dr. Sarabpreet Kaur, CEC, CGC Jhanjeri
+            </li>
+            <li className="mb-4">
+              Dr. Ankita Aggarwal, CEC, CGC Jhanjeri
+            </li>
+            <li className="mb-4">
+              Dr. Mirgendra, CEC, CGC Jhanjeri
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Organizing Team */}
     </div>
   );
 };

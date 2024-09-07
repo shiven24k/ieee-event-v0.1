@@ -16,12 +16,15 @@ function Footer() {
           <div className="grid grid-cols-2 gap-8 sm:gap-6">
               
               <div>
-                  <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">E-mail Us At</h2>
-                  <ul className="text-white font-medium">
+                  <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Contact Us :</h2>
                   
-                      <li className="mb-4">
+                  <ul className="text-white font-medium">
+                     <li className="mb-4">
+                          <p>Dr. Pradeep Kumar Jindal </p>
+                          <a href="#" className="hover:underline">+91 98724 95684</a><br/>
                           <a href="#" className="hover:underline">icetis@cgc.ac.in</a>
                       </li>
+                      
                   </ul>
               </div>
               

@@ -11,9 +11,8 @@ function Advisory(){
             KEYNOTE SPEAKER
           </h1>
         </div>
-        <div className="flex w-full items-center justify-center text-2xl">
-          <ProfileCard />
-          <ProfileCard />
+        <div className="flex w-full items-center justify-center text-3xl pb-20">
+          <h1>Will be Declared Soon</h1>
         </div>
       </div>
         </div>

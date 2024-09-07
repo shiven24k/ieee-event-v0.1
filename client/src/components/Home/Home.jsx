@@ -19,14 +19,12 @@ function Home() {
         (Hybrid Mode)
       </pre> */}
     </div>
-    <div className="w-full container mx-auto px-4 ">
+    <div className="w-full container mx-auto px-4">
       <div className="flex flex-wrap p-5"> 
-      <div className="w-1/2 px-4 py-2 flex justify-center items-center">
+      <div className="w-1/2 px-4 py-2 flex justify-center items-center pt-[5em]">
   <h4 className="text-center text-white text-shadow-lg leading-relaxed font-normal text-sm sm:text-base md:text-lg lg:text-xl px-2 sm:px-10">
     <i>
-      All accepted and presented papers will be considered for
-      inclusion in IEEE Xplore (indexed by Scopus) subject to the
-      quality requirement.
+      All selected, presented and registered paper will be submitted to IEEE Xplore for consideration. 
     </i>
   </h4>
 </div>
@@ -38,34 +36,34 @@ function Home() {
       <tbody>
         <tr>
           <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap">
-            Last date of Paper Submission:
+          Paper Submission Deadline:
           </td>
           <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-6 sm:pl-8 whitespace-nowrap">
-            16th April, 2025
+          10th June, 2025
           </td>
         </tr>
         <tr>
           <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap">
-            Review Process to be Closed:
+          Acceptance Notification:
           </td>
           <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-6 sm:pl-8 whitespace-nowrap">
-            9th June, 2025
+          18th July, 2025
           </td>
         </tr>
         <tr>
           <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap">
-            Final Acceptance:
+           Camera Ready Paper Submission Deadline:
           </td>
           <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-6 sm:pl-8 whitespace-nowrap">
-            1st July, 2025
+          18th Aug, 2025
           </td>
         </tr>
         <tr>
           <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap">
-            Camera Ready Paper/ Registration:
+          Registration Deadline:
           </td>
           <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-6 sm:pl-8 whitespace-nowrap">
-            8th August, 2025
+           18th Aug, 2025
           </td>
         </tr>
         <tr>
@@ -73,24 +71,17 @@ function Home() {
             Conference Date:
           </td>
           <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-6 sm:pl-8 whitespace-nowrap">
-            18th-20th, September, 2025
+           18th – 20th Sept, 2025
           </td>
         </tr>
-        <tr>
-          <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap">
-            Email ID:
-          </td>
-          <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-6 sm:pl-8 whitespace-nowrap">
-            icetis@cgc.ac.in
-          </td>
-        </tr>
+        
       </tbody>
     </table>
   </h4>
 </div>
       </div>
     </div>
-    <h4 className="uppercase text-center font-sans font-semibold text-white text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl pt-3">
+    <h4 className="uppercase text-center font-sans font-semibold text-white text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl pt-20">
       Organised by <br /> DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING<br /> Chandigarh Engineering College, Chandigarh Group of Colleges, Jhanjeri, Mohali, <br/>  Punjab-140307
     </h4>
   </div>
@@ -102,16 +93,16 @@ function Home() {
         </h4>
         <img src={ieeelogo} alt="IEEE Delhi" className="p-5" />
       </div> */}
-      <div className="w-full flex flex-col items-center bg-gray-200 pb-10 overflow-hidden">
+      {/* <div className="w-full flex flex-col items-center bg-gray-200 pb-10 overflow-hidden">
   <h4 className="text-center font-sans text-black font-bold text-shadow-lg text-2xl pt-10 title">
     Conference Sponsors
   </h4>
   <div className="flex gap-16 p-0 px-8 animate-marquee mb-10">
-    {/* <img src="" className="flex-1 w-1/5 h-auto object-contain" />
     <img src="" className="flex-1 w-1/5 h-auto object-contain" />
     <img src="" className="flex-1 w-1/5 h-auto object-contain" />
     <img src="" className="flex-1 w-1/5 h-auto object-contain" />
-    <img src="" className="flex-1 w-1/5 h-auto object-contain" /> */}
+    <img src="" className="flex-1 w-1/5 h-auto object-contain" />
+    <img src="" className="flex-1 w-1/5 h-auto object-contain" />
     <p>PBCD</p>
     <p>EFGH</p>
     <p>IJKL</p>
@@ -127,32 +118,14 @@ function Home() {
     <p>WXYZ</p>
     
   </div>
-</div>
-      <div className="w-full bg-silver py-8">
-        <div className="flex flex-wrap">
-          <div className="w-full lg:w-1/2 order-2 lg:order-1 p-0">
-            <div className="w-full flex flex-col items-start py-8 pl-10%">
-              <p className="text-justify font-sans text-black font-normal text-shadow-lg p-5">
-              The objective of the
-                
-                {" "}
-                <strong>
-                  “International Conference on Emerging Technology, and
-                  Intelligent Systems (ICETIS-2025)”
-                </strong>{" "}
-                 is to provide a global forum for researchers, practitioners, industry experts, and academicians to present and discuss the latest advancements, challenges, and innovations in the fields of emerging technologies and intelligent systems. The conference aims to facilitate the exchange of knowledge, foster interdisciplinary collaboration, and explore the integration of intelligent systems with emerging technologies to address complex global challenges.
-              </p>
-            </div>
-          </div>
-          <div className="w-full lg:w-1/2 order-1 lg:order-2 p-0 flex justify-center items-center">
-            <img src={CGCimage} className="h-100 max-w-full rounded-lg" />
-          </div>
-        </div>
-      </div>
+</div> */}
+      {/* <div className="w-full bg-silver py-8">
+        
+      </div> */}
 
      
        {/* contact us */}
-      <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+      {/* <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
         <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
           Contact
         </h1>
@@ -173,12 +146,7 @@ function Home() {
           <td className="py-3 px-4">ICETIS Official Mail </td>
           <td className="py-3 px-4">icetis@cgc.ac.in</td>
           <td className="py-3 px-4"></td>
-          {/* <td className="py-3 px-4"> 
-            <ul className="list-disc list-inside">
-              <li className="list-none"><a href="https://www.linkedin.com/in/dr-hunny-pahuja-7b11ba56?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="text-blue-500 hover:underline">Linkedin</a></li>
-             
-            </ul>
-          </td> */}
+          
         </tr>
         <tr className="border-b border-gray-200">
           <td className="py-3 px-4">Dr. Pradeep Kumar Jindal </td>
@@ -208,7 +176,7 @@ function Home() {
     </table>
   </div>
 </div>
-      </div>
+      </div> */}
     </div>
   );
 }

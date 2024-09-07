@@ -68,12 +68,12 @@ function CallForPaper(){
     Track 3: Artificial Intelligence, Machine Learning, Big data, Blockchain and analytics.
   </li>
 </ul>
-        <div className="flex flex-col gap-5">
-  <div className="flex justify-between items-center mb-2">
-    <h4 className="text-lg font-bold">Innovative in Communication/Electronics/Electrical/ Wireless/Optical Networks and Security sensors</h4>
+        <div className="flex flex-col ">
+  <div className="flex justify-between items-center ">
+    <h4 className="text-lg font-bold">Track 1:  Innovative in Communication/Electronics/Electrical/ Wireless/Optical Networks and Security sensors</h4>
   </div>
   <div className='flex flex-col md:flex-row justify-between items-center'>
-    <ul className="p-5 list-disc list-inside mb-5 w-full md:w-[75%]">
+    <ul className="p-5 list-disc list-inside  w-full md:w-[75%]">
           <li>5G, 6G, and Beyond Networks</li>
           <li>Wireless Sensor Networks</li>
           <li>Wireless and Optical Communication</li>
@@ -102,10 +102,10 @@ function CallForPaper(){
   </div>
 
   <div className="flex justify-between items-center mb-2">
-    <h4 className="text-lg font-bold">Innovative Computing, Robotics, Next-generation IOT and industrial Automation with Computational Intelligence</h4>
+    <h4 className="text-lg font-bold">Track 2: Innovative Computing, Robotics, Next-generation IOT and industrial Automation with Computational Intelligence</h4>
   </div>
   <div className='flex flex-col md:flex-row justify-between items-center'>
-    <ul className="list-disc p-5 list-inside mb-5 w-full md:w-[70%]">
+    <ul className="list-disc p-5 list-inside  w-full md:w-[70%]">
     <li>Computational Intelligence</li>
           <li>Signal Processing</li>
           <li>Computer vision</li>
@@ -170,10 +170,10 @@ function CallForPaper(){
   </div>
 
   <div className="flex justify-between items-center mb-2">
-    <h4 className="text-lg font-bold">Artificial Intelligence, Machine Learning, Big data, Blockchain and analytics.</h4>
+    <h4 className="text-lg font-bold">Track 3: Artificial Intelligence, Machine Learning, Big data, Blockchain and analytics.</h4>
   </div>
   <div className='flex flex-col md:flex-row justify-between items-center'>
-    <ul className="list-disc p-5 list-inside mb-5 w-full md:w-3/4">
+    <ul className="list-disc p-5 list-inside w-full md:w-3/4">
     <li>AI Algorithms and Architectures</li>
           <li>Natural Language Processing and Text Analytics</li>
           <li>Computer Vision and Image Processing</li>
@@ -219,9 +219,9 @@ function CallForPaper(){
 </div>
         
         
-        <p className="mb-5 text-right text-sm ">
+        {/* <p className="mb-5 text-right text-sm ">
            Studies and new developments, which are relevant to science, engineering and technology are welcomed to the conference.
-        </p>
+        </p> */}
       </div>
     </div>
     )
