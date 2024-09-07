@@ -16,7 +16,7 @@ const technicalProgramCommittee = [
   {
     sno: 3,
     name: "Dr. Renuka Sharma",
-    designation: "Deputy Dean Research and Head Liaisoning Research",
+    designation: "Professor",
     institute: "SGT University"
   },
   {
@@ -34,7 +34,7 @@ const technicalProgramCommittee = [
   {
     sno: 6,
     name: "Dr. Prashant Upadhyaya",
-    designation: "Associate professor",
+    designation: "Associate Professor",
     institute: "Chandigarh University"
   },
   {
@@ -88,7 +88,7 @@ const technicalProgramCommittee = [
   {
     sno: 15,
     name: "Dr. Hari Shankar Singh",
-    designation: "Department of Electronics and Communication Engineering",
+    designation: "Associate Professor",
     institute: "Thapar Institute of Engineering and Technology, Patiala"
   },
   {
@@ -96,6 +96,18 @@ const technicalProgramCommittee = [
     name: "Dr. Preetinder Kaur",
     designation: "Associate Professor",
     institute: "Chandigarh College of Engineering, CGC, Jhanjeri"
+  },
+  {
+    sno: 17,
+    name: "Dr. Anamol Gautam",
+    designation: "Associate Professor",
+    institute: "Department of Applied Science, Chandigarh College of Engineering- Chandigarh Group of Colleges Jhanjeri India"
+  },
+  {
+    sno: 18,
+    name: "Dr. Rochak Bajpai",
+    designation: "Assistant Professor",
+    institute: "KIET Group of Institutions, Delhi-NCR, Ghaziabad"
   }
   
 
