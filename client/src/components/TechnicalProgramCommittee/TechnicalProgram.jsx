@@ -456,13 +456,15 @@ const technicalProgramCommittee = [
     name: "Dr.P. Sivaprakash",
     designation: "Assistant Professor",
     institute: "Dr.N.G.P. Institute of Technology"
-}
+},
+
 
   
 ];
 
 // Define the hierarchy of institutes
 const hierarchy = [
+  "Eudoxia Research University, New Castle, Delaware, USA",
   "IIT, BHU",
   "IIT Ropar",
   "Indian Institute of Information Technology Pune (IIIT-P)",
@@ -480,7 +482,7 @@ const hierarchy = [
   "Department of Applied Science, Chandigarh College of Engineering- Chandigarh Group of Colleges Jhanjeri India",
   "NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY, GREATER NOIDA",
   "Calcutta Institute of Technology",
-  "Eudoxia Research University, New Castle, Delaware, USA",
+ 
   "Marwadi University, Rajkot",
   "SR University",
   "Department of computer science and engineering, Sharda University",
