@@ -3,123 +3,123 @@ import React from 'react';
 const technicalProgramCommittee = [
   {
     sno: 1,
-    name: "Dr. R. K. Singh",
+    name: "Prof. R. K. Singh",
     designation: "Professor",
-    institute: "IIT BHU"
+    institute: "Indian Institute of Technology, Varanasi, U.P, India"
   },
   {
     sno: 2,
-    name: "Dr. Neha Sardana",
+    name: "Prof. Neha Sardana",
     designation: "Associate Professor",
-    institute: "IIT Ropar"
+    institute: "Indian Institute of Technology, Ropar, Punjab, India"
   },
   {
     sno: 3,
-    name: "Dr. Renuka Sharma",
+    name: "Prof. Renuka Sharma",
     designation: "Professor",
-    institute: "SGT University, Gurugram, Haryana"
+    institute: "SGT University, Gurugram, India"
   },
   {
     sno: 4,
-    name: "Dr. Balwinder Raj",
+    name: "Prof. Balwinder Raj",
     designation: "Associate Professor",
-    institute: "NIT Jalandhar"
+    institute: "Dr B R Ambedkar National Institute of Technology, Jalandhar, India"
   },
   {
     sno: 5,
-    name: "Dr. Ruchi",
+    name: "Prof. Ruchi",
     designation: "Professor",
     institute: "Chandigarh University, Chandigarh, India"
   },
   {
     sno: 6,
-    name: "Dr. Prashant Upadhyaya",
+    name: "Prof. Prashant Upadhyaya",
     designation: "Associate Professor",
     institute: "Chandigarh University, Chandigarh, India"
   },
   {
     sno: 7,
-    name: "Dr. Parvin Kumar",
+    name: "Prof. Parvin Kumar",
     designation: "Professor and Associate Dean R & D",
-    institute: "KIET Group of Institutions, Delhi-NCR, Ghaziabad"
+    institute: "KIET Group of Institutions, Ghaziabad, India"
   },
   {
     sno: 8,
-    name: "Dr. Manoj Sindhwani",
+    name: "Prof. Manoj Sindhwani",
     designation: "Associate Professor and Assistant Dean",
-    institute: "Lovely Professional University, Punjab"
+    institute: "Lovely Professional University, Punjab, India"
   },
   {
     sno: 9,
-    name: "Dr. Jaskirat Kaur",
+    name: "Prof. Jaskirat Kaur",
     designation: "Assistant Professor",
-    institute: "Punjab Engineering College, Chandigarh"
+    institute: "Punjab Engineering College, Chandigarh, India"
   },
   {
     sno: 10,
-    name: "Dr. Abhas Kanungo",
+    name: "Prof. Abhas Kanungo",
     designation: "Associate Professor",
-    institute: "KIET Group of Institutions, Delhi-NCR, Ghaziabad"
+    institute: "KIET Group of Institutions, Ghaziabad, India"
   },
   {
     sno: 11,
-    name: "Dr. Shubham Shukla",
+    name: "Prof. Shubham Shukla",
     designation: "Assistant Professor",
-    institute: "Indian Institute of Information Technology Pune (IIIT-P)"
+    institute: "Indian Institute of Information Technology, Pune, India"
   },
   {
     sno: 12,
-    name: "Dr. Gurpreet Singh",
+    name: "Prof. Gurpreet Singh",
     designation: "Associate Professor and Academic Head",
-    institute: "Chitkara University, Punjab"
+    institute: "Chitkara University, Punjab, India"
   },
   {
     sno: 13,
-    name: "Dr. Sanjay Kumar",
+    name: "Prof. Sanjay Kumar",
     designation: "Professor",
-    institute: "Galgotias College of Engineering and Technology, Gr. Noida (U.P)"
+    institute: "Galgotias College of Engineering and Technology, Greater Noida, India"
   },
   {
     sno: 14,
-    name: "Dr. Sunil Kumar Paswan",
+    name: "Prof. Sunil Kumar Paswan",
     designation: "Assistant Professor",
-    institute: "School of Engineering Design and Automation, GNA University, Phagwara, Punjab"
+    institute: "School of Engineering Design and Automation, GNA University, Phagwara, Punjab, India"
   },
   {
     sno: 15,
-    name: "Dr. Hari Shankar Singh",
+    name: "Prof. Hari Shankar Singh",
     designation: "Associate Professor",
-    institute: "Thapar Institute of Engineering and Technology, Patiala"
+    institute: "Thapar Institute of Engineering and Technology, Patiala, Pubjab, India"
   },
   {
     sno: 16,
-    name: "Dr. Preetinder Kaur",
+    name: "Prof. Preetinder Kaur",
     designation: "Associate Professor",
     institute: "Chandigarh Group of Colleges, Jhanjeri India"
   },
   {
     sno: 17,
-    name: "Dr. Anamol Gautam",
+    name: "Prof. Anamol Gautam",
     designation: "Associate Professor",
     institute: "Chandigarh Group of Colleges, Jhanjeri India"
   },
   {
     sno: 18,
-    name: "Dr. Rochak Bajpai",
+    name: "Prof. Rochak Bajpai",
     designation: "Assistant Professor",
-    institute: "KIET Group of Institutions, Delhi-NCR, Ghaziabad"
+    institute: "KIET Group of Institutions, Ghaziabad, India"
   },
   {
     sno: 19,
     name: "Prof. Ritesh Rastogi",
     designation: "Assistant Professor",
-    institute: "Noida Institute Of Engineering and Technology, Greater Noida"
+    institute: "Noida Institute Of Engineering and Technology, Greater Noida, U.P, India"
   },
   {
     sno: 20,
     name: "Prof. Abhishek Sen",
     designation: "Assistant Professor",
-    institute: "Calcutta Institute of Technology, Howrah, West Bengal"
+    institute: "Calcutta Institute of Technology, Howrah, West Bengal, India"
   },
   {
     sno: 21,
@@ -131,13 +131,13 @@ const technicalProgramCommittee = [
     sno: 22,
     name: "Prof. Uvesh Sipai",
     designation: "Assistant Professor",
-    institute: "Marwadi University, Rajkot, India"
+    institute: "Marwadi University, Rajkot, Gujarat, India"
   },
   {
     sno: 23,
     name: "Prof. Saptadeepa Kalita",
     designation: "Assistant Professor",
-    institute: "Sharda University, India"
+    institute: "Sharda University, Greater Noida, U.P, India"
   },
   {
     sno: 24,
@@ -149,7 +149,7 @@ const technicalProgramCommittee = [
     sno: 25,
     name: "Prof. Padam Singh",
     designation: "Assistant Professor",
-    institute: "Galgotias College of Engg. and Technology Greater Noida, India"
+    institute: "Galgotias College of Engg. and Technology Greater Noida, U.P, India"
   },
   {
     sno: 26,
@@ -167,7 +167,7 @@ const technicalProgramCommittee = [
     sno: 28,
     name: "Prof. Kannan M",
     designation: "Assistant Professor",
-    institute: "Christ University, Bengaluru, India"
+    institute: "Christ University, Bengaluru, Karnataka, India"
   },
   {
     sno: 29,
@@ -227,7 +227,7 @@ const technicalProgramCommittee = [
     sno: 38,
     name: "Prof. Sindhu V",
     designation: "Assistant Professor",
-    institute: "Christ University, Bengaluru, India"
+    institute: "Christ University, Bengaluru, Karnataka, India"
   },
   {
     sno: 39,
@@ -395,37 +395,37 @@ const technicalProgramCommittee = [
     sno: 66,
     name: "Prof. P. Sivaprakash",
     designation: "Assistant Professor",
-    institute: "Dr. N. G. P. Institute of Technology, Jaipur, India"
+    institute: "Prof. N. G. P. Institute of Technology, Jaipur, India"
   }
 ];
 
 // Define the hierarchy of institutes
 const hierarchy = [
   "Eudoxia Research University, New Castle, Delaware, USA",
-  "IIT BHU",
-  "IIT Ropar",
-  "Indian Institute of Information Technology Pune (IIIT-P)",
-  "NIT Jalandhar",
-  "KIET Group of Institutions, Delhi-NCR, Ghaziabad",
-  "Punjab Engineering College, Chandigarh",
-  "Lovely Professional University, Punjab",
-  "Chitkara University, Punjab",
+  "Indian Institute of Technology, Varanasi, U.P, India",
+  "Indian Institute of Technology, Ropar, Punjab, India",
+  "Indian Institute of Information Technology, Pune, India",
+  "Dr B R Ambedkar National Institute of Technology, Jalandhar, India",
+  "KIET Group of Institutions, Ghaziabad, India",
+  "Punjab Engineering College, Chandigarh, India",
+  "Lovely Professional University, Punjab, India",
+  "Chitkara University, Punjab, India",
   "Chandigarh University, Chandigarh, India",
-  "SGT University, Gurugram, Haryana",
-  "Galgotias College of Engineering and Technology, Gr. Noida (U.P)",
-  "School of Engineering Design and Automation, GNA University, Phagwara, Punjab",
-  "Thapar Institute of Engineering and Technology, Patiala",
+  "SGT University, Gurugram, India",
+  "Galgotias College of Engineering and Technology, Greater Noida, India",
+  "School of Engineering Design and Automation, GNA University, Phagwara, Punjab, India",
+  "Thapar Institute of Engineering and Technology, Patiala, Pubjab, India",
   "Chandigarh Group of Colleges, Jhanjeri India",
-  "Noida Institute Of Engineering and Technology, Greater Noida",
-  "Galgotias College of Engg. and Technology Greater Noida, India",
-  "Calcutta Institute of Technology, Howrah, West Bengal",
-  "Marwadi University, Rajkot, India",
+  "Noida Institute Of Engineering and Technology, Greater Noida, U.P, India",
+  "Galgotias College of Engg. and Technology Greater Noida, U.P, India",
+  "Calcutta Institute of Technology, Howrah, West Bengal, India",
+  "Marwadi University, Rajkot, Gujarat, India",
   "SR University",
-  "Sharda University, India",
+  "Sharda University, Greater Noida, U.P, India",
   "Parul University, Vadodara, Gujarat, India",
   "Raj Kumar Goel Institute of Technology, Ghaziabad, UP, India",
   "SOE ADYPU",
-  "Christ University, Bengaluru, India",
+  "Christ University, Bengaluru, Karnataka, India",
   "Gujarat Technological University, Gujarat, India",
   "RVITM, Bangalore",
   "Bennett University, Greater Noida, India",
@@ -447,7 +447,7 @@ const hierarchy = [
   "Bharati Vidyapeeth (Deemed to be University) Institute of Management and Research, New Delhi, India",
   "R C Patel Institute of Technology, Shirpur, India",
   "Rungta College of Engineering and Technology, Bhilai, India",
-  "Dr. Babasaheb Ambedkar Technological University, Lonere, Maharastra",
+  "Prof. Babasaheb Ambedkar Technological University, Lonere, Maharastra",
   "Yashoda Technical Campus Satara, India",
   "Medicaps University, Indore, India",
   "Panipat Institute of Engineering and Technology, India",
@@ -459,7 +459,7 @@ const hierarchy = [
   "Vivekananda Global University, Jaipur, India",
   "ITS Engineering College, Greater Noida, U.P., India",
   "Parul University, Vadodara, Gujarat, India",
-  "Dr. N. G. P. Institute of Technology, Jaipur, India"
+  "Prof. N. G. P. Institute of Technology, Jaipur, India"
 ];
 // Sort the array based on the hierarchy
 technicalProgramCommittee.sort((a, b) => {
