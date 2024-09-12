@@ -5,7 +5,7 @@ const technicalProgramCommittee = [
     sno: 1,
     name: "Dr. R. K. Singh",
     designation: "Professor",
-    institute: "IIT, BHU"
+    institute: "IIT BHU"
   },
   {
     sno: 2,
@@ -17,7 +17,7 @@ const technicalProgramCommittee = [
     sno: 3,
     name: "Dr. Renuka Sharma",
     designation: "Professor",
-    institute: "SGT University"
+    institute: "SGT University, Gurugram, Haryana"
   },
   {
     sno: 4,
@@ -29,13 +29,13 @@ const technicalProgramCommittee = [
     sno: 5,
     name: "Dr. Ruchi",
     designation: "Professor",
-    institute: "Chandigarh University"
+    institute: "Chandigarh University, Chandigarh, India"
   },
   {
     sno: 6,
     name: "Dr. Prashant Upadhyaya",
     designation: "Associate Professor",
-    institute: "Chandigarh University"
+    institute: "Chandigarh University, Chandigarh, India"
   },
   {
     sno: 7,
@@ -47,13 +47,13 @@ const technicalProgramCommittee = [
     sno: 8,
     name: "Dr. Manoj Sindhwani",
     designation: "Associate Professor and Assistant Dean",
-    institute: "Lovely Professional University"
+    institute: "Lovely Professional University, Punjab"
   },
   {
     sno: 9,
     name: "Dr. Jaskirat Kaur",
     designation: "Assistant Professor",
-    institute: "Punjab Engineering College (Deemed to be University) Chandigarh"
+    institute: "Punjab Engineering College, Chandigarh"
   },
   {
     sno: 10,
@@ -95,13 +95,13 @@ const technicalProgramCommittee = [
     sno: 16,
     name: "Dr. Preetinder Kaur",
     designation: "Associate Professor",
-    institute: "Chandigarh College of Engineering, CGC, Jhanjeri"
+    institute: "Chandigarh Group of Colleges, Jhanjeri India"
   },
   {
     sno: 17,
     name: "Dr. Anamol Gautam",
     designation: "Associate Professor",
-    institute: "Department of Applied Science, Chandigarh College of Engineering- Chandigarh Group of Colleges Jhanjeri India"
+    institute: "Chandigarh Group of Colleges, Jhanjeri India"
   },
   {
     sno: 18,
@@ -111,429 +111,356 @@ const technicalProgramCommittee = [
   },
   {
     sno: 19,
-    name: "DR RITESH RASTOGI",
+    name: "Prof. Ritesh Rastogi",
     designation: "Assistant Professor",
-    institute: "NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY, GREATER NOIDA"
-},
-{
+    institute: "Noida Institute Of Engineering and Technology, Greater Noida"
+  },
+  {
     sno: 20,
-    name: "Dr. Abhishek Sen",
+    name: "Prof. Abhishek Sen",
     designation: "Assistant Professor",
-    institute: "Calcutta Institute of Technology"
-},
-{
+    institute: "Calcutta Institute of Technology, Howrah, West Bengal"
+  },
+  {
     sno: 21,
-    name: "Dr. Shashi Kant Gupta",
+    name: "Prof. Shashi Kant Gupta",
     designation: "Assistant Professor",
     institute: "Eudoxia Research University, New Castle, Delaware, USA"
-},
-{
+  },
+  {
     sno: 22,
-    name: "Uvesh Sipai",
+    name: "Prof. Uvesh Sipai",
     designation: "Assistant Professor",
-    institute: "Marwadi University, Rajkot"
-},
-{
+    institute: "Marwadi University, Rajkot, India"
+  },
+  {
     sno: 23,
-    name: "Saptadeepa Kalita",
+    name: "Prof. Saptadeepa Kalita",
     designation: "Assistant Professor",
-    institute: "Department of computer science and engineering, Sharda University"
-},
-{
+    institute: "Sharda University, India"
+  },
+  {
     sno: 24,
-    name: "Dr. Mohammad Shahnawaz Shaikh",
+    name: "Prof. Mohammad Shahnawaz Shaikh",
     designation: "Assistant Professor",
-    institute: "Parul Institute of Engineering and Technology, Parul University Vadodara (Gujarat)"
-},
-{
+    institute: "Parul University, Vadodara, Gujarat, India"
+  },
+  {
     sno: 25,
-    name: "Dr. Padam Singh",
+    name: "Prof. Padam Singh",
     designation: "Assistant Professor",
-    institute: "Galgotias College of Engineering and Technology, Gr. Noida (U.P)"
-},
-{
+    institute: "Galgotias College of Engg. and Technology Greater Noida, India"
+  },
+  {
     sno: 26,
-    name: "Dr. Pramod Kumar Sagar",
+    name: "Prof. Pramod Kumar Sagar",
     designation: "Assistant Professor",
-    institute: "Raj Kumar Goel Institute of Technology"
-},
-{
+    institute: "Raj Kumar Goel Institute of Technology, Ghaziabad, UP, India"
+  },
+  {
     sno: 27,
-    name: "Shweta Agarwal",
+    name: "Prof. Shweta Agarwal",
     designation: "Assistant Professor",
-    institute: "Chandigarh University"
-},
-{
+    institute: "Chandigarh University, Chandigarh, India"
+  },
+  {
     sno: 28,
-    name: "Ravi Khatri",
+    name: "Prof. Kannan M",
     designation: "Assistant Professor",
-    institute: "SOE ADYPU"
-},
-{
+    institute: "Christ University, Bengaluru, India"
+  },
+  {
     sno: 29,
-    name: "Dr. Kannan M",
+    name: "Prof. Sanket Ravishankar Trivedi",
     designation: "Assistant Professor",
-    institute: "CHRIST University, Bengaluru, India"
-},
-{
+    institute: "Gujarat Technological University, Gujarat, India"
+  },
+  {
     sno: 30,
-    name: "SANKET RAVISHANKAR TRIVEDI",
+    name: "Prof. Simar Preet Singh",
     designation: "Assistant Professor",
-    institute: "GUJARAT TECHNOLOGICAL UNIVERSITY"
-},
-{
+    institute: "Bennett University, Greater Noida, India"
+  },
+  {
     sno: 31,
-    name: "Dr.Chethan K S",
+    name: "Prof. Anshu Mehta",
     designation: "Assistant Professor",
-    institute: "RVITM, Bangalore"
-},
-{
+    institute: "Chandigarh University, Chandigarh, India"
+  },
+  {
     sno: 32,
-    name: "Dr. Simar Preet Singh",
+    name: "Prof. Neeru",
     designation: "Assistant Professor",
-    institute: "Bennett University, Greater Noida"
-},
-{
+    institute: "MMU (Deemed To Be University), Mullana, Haryana, India"
+  },
+  {
     sno: 33,
-    name: "Shahina K",
-    designation: "Doctoral Researcher",
-    institute: "N/A"
-},
-{
+    name: "Prof. Arnika",
+    designation: "Assistant Professor",
+    institute: "Manav Rachna University, Faridabad, India"
+  },
+  {
     sno: 34,
-    name: "Dr. Anshu Mehta",
+    name: "Prof. Khushboo Jain",
     designation: "Assistant Professor",
-    institute: "Chandigarh University"
-},
-{
+    institute: "NIRMA University, Ahmedabad, India"
+  },
+  {
     sno: 35,
-    name: "Dr.Neeru",
+    name: "Prof. Sandeep Kumar Mathariya",
     designation: "Assistant Professor",
-    institute: "ECE Department, MMEC, Maharishi Markandeshwar (Deemed to be University) Mullana-Ambala"
-},
-{
+    institute: "Medicaps University, Indore, India"
+  },
+  {
     sno: 36,
-    name: "Khaja Mannanuddin",
+    name: "Prof. Kavita Rani",
     designation: "Assistant Professor",
-    institute: "SR University"
-},
-{
+    institute: "Panipat Institute of Engineering and Technology, India"
+  },
+  {
     sno: 37,
-    name: "Dr. Arnika",
+    name: "Prof. Aparna Singh",
     designation: "Assistant Professor",
-    institute: "Manav Rachna University, Faridabad"
-},
-{
+    institute: "Bennett University, Greater Noida, India"
+  },
+  {
     sno: 38,
-    name: "Khushboo Jain",
+    name: "Prof. Sindhu V",
     designation: "Assistant Professor",
-    institute: "Nirma University"
-},
-{
+    institute: "Christ University, Bengaluru, India"
+  },
+  {
     sno: 39,
-    name: "Dr.Shaziya Islam",
+    name: "Prof. Shikha Pandey",
     designation: "Assistant Professor",
-    institute: "Rungta college of engineering and Technology, Bhilai"
-},
-{
+    institute: "Bhilai Institute of Technology, Chhattisgarh, India"
+  },
+  {
     sno: 40,
-    name: "Sandeep Kumar Mathariya",
+    name: "Prof. Anita Goyal",
     designation: "Assistant Professor",
-    institute: "MediCaps University Indore"
-},
-{
+    institute: "Rayat Bahra University, Chandigarh, India"
+  },
+  {
     sno: 41,
-    name: "Dr. Kavita Rani",
+    name: "Prof. Krishnendu Rarhi",
     designation: "Assistant Professor",
-    institute: "Panipat Institute of Engineering and Technology"
-},
-{
+    institute: "Chandigarh University, Chandigarh, India"
+  },
+  {
     sno: 42,
-    name: "ankur rai",
+    name: "Prof. Mayur Dilip Jakhete",
     designation: "Assistant Professor",
-    institute: "GLA UNIVERSITY"
-},
-{
+    institute: "Pimpri Chinchwad University, Pune, India"
+  },
+  {
     sno: 43,
-    name: "Sandeep Rathor",
+    name: "Prof. Namrata Gupta",
     designation: "Assistant Professor",
-    institute: "GLA University, Mathura"
-},
-{
+    institute: "Chandigarh University, Chandigarh, India"
+  },
+  {
     sno: 44,
-    name: "Aparna Singh",
+    name: "Prof. Rohini",
     designation: "Assistant Professor",
-    institute: "School of Computer Science Engineering and Technology, Bennett University"
-},
-{
+    institute: "MMU (Deemed To Be University), Mullana, Haryana, India"
+  },
+  {
     sno: 45,
-    name: "Dr. Pankaj Kumar",
+    name: "Prof. Narinder Kumar",
     designation: "Assistant Professor",
-    institute: "GLBITM, Greater Noida"
-},
-{
+    institute: "Rayat Bahra University, Chandigarh, India"
+  },
+  {
     sno: 46,
-    name: "Dr.Sindhu.V",
+    name: "Prof. Vijay K Kaushik",
     designation: "Assistant Professor",
-    institute: "Christ university"
-},
-{
+    institute: "Chandigarh University, Chandigarh, India"
+  },
+  {
     sno: 47,
-    name: "Dr Shikha Pandey",
+    name: "Prof. Kushketu Kundan Srivastava",
     designation: "Assistant Professor",
-    institute: "Bhilai Institute of Technology Durg Chhattisgarh"
-},
-{
+    institute: "Swami Vivekanand Subharti University, India"
+  },
+  {
     sno: 48,
-    name: "Dr. Meghraj Suryawanshi",
+    name: "Prof. Inderpal Singh",
     designation: "Assistant Professor",
-    institute: "Department of Pharmaceutics & Pharmaceutical Technology, Krishna School of Pharmacy & Research, Drs. Kiran & Pallavi Patel Global University (KPGU), Varnama, Vadodara, Gujarat-391243."
-},
-{
+    institute: "CT Institute of Technology and Research, India"
+  },
+  {
     sno: 49,
-    name: "Anita Goyal",
+    name: "Prof. Khushboo Sharma",
     designation: "Assistant Professor",
-    institute: "Rayat Bahra University Chandigarh"
-},
-{
+    institute: "Shridhar University, India"
+  },
+  {
     sno: 50,
-    name: "Dr. Krishnendu Rarhi",
+    name: "Prof. Puneet",
     designation: "Assistant Professor",
-    institute: "Chandigarh University"
-},
-{
+    institute: "Chandigarh Engineering College, Jhanjeri, Mohali, India"
+  },
+  {
     sno: 51,
-    name: "Dr.Mayur Dilip Jakhete",
+    name: "Prof. Rijvan Beg",
     designation: "Assistant Professor",
-    institute: "Pimpri Chinchwad University, Pune"
-},
-{
+    institute: "MANIT(Maulana Azad National Institute of Technology), Bhopal, India"
+  },
+  {
     sno: 52,
-    name: "Dr. Namrata Gupta",
+    name: "Prof. Aradhna Saini",
     designation: "Assistant Professor",
-    institute: "Chandigarh University"
-},
-{
+    institute: "G L Bajaj Institute of Technology and Management, India"
+  },
+  {
     sno: 53,
-    name: "Dr. Rohini",
+    name: "Prof. Tejinder Singh",
     designation: "Assistant Professor",
-    institute: "Computer Science and Engineering Department, Maharishi Markandeshwar Engineering College, Maharishi Markandeshwar (Deemed to be University), Mullana, Ambala, Haryana"
-},
-{
+    institute: "Chandigarh University, Chandigarh, India"
+  },
+  {
     sno: 54,
-    name: "Narinder Kumar",
+    name: "Prof. Aradhana Sahu",
     designation: "Assistant Professor",
-    institute: "Rayat Bahra University"
-},
-{
+    institute: "Rungta College of Engineering and Technology, Bhilai, India"
+  },
+  {
     sno: 55,
-    name: "Prof (Dr) Vijay K Kaushik",
+    name: "Prof. Mohit Tiwari",
     designation: "Assistant Professor",
-    institute: "Chandigarh University"
-},
-{
+    institute: "Bharati Vidyapeeth's College of Engineering, Delhi, India"
+  },
+  {
     sno: 56,
-    name: "Kushketu Kundan Srivastava",
+    name: "Prof. Tripti Tiwari",
     designation: "Assistant Professor",
-    institute: "Swami Vivekanand Subharti University"
-},
-{
+    institute: "Bharati Vidyapeeth (Deemed to be University) Institute of Management and Research, New Delhi, India"
+  },
+  {
     sno: 57,
-    name: "Inderpal singh",
+    name: "Prof. Tushar Hrishikesh Jaware",
     designation: "Assistant Professor",
-    institute: "CT Institute of Technology and Research"
-},
-{
+    institute: "R C Patel Institute of Technology, Shirpur, India"
+  },
+  {
     sno: 58,
-    name: "Dr. Khushboo Sharma",
+    name: "Prof. Shikha",
     designation: "Assistant Professor",
-    institute: "Shridhar University"
-},
-{
+    institute: "MMU (Deemed To Be University), Mullana, Haryana, India"
+  },
+  {
     sno: 59,
-    name: "Dr. Puneet",
-    designation: "Assistant Professor",
-    institute: "Chandigarh Engineering College, Jhanjeri, Mohali"
-},
-{
-    sno: 60,
-    name: "Rijvan Beg",
-    designation: "Assistant Professor",
-    institute: "MANIT(Maulana Azad National Institute of Technology), Bhopal"
-},
-{
-    sno: 61,
-    name: "Aradhna Saini",
-    designation: "Assistant Professor",
-    institute: "G L Bajaj Institute of Technology and Management"
-},
-{
-    sno: 62,
-    name: "Dr Tejinder Singh",
-    designation: "Assistant Professor",
-    institute: "Chandigarh University"
-},
-{
-    sno: 63,
-    name: "Dr. Aradhana Sahu",
-    designation: "Assistant Professor",
-    institute: "Rungta College of Engineering and Technology Bhilai"
-},
-{
-    sno: 64,
-    name: "Mohit Tiwari",
-    designation: "Assistant Professor",
-    institute: "Department of Computer Science and Engineering, Bharati Vidyapeeth's College of Engineering, Delhi"
-},
-{
-    sno: 65,
-    name: "Tripti Tiwari",
-    designation: "Assistant Professor",
-    institute: "Bharati Vidyapeeth (Deemed to be University) Institute of Management and Research, New Delhi"
-},
-{
-    sno: 66,
-    name: "Dr Tushar Hrishikesh Jaware",
-    designation: "Assistant Professor",
-    institute: "R C Patel Institute of Technology Shirpur"
-},
-{
-    sno: 67,
-    name: "SHIKHA",
-    designation: "Assistant Professor",
-    institute: "M. M. Institute of Computer Technology & Business Management Maharishi Markandeshwar (Deemed to be University), Mullana - 133207 Ambala, Haryana (India)"
-},
-{
-    sno: 68,
-    name: "DR Pawan Kumar Goel",
+    name: "Prof. Pawan Kumar Goel",
     designation: "Associate Professor",
-    institute: "Department of CSE, Raj Kumar Goel Institute of Technology, Ghaziabad U.P., India"
-},
-{
-    sno: 69,
-    name: "Dr. Sarita Vitthal Balshetwar",
+    institute: "Raj Kumar Goel Institute of Technology, Ghaziabad, UP, India"
+  },
+  {
+    sno: 60,
+    name: "Prof. Tarang Shinde",
     designation: "Assistant Professor",
-    institute: "Dr. Babasaheb Ambedkar Technological University, Lonere, Maharastra"
-},
-{
-    sno: 70,
-    name: "Dr. Tarang Shinde",
+    institute: "Yashoda Technical Campus Satara, India"
+  },
+  {
+    sno: 61,
+    name: "Prof. Ghanshyam Yadav",
     designation: "Assistant Professor",
-    institute: "Yashoda Technical Campus Satara"
-},
-{
-    sno: 71,
-    name: "Ghanshyam Yadav",
+    institute: "ITS Engineering College, Greater Noida, U.P., India"
+  },
+  {
+    sno: 62,
+    name: "Prof. Syed Ibad Ali",
     designation: "Assistant Professor",
-    institute: "ITS Engg College Gr Noida GB Nagar UP"
-},
-{
-    sno: 72,
-    name: "DR SYED IBAD ALI",
+    institute: "Parul University, Vadodara, Gujarat, India"
+  },
+  {
+    sno: 63,
+    name: "Prof. Rohit Sharma",
     designation: "Assistant Professor",
-    institute: "PARUL INSTITUTE OF ENGINEERING AND TECHNOLOGY, PARUL UNIVERSITY"
-},
-{
-    sno: 73,
-    name: "Dr. Rohit Sharma",
+    institute: "Vivekananda Global University, Jaipur, India"
+  },
+  {
+    sno: 64,
+    name: "Prof. Jyoti Shekhawat",
     designation: "Assistant Professor",
-    institute: "Vivekananda Global University Jaipur"
-},
-{
-    sno: 74,
-    name: "Jyoti Shekhawat",
+    institute: "Vivekananda Global University, Jaipur, India"
+  },
+  {
+    sno: 65,
+    name: "Prof. Manish Kumar Goyal",
     designation: "Assistant Professor",
-    institute: "Vivekananda Global University Jaipur"
-},
-{
-    sno: 75,
-    name: "Manish Kumar Goyal",
+    institute: "Vivekananda Global University, Jaipur, India"
+  },
+  {
+    sno: 66,
+    name: "Prof. P. Sivaprakash",
     designation: "Assistant Professor",
-    institute: "Vivekananda Global University"
-},
-{
-    sno: 76,
-    name: "Dr.P. Sivaprakash",
-    designation: "Assistant Professor",
-    institute: "Dr.N.G.P. Institute of Technology"
-},
-
-
-  
+    institute: "Dr. N. G. P. Institute of Technology, Jaipur, India"
+  }
 ];
 
 // Define the hierarchy of institutes
 const hierarchy = [
   "Eudoxia Research University, New Castle, Delaware, USA",
-  "IIT, BHU",
+  "IIT BHU",
   "IIT Ropar",
   "Indian Institute of Information Technology Pune (IIIT-P)",
   "NIT Jalandhar",
   "KIET Group of Institutions, Delhi-NCR, Ghaziabad",
-  "Punjab Engineering College (Deemed to be University) Chandigarh",
-  "Lovely Professional University",
+  "Punjab Engineering College, Chandigarh",
+  "Lovely Professional University, Punjab",
   "Chitkara University, Punjab",
-  "Chandigarh University",
-  "SGT University",
+  "Chandigarh University, Chandigarh, India",
+  "SGT University, Gurugram, Haryana",
   "Galgotias College of Engineering and Technology, Gr. Noida (U.P)",
   "School of Engineering Design and Automation, GNA University, Phagwara, Punjab",
   "Thapar Institute of Engineering and Technology, Patiala",
-  "Chandigarh College of Engineering, CGC, Jhanjeri",
-  "Department of Applied Science, Chandigarh College of Engineering- Chandigarh Group of Colleges Jhanjeri India",
-  "NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY, GREATER NOIDA",
-  "Calcutta Institute of Technology",
- 
-  "Marwadi University, Rajkot",
+  "Chandigarh Group of Colleges, Jhanjeri India",
+  "Noida Institute Of Engineering and Technology, Greater Noida",
+  "Galgotias College of Engg. and Technology Greater Noida, India",
+  "Calcutta Institute of Technology, Howrah, West Bengal",
+  "Marwadi University, Rajkot, India",
   "SR University",
-  "Department of computer science and engineering, Sharda University",
-  "Parul Institute of Engineering and Technology, Parul University Vadodara (Gujarat)",
-  "Raj Kumar Goel Institute of Technology",
+  "Sharda University, India",
+  "Parul University, Vadodara, Gujarat, India",
+  "Raj Kumar Goel Institute of Technology, Ghaziabad, UP, India",
   "SOE ADYPU",
-  "CHRIST University, Bengaluru, India",
-  "GUJARAT TECHNOLOGICAL UNIVERSITY",
+  "Christ University, Bengaluru, India",
+  "Gujarat Technological University, Gujarat, India",
   "RVITM, Bangalore",
-  "Bennett University, Greater Noida",
+  "Bennett University, Greater Noida, India",
   "N/A",
-  "Bhilai Institute of Technology Durg Chhattisgarh",
-  "Department of Pharmaceutics & Pharmaceutical Technology, Krishna School of Pharmacy & Research, Drs. Kiran & Pallavi Patel Global University (KPGU), Varnama, Vadodara, Gujarat-391243.",
-  "Rayat Bahra University Chandigarh",
-  "Pimpri Chinchwad University, Pune",
-  "ECE Department, MMEC, Maharishi Markandeshwar (Deemed to be University) Mullana-Ambala",
-  "Computer Science and Engineering Department, Maharishi Markandeshwar Engineering College, Maharishi Markandeshwar (Deemed to be University), Mullana, Ambala, Haryana",
-  "Swami Vivekanand Subharti University",
-  "CT Institute of Technology and Research",
-  "Nirma University",
-  "Shridhar University",
-  "Chandigarh Engineering College, Jhanjeri, Mohali",
-  "MANIT(Maulana Azad National Institute of Technology), Bhopal",
-  "G L Bajaj Institute of Technology and Management",
-  "Manav Rachna University, Faridabad",
-  "Department of Computer Science and Engineering, Bharati Vidyapeeth's College of Engineering, Delhi",
-  "Bharati Vidyapeeth (Deemed to be University) Institute of Management and Research, New Delhi",
-  "R C Patel Institute of Technology Shirpur",
-  "Rungta college of engineering and Technology, Bhilai",
-  "M. M. Institute of Computer Technology & Business Management Maharishi Markandeshwar (Deemed to be University), Mullana - 133207 Ambala, Haryana (India)",
-  "Department of CSE, Raj Kumar Goel Institute of Technology, Ghaziabad U.P., India",
+  "Bhilai Institute of Technology, Chhattisgarh, India",
+  "Krishna School of Pharmacy & Research, Drs. Kiran & Pallavi Patel Global University (KPGU), Varnama, Vadodara, Gujarat-391243.",
+  "Rayat Bahra University, Chandigarh, India",
+  "Pimpri Chinchwad University, Pune, India",
+  "MMU (Deemed To Be University), Mullana, Haryana, India",
+  "Swami Vivekanand Subharti University, India",
+  "CT Institute of Technology and Research, India",
+  "NIRMA University, Ahmedabad, India",
+  "Shridhar University, India",
+  "Chandigarh Engineering College, Jhanjeri, Mohali, India",
+  "MANIT(Maulana Azad National Institute of Technology), Bhopal, India",
+  "G L Bajaj Institute of Technology and Management, India",
+  "Manav Rachna University, Faridabad, India",
+  "Bharati Vidyapeeth's College of Engineering, Delhi, India",
+  "Bharati Vidyapeeth (Deemed to be University) Institute of Management and Research, New Delhi, India",
+  "R C Patel Institute of Technology, Shirpur, India",
+  "Rungta College of Engineering and Technology, Bhilai, India",
   "Dr. Babasaheb Ambedkar Technological University, Lonere, Maharastra",
-  "Yashoda Technical Campus Satara",
-  "Sandeep Kumar Mathariya, MediCaps University Indore",
-  "MediCaps University Indore",
-"Panipat Institute of Engineering and Technology",
-"Rayat Bahra University",
-"GLA UNIVERSITY",
-"GLA University, Mathura",
-"School of Computer Science Engineering and Technology, Bennett University",
-"GLBITM, Greater Noida",
-"Christ university",
-" Rayat Bahra University",
-"Rungta College of Engineering and Technology Bhilai",
-"Vivekananda Global University",
-  "ITS Engg College Gr Noida GB Nagar UP",
-  "PARUL INSTITUTE OF ENGINEERING AND TECHNOLOGY, PARUL UNIVERSITY",
-  "Vivekananda Global University Jaipur",
-  "Dr.N.G.P. Institute of Technology"
+  "Yashoda Technical Campus Satara, India",
+  "Medicaps University, Indore, India",
+  "Panipat Institute of Engineering and Technology, India",
+  "GLA UNIVERSITY",
+  "GLA University, Mathura",
+  "GLBITM, Greater Noida",
+  "Christ university",
+  "Rungta College of Engineering and Technology, Bhilai, India",
+  "Vivekananda Global University, Jaipur, India",
+  "ITS Engineering College, Greater Noida, U.P., India",
+  "Parul University, Vadodara, Gujarat, India",
+  "Dr. N. G. P. Institute of Technology, Jaipur, India"
 ];
-
 // Sort the array based on the hierarchy
 technicalProgramCommittee.sort((a, b) => {
   return hierarchy.indexOf(a.institute) - hierarchy.indexOf(b.institute);
@@ -556,8 +483,8 @@ const TechnicalProgram = () => {
         <div className="flex w-full text-2xl">
           <ul className="list-disc pl-5">
             {technicalProgramCommittee.map((member, index) => (
-              <li key={index} className="mb-4">
-                {member.name}, {member.institute}
+              <li key={index} className="text-[1rem]">
+                {member.sno}{member.name}, {member.institute}
               </li>
             ))}
           </ul>
