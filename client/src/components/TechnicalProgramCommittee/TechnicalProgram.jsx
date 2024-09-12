@@ -484,7 +484,7 @@ const TechnicalProgram = () => {
           <ul className="list-disc pl-5">
             {technicalProgramCommittee.map((member, index) => (
               <li key={index} className="text-[1rem]">
-                {member.sno}{member.name}, {member.institute}
+                {member.name}, {member.institute}
               </li>
             ))}
           </ul>
