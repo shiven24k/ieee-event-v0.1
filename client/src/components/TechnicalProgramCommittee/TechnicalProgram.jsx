@@ -396,6 +396,18 @@ const technicalProgramCommittee = [
     name: "Prof. P. Sivaprakash",
     designation: "Assistant Professor",
     institute: "Prof. N. G. P. Institute of Technology, Jaipur, India"
+  },
+  {
+    sno: 67,
+    name: "Prof. Vijay Kumar Joshi",
+    designation: "Professor",
+    institute: "Chandigarh Group of Colleges, Jhanjeri India"
+  },
+  {
+    sno: 68,
+    name: "Prof. Varinder Singh",
+    designation: "Professor",
+    institute: "Chandigarh Group of Colleges, Jhanjeri India"
   }
 ];
 
