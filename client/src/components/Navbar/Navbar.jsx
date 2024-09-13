@@ -10,26 +10,41 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [isBannerVisible, setIsBannerVisible] = useState(true);
+  // const [isBannerVisible, setIsBannerVisible] = useState(true);
   const dropdownRef = useRef(null);
+ 
 
   const toggleBurger = () => setIsBurgerOpen(!isBurgerOpen);
   const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
   const handleOptionClick = () => setIsDropdownOpen(false);
+  
+  const handleDocumentClick = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setIsDropdownOpen(false);
+    }
+  };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 50) {
+  //       setIsBannerVisible(false);
+  //     } else {
+  //       setIsBannerVisible(true);
+  //     }
+  //   };
+    
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => window.removeEventListener('scroll', handleScroll);
+  // }, []);
+  
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsBannerVisible(false);
-      } else {
-        setIsBannerVisible(true);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
+  
+  // useEffect(() => {
+  //   document.addEventListener('click', handleDocumentClick);
+  //   return () => {
+  //     document.removeEventListener('click', handleDocumentClick);
+  //   };
+  // }, []);
+  
   return (
     <div>
       {/* Top Banner */}
@@ -91,101 +106,97 @@ function Navbar() {
         </button>
       </div>
       <div className={`${isBurgerOpen ? 'block' : 'hidden'} hs-collapse overflow-hidden transition-all duration-300 sm:basis-auto sm:block sm:order-3`}>
-        <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
-          <ul className="flex flex-col sm:flex-row gap-5 sm:items-center">
-            <li className="cursor-pointer">
-              <Link to="./" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
-                Home
-              </Link>
-            </li>
-            <li className="cursor-pointer">
-              <Link to="./about" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
-                About
-              </Link>
-            </li>
-            <li>
-              <button
-                id="dropdownNavbarLink"
-                onClick={toggleDropdown}
-                className="flex items-center justify-between w-full px-2 font-medium text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-gray-400 focus:outline-none"
+      <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
+        <ul className="flex flex-col sm:flex-row gap-5 sm:items-center">
+          <li className="cursor-pointer">
+            <Link to="./" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
+              Home
+            </Link>
+          </li>
+          <li className="cursor-pointer">
+            <Link to="./about" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
+              About
+            </Link>
+          </li>
+          <li>
+            <button
+              id="dropdownNavbarLink"
+              onClick={toggleDropdown}
+              className="flex items-center justify-between w-full px-2 font-medium text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-gray-400 focus:outline-none"
+            >
+              Committee
+              <svg
+                className="w-2.5 h-2.5 ms-3"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
               >
-                Committee
-                <svg
-                  className="w-2.5 h-2.5 ms-3"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 10 6"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="m1 1 4 4 4-4"
-                  />
-                </svg>
-              </button>
-              {/* Dropdown menu */}
-              <div
-                id="dropdownNavbar"
-                ref={dropdownRef}
-                className={`${isDropdownOpen ? 'block' : 'hidden'} mt-1 z-10 font-normal absolute bg-white divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="m1 1 4 4 4-4"
+                />
+              </svg>
+            </button>
+            {/* Dropdown menu */}
+            <div
+              id="dropdownNavbar"
+              ref={dropdownRef}
+              className={`${isDropdownOpen ? 'block' : 'hidden'} mt-1 z-10 font-normal absolute bg-white divide-gray-100 rounded-lg shadow w-44`}
+            >
+              <ul
+                className="py-2 text-sm font-medium"
+                aria-labelledby="dropdownLargeButton"
               >
-                <ul
-                  className="py-2 text-sm text-gray-700 font-medium dark:text-gray-200"
-                  aria-labelledby="dropdownLargeButton"
-                >
-                  <li>
-                    <Link to="./keynotespeaker" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      onClick={handleOptionClick}>
-                      Keynote Speaker
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./organizing" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      onClick={handleOptionClick}>
-                      Organizing Committee
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./technical" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      onClick={handleOptionClick}>
-                      Technical Program Committee
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./studentteam" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      onClick={handleOptionClick}>
-                      Student Team
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li className="cursor-pointer">
-              <Link className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" to="./callforpaper">
-                Call for Paper
-              </Link>
-            </li>
-            <li className="cursor-pointer">
-              <Link to="./papersubmission" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
-                Paper Submission
-              </Link>
-            </li>
-            <li className="cursor-pointer">
-              <Link to="./registration" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
-                Registration
-              </Link>
-            </li>
-            <li className="cursor-pointer">
-              <Link to="./contact" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
+                <li>
+                  <Link to="./keynotespeaker" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
+                    Keynote Speaker
+                  </Link>
+                </li>
+                <li>
+                  <Link to="./organizing" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
+                    Organizing Committee
+                  </Link>
+                </li>
+                <li>
+                  <Link to="./technical" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
+                    Technical Program Committee
+                  </Link>
+                </li>
+                <li>
+                  <Link to="./studentteam" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
+                    Student Team
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li className="cursor-pointer">
+            <Link className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" to="./callforpaper">
+              Call for Paper
+            </Link>
+          </li>
+          <li className="cursor-pointer">
+            <Link to="./papersubmission" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
+              Paper Submission
+            </Link>
+          </li>
+          <li className="cursor-pointer">
+            <Link to="./registration" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
+              Registration
+            </Link>
+          </li>
+          <li className="cursor-pointer">
+            <Link to="./contact" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
+              Contact
+            </Link>
+          </li>
+        </ul>
       </div>
+    </div>
     </div>
     {/* right side logos */}
     <div className="flex  items-center justify-end gap-4 pl-20">
