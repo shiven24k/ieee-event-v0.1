@@ -39,7 +39,7 @@ function Home() {
           Paper Submission Deadline:
           </td>
           <td className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-6 sm:pl-8 whitespace-nowrap">
-          19th Aug, 2025
+          19th July, 2025
           </td>
         </tr>
         <tr>

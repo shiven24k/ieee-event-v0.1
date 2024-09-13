@@ -44,7 +44,7 @@ function PaperSubmission(){
         Paper Submission Deadline:
       </td>
       <td className="text-left font-sans  text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-4 whitespace-nowrap p-2">
-        10th June, 2025
+      19th July, 2025
       </td>
     </tr>
     <tr className="border-b border-gray-300">
@@ -52,7 +52,7 @@ function PaperSubmission(){
         Acceptance Notification:
       </td>
       <td className="text-left font-sans  text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-4 whitespace-nowrap p-2">
-        18th July, 2025
+      19th Aug, 2025
       </td>
     </tr>
     <tr className="border-b border-gray-300">
@@ -60,7 +60,7 @@ function PaperSubmission(){
         Camera Ready Paper Submission Deadline:
       </td>
       <td className="text-left font-sans  text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-4 whitespace-nowrap p-2">
-        18th Aug, 2025
+      19th Sept, 2025
       </td>
     </tr>
     <tr className="border-b border-gray-300">
@@ -68,7 +68,7 @@ function PaperSubmission(){
         Registration Deadline:
       </td>
       <td className="text-left font-sans  text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-4 whitespace-nowrap p-2">
-        18th Aug, 2025
+      19th Sept, 2025
       </td>
     </tr>
     <tr>
@@ -76,7 +76,7 @@ function PaperSubmission(){
         Conference Date:
       </td>
       <td className="text-left font-sans text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-4 whitespace-nowrap p-2">
-        18th – 20th Sept, 2025
+      16th – 18th Oct, 2025
       </td>
     </tr>
   </tbody>
