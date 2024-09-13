@@ -53,3 +53,8 @@
     animation: scroll 10s linear infinite;
   }
  
+  @media (min-width: 940px) {
+    .hidden-after-940 {
+      display: none;
+    }
+  }
