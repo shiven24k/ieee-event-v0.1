@@ -153,67 +153,56 @@ const studentData = [
 
 function StudentTeam() {
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4 text-center">Student Team</h1>
+    <div className="container mx-auto pt-20 p-1 sm:p-4 ">
+    <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">Student Team</h1>
 
-       <div className="mt-4 p-4">
-  <div className="flex flex-wrap justify-center mb-5">
-    <div className="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col items-center">
-      <span className=" font-semibold">Vishwas Miglani </span>
-      <span>Chairperson</span>
-    </div>
-    <div className="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col items-center">
-      <span className=" font-semibold">Prakhar Kansal </span>
-      <span>Co-Chairperson</span>
-    </div>
-    <div className="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col items-center">
-      <span className=" font-semibold">Dhananjay Nagar </span>
-      <span>Secretary</span>
-    </div>
-    <div className="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col items-center">
-      <span className=" font-semibold">Uday Sharma </span>
-      <span>Treasurer</span>
-    </div>
-    <div className="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col items-center">
-      <span className="font-semibold">Anchal Sangwan </span>
-      <span>Vice-Chair</span>
-    </div>
-    <div className="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col items-center">
-      <span className="font-semibold">Aakanksha Dubey </span>
-      <span>WebMaster</span>
-    </div>
-  
-</div>
-</div>
-      <div className="overflow-x-auto">
-        <table className="min-w-full bg-white border border-gray-200">
-          <thead>
-            <tr className="bg-red-600 text-white uppercase text-sm leading-normal">
-              <th className="py-3 px-6 text-left"> Sr. No.</th>
-              <th className="py-3 px-6 text-left">Name of the Student Member</th>
-              <th className="py-3 px-6 text-left">Contact Number</th>
-              <th className="py-3 px-6 text-left">University Roll No.</th>
-              <th className="py-3 px-6 text-left">Branch</th>
-              <th className="py-3 px-6 text-left">Membership ID</th>
-              <th className="py-3 px-6 text-left">Mail ID</th>
-            </tr>
-          </thead>
-          <tbody className="text-sm font-light">
-            {studentData.map((student) => (
-              <tr key={student.index} className="border-b border-gray-200 hover:bg-gray-100">
-                <td className="py-3 px-6 text-left whitespace-nowrap">{student.index}</td>
-                <td className="py-3 px-6 text-left">{student.name}</td>
-                <td className="py-3 px-6 text-left">{student.contact}</td>
-                <td className="py-3 px-6 text-left">{student.rollNo}</td>
-                <td className="py-3 px-6 text-left">{student.branch}</td>
-                <td className="py-3 px-6 text-left">{student.membershipId}</td>
-                <td className="py-3 px-6 text-left">{student.email}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+    <div className="mt-4 p-2 sm:p-4">
+      <div className="flex flex-wrap justify-center mb-5">
+        {[
+          { name: "Vishwas Miglani", role: "Chairperson" },
+          { name: "Prakhar Kansal", role: "Co-Chairperson" },
+          { name: "Dhananjay Nagar", role: "Secretary" },
+          { name: "Uday Sharma", role: "Treasurer" },
+          { name: "Anchal Sangwan", role: "Vice-Chair" },
+          { name: "Aakanksha Dubey", role: "WebMaster" }
+        ].map((member, index) => (
+          <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2 sm:p-4 flex flex-col items-center">
+            <span className="font-semibold">{member.name}</span>
+            <span>{member.role}</span>
+          </div>
+        ))}
       </div>
     </div>
+
+    <div className="overflow-x-auto">
+      <table className="min-w-full bg-white border border-gray-200">
+        <thead>
+          <tr className="bg-red-600 text-white uppercase text-xs sm:text-sm leading-normal">
+            <th className="py-2 sm:py-3 px-2 sm:px-6 text-left">Sr. No.</th>
+            <th className="py-2 sm:py-3 px-2 sm:px-6 text-left">Name of the Student Member</th>
+            <th className="py-2 sm:py-3 px-2 sm:px-6 text-left">Contact Number</th>
+            <th className="py-2 sm:py-3 px-2 sm:px-6 text-left">University Roll No.</th>
+            <th className="py-2 sm:py-3 px-2 sm:px-6 text-left">Branch</th>
+            <th className="py-2 sm:py-3 px-2 sm:px-6 text-left">Membership ID</th>
+            <th className="py-2 sm:py-3 px-2 sm:px-6 text-left">Mail ID</th>
+          </tr>
+        </thead>
+        <tbody className="text-xs sm:text-sm font-light">
+          {studentData.map((student) => (
+            <tr key={student.index} className="border-b border-gray-200 hover:bg-gray-100">
+              <td className="py-2 sm:py-3 px-2 sm:px-6 text-left whitespace-nowrap">{student.index}</td>
+              <td className="py-2 sm:py-3 px-2 sm:px-6 text-left">{student.name}</td>
+              <td className="py-2 sm:py-3 px-2 sm:px-6 text-left">{student.contact}</td>
+              <td className="py-2 sm:py-3 px-2 sm:px-6 text-left">{student.rollNo}</td>
+              <td className="py-2 sm:py-3 px-2 sm:px-6 text-left">{student.branch}</td>
+              <td className="py-2 sm:py-3 px-2 sm:px-6 text-left">{student.membershipId}</td>
+              <td className="py-2 sm:py-3 px-2 sm:px-6 text-left">{student.email}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
   );
 }
 

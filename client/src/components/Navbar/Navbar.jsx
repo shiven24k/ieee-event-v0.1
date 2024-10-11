@@ -32,7 +32,7 @@ function Navbar() {
   return (
     <div>
       {/* Top Banner */}
-      <div id="sticky-banner" className="fixed top-0 left-0 w-full p-2 border-b border-gray-200 bg-gradient-to-r from-red-700 to-red-500 transition-transform duration-300 z-50">
+      <div id="sticky-banner" className="fixed  top-0 left-0 w-full p-2 border-b border-gray-200 bg-gradient-to-r from-red-700 to-red-500 transition-transform duration-300 z-50">
   <div className="flex flex-col sm:flex-row justify-between items-center mx-auto gap-4 sm:gap-32 text-white">
     <div className='flex gap-2 sm:gap-2 items-center'>
       <p className="text-sm sm:text-xs">Dr. Pradeep Kumar Jindal</p>
@@ -61,7 +61,7 @@ function Navbar() {
   </div>
 </div>
       {/* Main Navbar */}
-<div className="fixed top-0 md:pt-14 sm:pt-10 left-0 w-full flex p-4 text-sm bg-white shadow-md z-40">
+<div className="fixed  top-0 md:pt-14 sm:pt-10 left-0 w-full flex p-4 text-sm bg-white shadow-md z-40">
   <div className="w-full mx-auto px-4 flex basis-full items-center justify-between">
     {/* left side logo */}
     <div className="hidden sm:block">
@@ -144,10 +144,51 @@ function Navbar() {
                     </Link>
                   </li>
                   <li>
+                    <Link to="./advisory" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
+                      Advisory Committee
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="./steering" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
+                      Steering Committee
+                    </Link>
+                  </li>
+                  <li>
                     <Link to="./technical" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
                       Technical Program Committee
                     </Link>
                   </li>
+                  <li>
+                    <Link to="./finance" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
+                      Finance Committee
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="./publication" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
+                      Publication Committee
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="./publicity" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
+                    Publicity Committee
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="./hospitality" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
+                    Hospitality Committee
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="./accommodation" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
+                      Accommodation Committee
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="./transportation" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
+                    Transportation Committee 
+                    </Link>
+                  </li>
+                  
                   <li>
                     <Link to="./studentteam" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
                       Student Team

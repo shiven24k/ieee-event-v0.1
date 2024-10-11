@@ -4,12 +4,14 @@ import CGCimage from "../../assets/CGC-image.png";
 
 function About() {
   return (
-    <div>
-      <div className="pt-10 flex justify-center">
-        <h1 className=" text-red-600 mb-0 text-center text-4xl  font-bold">
-          CHANDIGARH ENGINEERING COLLEGE
-        </h1>
-      </div>
+    <div >
+      <div>
+  <div className="pt-20 sm:pt-10 flex justify-center">
+    <h1 className="text-red-600 mb-0 text-center text-2xl sm:text-3xl md:text-4xl font-bold">
+      CHANDIGARH ENGINEERING COLLEGE
+    </h1>
+  </div>
+</div>
       <div className="flex flex-wrap">
         <div className="w-full md:w-auto">
           <img src={CGCimage} alt="CGC Jhanjeri" className="w-full md:w-auto" />
@@ -52,18 +54,18 @@ function About() {
         </div>  
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center mt-10 p-4">
-  <div className="md:w-1/3 mt-5 md:mt-0 md:mr-5">
+  <div className="md:w-1/3  md:mt-0 md:mr-5">
     <img
       src={CGCimage}
       alt="Conference Image"
-      className="w-full h-auto rounded-md shadow-md"
+      className="hidden sm:block w-full h-auto rounded-md shadow-md"
     />
   </div>
   <div className="md:w-2/3">
     <h2 className="text-2xl font-extrabold text-center mb-5">
       ABOUT THE CONFERENCE
     </h2>
-    <div className="p-5 mt-10 text-justify  rounded-md">
+    <div className="p-5  text-justify  rounded-md">
       <p>
         The objective of the
         {" "}
@@ -72,7 +74,15 @@ function About() {
         </strong>{" "}
         is to provide a global forum for researchers, practitioners, industry experts, and academicians to present and discuss the latest advancements, challenges, and innovations in the fields of emerging technologies and intelligent systems. The conference aims to facilitate the exchange of knowledge, foster interdisciplinary collaboration, and explore the integration of intelligent systems with emerging technologies to address complex global challenges.
       </p>
+      
     </div>
+    <div className="md:w-1/3  md:mt-0 md:mr-5">
+    <img
+      src={CGCimage}
+      alt="Conference Image"
+      className="block sm:hidden w-full h-auto rounded-md shadow-md"
+    />
+  </div>
   </div>
 </div>
      

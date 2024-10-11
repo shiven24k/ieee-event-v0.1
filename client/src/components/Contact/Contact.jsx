@@ -36,7 +36,7 @@ function Contact() {
   };
 
   return (
-    <div className="py-3 bg-cover bg-no-repeat w-full" style={{ backgroundImage: 'url(https://chandigarhengineeringcollege.com/public/course/assets/images/cec/club-bg.png)' }}>
+    <div className="py-3 pt-20 sm:pt-4 bg-cover bg-no-repeat w-full" style={{ backgroundImage: 'url(https://chandigarhengineeringcollege.com/public/course/assets/images/cec/club-bg.png)' }}>
       <div className="container mx-auto">
         <div className="flex flex-wrap">
           <div className="p-5 w-full sm:w-1/2">

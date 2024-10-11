@@ -1,5 +1,27 @@
 import React from 'react';
-function PaperSubmission(){
+const dates = [
+  {
+    label: "Paper Submission Deadline:",
+    date: "8th Aug, 2025"
+  },
+  {
+    label: "Acceptance Notification:",
+    date: "8th Sept, 2025"
+  },
+  {
+    label: "Camera Ready Paper Submission Deadline:",
+    date: "8th Oct, 2025"
+  },
+  {
+    label: "Registration Deadline:",
+    date: "8th Oct, 2025"
+  },
+  {
+    label: "Conference Date:",
+    date: "6th – 8th Nov, 2025"
+  }
+];
+function PaperSubmission({}){
     return (
         <div className=" mt-5 container mx-auto py-3 bg-cover bg-no-repeat w-full px-4">
       <div className="bg-gray-100 p-5 rounded-lg shadow-lg mt-10">
@@ -38,48 +60,18 @@ function PaperSubmission(){
       <div className='flex flex-col '>
       <h1 className="text-2xl font-bold mb-4 ">Important Dates:</h1>
       <table className="table-auto w-full max-w-4xl border border-gray-300">
-  <tbody>
-    <tr className="border-b border-gray-300">
-      <td className="text-left font-sans  text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap p-2">
-        Paper Submission Deadline:
-      </td>
-      <td className="text-left font-sans  text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-4 whitespace-nowrap p-2">
-      19th July, 2025
-      </td>
-    </tr>
-    <tr className="border-b border-gray-300">
-      <td className="text-left font-sans  text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap p-2">
-        Acceptance Notification:
-      </td>
-      <td className="text-left font-sans  text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-4 whitespace-nowrap p-2">
-      19th Aug, 2025
-      </td>
-    </tr>
-    <tr className="border-b border-gray-300">
-      <td className="text-left font-sans  text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap p-2">
-        Camera Ready Paper Submission Deadline:
-      </td>
-      <td className="text-left font-sans  text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-4 whitespace-nowrap p-2">
-      19th Sept, 2025
-      </td>
-    </tr>
-    <tr className="border-b border-gray-300">
-      <td className="text-left font-sans  text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap p-2">
-        Registration Deadline:
-      </td>
-      <td className="text-left font-sans  text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-4 whitespace-nowrap p-2">
-      19th Sept, 2025
-      </td>
-    </tr>
-    <tr>
-      <td className="text-left font-sans  text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap p-2">
-        Conference Date:
-      </td>
-      <td className="text-left font-sans text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-4 whitespace-nowrap p-2">
-      16th – 18th Oct, 2025
-      </td>
-    </tr>
-  </tbody>
+      <tbody>
+      {dates.map((item, index) => (
+        <tr key={index} className="border-b border-gray-300">
+          <td className="text-left font-sans text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug whitespace-nowrap p-2">
+            {item.label}
+          </td>
+          <td className="text-left font-sans text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug pl-4 whitespace-nowrap p-2">
+            {item.date}
+          </td>
+        </tr>
+      ))}
+    </tbody>
 </table>
   </div>
 

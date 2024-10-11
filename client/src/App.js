@@ -12,6 +12,14 @@ import Organizing from './components/OrganizingCommittee/Organizing';
 import TechnicalProgram from './components/TechnicalProgramCommittee/TechnicalProgram';
 import StudentTeam from './components/StudentTeam/StudentTeam';
 import KeynoteSpeaker from './components/KeynoteSpeaker/KeynoteSpeaker';
+import Advisory from './components/AdvisoryCommittee/AdvisoryCommittee';
+import Steering from './components/SteeringCommittee/SteeringCommittee';
+import Finance from './components/FinanceCommittee/FinanceCommittee';
+import Publication from './components/PublicationCommittee/PublicationCommittee';
+import Publicity from './components/PublicityCommittee/PublicityCommittee';
+import Hospitality from './components/HospitalityCommittee/HospitalityCommittee';
+import Acccomodation from './components/AccommodationCommittee/AccommodationCommittee';
+import Transportation from './components/TransportationCommittee/TransportationCommittee';
 
 function App() {
   return (
@@ -31,6 +39,15 @@ function App() {
           <Route path="/studentteam" element={<StudentTeam />} />
           <Route path="/registration" element={<Registration />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/advisory" element={<Advisory />} />
+          <Route path="/steering" element={<Steering />} />
+          <Route path="/finance" element={<Finance />} />
+          <Route path="/publication" element={<Publication />} />
+          <Route path="/publicity" element={<Publicity />} />
+          <Route path="/hospitality" element={<Hospitality />} />
+          <Route path="/accommodation" element={<Acccomodation />} />
+          <Route path="/transportation" element={<Transportation />} />
+
           
         </Routes>
         <Footer />
