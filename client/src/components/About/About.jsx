@@ -70,7 +70,7 @@ function About() {
         The objective of the
         {" "}
         <strong>
-          “International Conference on Emerging Technology, and Intelligent Systems (ICETIS-2025)”
+          “International Conference on Emerging Technology in AI, and Communication Systems (ICETIS-2025)”
         </strong>{" "}
         is to provide a global forum for researchers, practitioners, industry experts, and academicians to present and discuss the latest advancements, challenges, and innovations in the fields of emerging technologies and intelligent systems. The conference aims to facilitate the exchange of knowledge, foster interdisciplinary collaboration, and explore the integration of intelligent systems with emerging technologies to address complex global challenges.
       </p>

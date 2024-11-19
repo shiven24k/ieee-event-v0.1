@@ -2,8 +2,10 @@ import React from 'react';
 
 // AccommodationCommittee.jsx
 const accommodationCommittee = [
-    { name: "Prof. Ankur", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },
-    { name: "Prof. Bhupinder Kaur", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" }
+  {name:"Prof. Beant Kaur",institute: "Punjabi University, Patiala, Punjab, India"},
+	{name:"Prof. Kanwarpreet Kaur",institute: "Chandigarh University, Punjab, India"},
+    { name: "Prof. Ankur", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
+    { name: "Prof. Bhupinder Kaur", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" }
   ];
   
   

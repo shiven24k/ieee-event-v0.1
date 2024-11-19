@@ -1,6 +1,18 @@
 import React from 'react';
 
 const publicationCommittee = [
+  {
+    name: "Dr. Nitin Mittal",
+    institute: "Shri Vishwakarma Skill University, Haryana, India"
+  },
+  {
+    name: "Dr. Jaskirat Kaur",
+    institute: "Punjab Engineering College, Chandigarh, India"
+  },
+  {
+    name: "Dr. Anshuman Mohapatra",
+    institute: "NIT, Puducherry, India"
+  },
     {
       name: "Dr. Ankita Aggarwal",
       institute: "CEC, CGC Jhanjeri, Mohali, Punjab"

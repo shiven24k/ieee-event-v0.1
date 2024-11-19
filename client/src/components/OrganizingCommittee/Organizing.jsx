@@ -21,8 +21,7 @@ const sections = [
     items: [
       "Dr. Ch. Pradeep Reddy, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       "Dr. Hunny Pahuja, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Sajjan Singh, CCE, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Ashwani K Sharma, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      
     ]
   },
  
@@ -36,8 +35,10 @@ const sections = [
   {
     title: "ORGANIZING SECRETARY",
     items: [
+      "Dr. Ashwani K Sharma, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       "Dr. Sarabpreet Kaur, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       "Dr. Raj Kumar, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      
       // "Dr. Vikas Deep Mann, HoD ME-Civil, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       // "Dr. Rini Saxena, HoD, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       // "Dr. Anmol Gautam, Associate Professor, CCE, CGC Jhanjeri, Mohali, Punjab, India"
@@ -46,10 +47,13 @@ const sections = [
   {
     title: "TECHNICAL PROGRAM CHAIR",
     items: [
-      "Dr. Pardeep Kumar Jindal, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Dr. K.S Sandha, Thapar University, Patiala, Punjab, India",
+      "Dr. Vibhav Kumar Sachan, KIET, Ghaziabad, Uttar Pradesh, India",
+
+      "Dr. Sajjan Singh, CCE, CGC Jhanjeri, Mohali, Punjab, India",
       "Dr. Vikas Deep Mann, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Mirgendar Kumar, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       "Dr. Rini Saxena, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      ,
       // "Dr. Anmol Gautam, Associate Professor, CCE, CGC Jhanjeri, Mohali, Punjab, India"
 
     ]
@@ -58,7 +62,8 @@ const sections = [
   {
     title: "PUBLICATION CHAIR",
     items: [
-      "Dr. Pardeep Kumar Jindal, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+   
+      "Dr. Mirgendar Kumar, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       // "Dr. Sarabpreet Kaur, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       "Dr. Ankita Aggarwal, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       // "Dr. Mirgendra, CEC, CGC Jhanjeri, Mohali, Punjab, India"
@@ -67,6 +72,7 @@ const sections = [
   {
     title: "PUBLICITY CHAIR",
     items: [
+      
       "Dr. Ankur Garg, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       
       // "Dr. Sarabpreet Kaur, CEC, CGC Jhanjeri, Mohali, Punjab, India",

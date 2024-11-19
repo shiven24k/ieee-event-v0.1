@@ -5,7 +5,60 @@ const technicalProgramCommittee = [
   { sno: 2, name: "Prof. Shashi Kant Gupta", institute: "Eudoxia Research University, New Castle, Delaware, USA" },
   { sno: 3, name: "Prof. Noor Zaman Jhanjhi", institute: "School of Computer Science, Taylor’s University, Malaysia" },
   { sno: 4, name: "Prof. Zeev Zalevsky", institute: "School of Engineering, Bar-Ilan University, Israel" },
-
+  //removed the rest of the entries for brevity
+  { sno: 1, name: "Prof. Salekul Islam", institute: "North South University, Dhaka, Bangladesh" },
+  {
+    name: "Prof. Nitin Mittal",
+    institute: "Shri Vishwakarma Skill University, Haryana, India"
+  },
+  {
+    name: "Prof. Jaskirat Kaur",
+    institute: "Punjab Engineering College, Chandigarh, India"
+  },
+  {
+    name: "Prof. Anshuman Mohapatra",
+    institute: "NIT, Puducherry, Chennai, India"
+  },
+  {
+    name: "Prof. Deepak Kumar",
+    institute: "Punjab Engineering College, Chandigarh, India"
+  },
+  {
+    name: "Prof. Hemant Kumar Singh",
+    institute: "SMS Institute of Technology, Lucknow, India"
+  },
+  {
+    name: "Prof. Shikha Verma",
+    institute: "CSE, ABESEC, Ghaziabad, India"
+  },
+  {
+    name: "Prof. Anupma Gupta",
+    institute: "Chitkara University Institute of Engineering and Technology, Punjab"
+  },
+  {
+    name: "Prof. Beant Kaur",
+    institute: "Punjabi University, Patiala"
+  },
+  {
+    name: "Prof. Kanwarpreet Kaur",
+    institute: "Chandigarh University, Punjab"
+  },
+  {
+    name: "Prof. Monica Bhutani",
+    institute: "Bharati Vidyapeeth's College of Engineering, New Delhi"
+  },
+  {
+    name: "Prof. Shonak Bansal",
+    institute: "Chandigarh University, Mohali"
+  },
+  {
+    name: "Prof. Rupinder Kaur",
+    institute: "Punjabi University, Patiala"
+  },
+  {
+    name: "Prof. Chirag Sharma",
+    institute: "Lovely Professional University, Punjab"
+  },
   { sno: 5, name: "Prof. Ritesh Rastogi", institute: "Noida Institute of Engineering and Technology, Greater Noida, India" },
   { sno: 6, name: "Prof. Abhishek Sen", institute: "Calcutta Institute of Technology, West Bengal, India" },
   { sno: 7, name: "Prof. Uvesh Sipai", institute: "Marwadi University, Rajkot, India" },

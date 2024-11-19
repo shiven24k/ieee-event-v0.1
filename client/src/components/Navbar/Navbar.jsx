@@ -32,7 +32,7 @@ function Navbar() {
   return (
     <div>
       {/* Top Banner */}
-      <div id="sticky-banner" className="fixed  top-0 left-0 w-full p-2 border-b border-gray-200 bg-gradient-to-r from-red-700 to-red-500 transition-transform duration-300 z-50">
+      <div id="sticky-banner" className="fixed top-0 left-0 w-full p-2 border-b border-gray-200 bg-gradient-to-r from-red-700 to-red-500 transition-transform duration-300 z-50">
   <div className="flex flex-col sm:flex-row justify-between items-center mx-auto gap-4 sm:gap-32 text-white">
     <div className='flex gap-2 sm:gap-2 items-center'>
       <p className="text-sm sm:text-xs">Dr. Pradeep Kumar Jindal</p>
@@ -64,15 +64,16 @@ function Navbar() {
 <div className="fixed  top-0 md:pt-14 sm:pt-10 left-0 w-full flex p-4 text-sm bg-white shadow-md z-40">
   <div className="w-full mx-auto px-4 flex basis-full items-center justify-between">
     {/* left side logo */}
-    <div className="hidden sm:block">
-      <a href="https://www.cgc.ac.in">
-        <img src={cgclogo} alt="CGC Logo" className="w-[150px] sm:w-[250px]" />
-      </a>
-    </div>
-
+    <div className="block">
+  <a href="https://www.cgc.ac.in">
+    <img src={cgclogo} alt="CGC Logo" className="w-[100px] sm:w-[250px]" />
+  </a>
+</div>
     {/* Nav Items */}
     <div className='flex-2'>
+    
       <div className="sm:order-3 flex flex-col items-center gap-x-2">
+      
         <button type="button" onClick={toggleBurger} className="sm:hidden flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none">
           <svg className={`${isBurgerOpen ? 'hidden' : 'block'} shrink-0`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <line x1="3" x2="21" y1="6" y2="6" />
@@ -87,7 +88,9 @@ function Navbar() {
         </button>
       </div>
       <div className={`${isBurgerOpen ? 'block' : 'hidden'} hs-collapse overflow-hidden transition-all duration-300 sm:basis-auto sm:block sm:order-3`}>
+        
         <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
+        
           <ul className="flex flex-col sm:flex-row gap-5 sm:items-center">
             <li className="cursor-pointer">
               <Link to="./" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
@@ -223,9 +226,13 @@ function Navbar() {
     </div>
     {/* right side logos */}
     <div className="flex items-center justify-end gap-4 sm:pl-20">
+    
       <img src={ceclogo} className="hidden sm:block w-[3em] sm:w-[4em]" alt="CGC Logo" />
+      
       <div className="hidden sm:block ms-2">
+      
         <div className="slick-list draggable h-10 overflow-hidden">
+        
           <div className="slick-track opacity-100 h-48 transform transition-transform duration-500 ease-in-out">
             <div className="slick-slide w-24">
               <a href="https://www.cgc.ac.in">
@@ -255,7 +262,9 @@ function Navbar() {
           </div>
         </div>
       </div>
-      <img src={ieeelogo} className="w-[8em] sm:w-[12em]" alt="IEEE Logo" />
+    
+      
+      
     </div>
   </div>
 </div>

@@ -1,6 +1,9 @@
 import React from 'react';
 
 const hospitalityCommittee = [
+  
+  { name: "Prof. Shikha", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },
+  { name: "Prof. Anmol", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },
     { name: "Prof. Ankur", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },
     { name: "Prof. Shanky", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },
     { name: "Mr. Taranjeet Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },

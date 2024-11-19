@@ -2,7 +2,7 @@ import React from 'react';
 const dates = [
   {
     label: "Paper Submission Deadline:",
-    date: "8th Aug, 2025"
+    date: "8th July, 2025"
   },
   {
     label: "Acceptance Notification:",

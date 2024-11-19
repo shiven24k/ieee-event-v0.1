@@ -1,7 +1,16 @@
 import React from 'react';
 
 const financeCommittee = [
-    {
+  
+      {
+        name: "Prof. Rupinder kaurr",
+        institute: "Punjabi university, Patiala, Punjab, India"
+      },
+      {
+        name: "Prof. Chirag Sharma",
+        institute: "Lovely Professional University, Punjab, India"
+      },   
+      {
       name: "Prof. Parveen Kumar",
       institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
     },

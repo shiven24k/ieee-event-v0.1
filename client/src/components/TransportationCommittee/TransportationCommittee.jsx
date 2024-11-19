@@ -2,8 +2,10 @@ import React from 'react';
 
 // TransportationCommittee.jsx
 const transportationCommittee = [
-    { name: "Mr. Tirth Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },
-    { name: "Mr. Taranjeet Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" }
+  {name:"Prof. Monica Bhutani",institute: "Bharati Vidyapeeth's College of Engineering, New Delhi, India"},
+	{name: "Prof.  Shonak Bansal", institute:"Chandigarh University, Mohali, Punjab, India"},
+    { name: "Mr. Tirth Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
+    { name: "Mr. Taranjeet Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" }
   ];
   
 // // const hierarchy = [

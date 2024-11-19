@@ -6,11 +6,11 @@ const advisoryCommittee = [
       name: "Prof. Kulbir Singh",
       institute: "Thapar University, Patiala"
     },
-    {
-      sno: 2,
-      name: "Prof. K S Sandha",
-      institute: "Thapar University, Patiala"
-    },
+    // {
+    //   sno: 2,
+    //   name: "Prof. K S Sandha",
+    //   institute: "Thapar University, Patiala"
+    // },
     {
       sno: 3,
       name: "Prof. Hem Dutt Joshi",
@@ -96,11 +96,11 @@ const advisoryCommittee = [
       name: "Prof. Simranjeet Singh",
       institute: "PEC, Chandigarh"
     },
-    {
-      sno: 20,
-      name: "Prof. Vibhav Kumar Sachan",
-      institute: "KIET, Ghaziabad"
-    },
+    // {
+    //   sno: 20,
+    //   name: "Prof. Vibhav Kumar Sachan",
+    //   institute: "KIET, Ghaziabad"
+    // },
     {
       sno: 21,
       name: "Prof. Ruchita Gautam",

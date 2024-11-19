@@ -12,7 +12,7 @@ function CallForPaper(){
         <div className="flex flex-col text-justify items-center mb-5 md:flex-row">
           <div className='flex flex-col gap-5'>
             <p className="mb-5 pr-0 md:pr-5">
-              The objective of the International Conference on Emerging Technologies and Intelligent Systems (ICETIS-2025) is to provide a global forum for researchers, practitioners, industry experts, and academicians to present and discuss the latest advancements, challenges, and innovations in the fields of emerging technologies and intelligent systems. The conference aims to facilitate the exchange of knowledge, foster interdisciplinary collaboration, and explore the integration of intelligent systems with emerging technologies to address complex global challenges.
+              The objective of the International Conference on Emerging Technology in AI, and Communication Systems (ICETIS-2025) is to provide a global forum for researchers, practitioners, industry experts, and academicians to present and discuss the latest advancements, challenges, and innovations in the fields of emerging technologies and intelligent systems. The conference aims to facilitate the exchange of knowledge, foster interdisciplinary collaboration, and explore the integration of intelligent systems with emerging technologies to address complex global challenges.
             </p>
           </div>
           <img src={img1} alt="Innovative Computing" className="w-full md:w-1/4 object-cover rounded-lg shadow-lg mt-5 md:mt-0" />
@@ -22,7 +22,7 @@ function CallForPaper(){
           <h3 className="text-lg sm:text-xl font-bold">TECHNICAL TRACKS</h3>
         </div>
         <p className="mb-5">
-          IEEE - International Conference on Emerging Technologies, and Intelligent Systems (ICETIS-2025) - Invites original and unpublished manuscripts for submission in the following tracks (but not limited to):
+          IEEE - International Conference on Emerging Technology in AI, and Communication Systems (ICETIS-2025) - Invites original and unpublished manuscripts for submission in the following tracks (but not limited to):
         </p>
         <ul className="mb-5">
           <li className="flex items-center mb-2">

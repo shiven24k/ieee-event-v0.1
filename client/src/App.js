@@ -20,6 +20,7 @@ import Publicity from './components/PublicityCommittee/PublicityCommittee';
 import Hospitality from './components/HospitalityCommittee/HospitalityCommittee';
 import Acccomodation from './components/AccommodationCommittee/AccommodationCommittee';
 import Transportation from './components/TransportationCommittee/TransportationCommittee';
+import ProfileAbout from './components/ProfileAbout/ProfileAbout';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <Route path="/hospitality" element={<Hospitality />} />
           <Route path="/accommodation" element={<Acccomodation />} />
           <Route path="/transportation" element={<Transportation />} />
+          <Route path='/profileabout' element={<ProfileAbout />} />
 
           
         </Routes>
