@@ -61,19 +61,17 @@ function Navbar() {
   </div>
 </div>
       {/* Main Navbar */}
-<div className="fixed  top-0 md:pt-14 sm:pt-10 left-0 w-full flex p-4 text-sm bg-white shadow-md z-40">
+      <div className="fixed top-0 md:pt-14 sm:pt-10 left-0 w-full flex p-4 text-sm bg-white shadow-md z-40">
   <div className="w-full mx-auto px-4 flex basis-full items-center justify-between">
     {/* left side logo */}
     <div className="block">
-  <a href="https://www.cgc.ac.in">
-    <img src={cgclogo} alt="CGC Logo" className="w-[100px] sm:w-[250px]" />
-  </a>
-</div>
+      <a href="https://www.cgc.ac.in">
+        <img src={cgclogo} alt="CGC Logo" className="w-[100px] sm:w-[250px]" />
+      </a>
+    </div>
     {/* Nav Items */}
     <div className='flex-2'>
-    
       <div className="sm:order-3 flex flex-col items-center gap-x-2">
-      
         <button type="button" onClick={toggleBurger} className="sm:hidden flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none">
           <svg className={`${isBurgerOpen ? 'hidden' : 'block'} shrink-0`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <line x1="3" x2="21" y1="6" y2="6" />
@@ -88,9 +86,7 @@ function Navbar() {
         </button>
       </div>
       <div className={`${isBurgerOpen ? 'block' : 'hidden'} hs-collapse overflow-hidden transition-all duration-300 sm:basis-auto sm:block sm:order-3`}>
-        
         <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
-        
           <ul className="flex flex-col sm:flex-row gap-5 sm:items-center">
             <li className="cursor-pointer">
               <Link to="./" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
@@ -191,7 +187,6 @@ function Navbar() {
                     Transportation Committee 
                     </Link>
                   </li>
-                  
                   <li>
                     <Link to="./studentteam" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
                       Student Team
@@ -225,14 +220,10 @@ function Navbar() {
       </div>
     </div>
     {/* right side logos */}
-    <div className="flex items-center justify-end gap-4 sm:pl-20">
-    
+    <div className="hidden sm:flex items-center justify-end gap-4 sm:pl-20">
       <img src={ceclogo} className="hidden sm:block w-[3em] sm:w-[4em]" alt="CGC Logo" />
-      
       <div className="hidden sm:block ms-2">
-      
         <div className="slick-list draggable h-10 overflow-hidden">
-        
           <div className="slick-track opacity-100 h-48 transform transition-transform duration-500 ease-in-out">
             <div className="slick-slide w-24">
               <a href="https://www.cgc.ac.in">
@@ -262,9 +253,6 @@ function Navbar() {
           </div>
         </div>
       </div>
-    
-      
-      
     </div>
   </div>
 </div>

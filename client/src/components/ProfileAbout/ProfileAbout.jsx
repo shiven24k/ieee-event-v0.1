@@ -1,5 +1,6 @@
 import React from 'react';
 import { Globe, Briefcase, Heart } from 'lucide-react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const Avatar = ({ src, alt, fallback, className }) => (
   <div className={`relative inline-block rounded-full overflow-hidden bg-gray-200 ${className}`}>
@@ -19,78 +20,79 @@ const Badge = ({ children }) => (
   </span>
 );
 
-const AboutMe = ({ name, location, jobTitle, hobbies, bio, skills, socialLinks, avatarSrc, avatarFallback }) => {
+const AboutMe = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const speakerData = location.state?.speakerData;
+
+  React.useEffect(() => {
+    if (!speakerData) {
+      navigate('/keynote-speakers');
+    }
+  }, [speakerData, navigate]);
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  if (!speakerData) {
+    return <div className="pt-20 text-center">Loading...</div>;
+  }
+
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
-      <div className="w-full max-w-3xl bg-white rounded-lg shadow-lg">
-        <div className="p-6">
-          <div className="flex flex-col md:flex-row gap-6">
-            <div className="flex-shrink-0">
-              <Avatar 
-                className="w-32 h-32 md:w-48 md:h-48"
-                src={avatarSrc}
-                alt={name}
-                fallback={avatarFallback}
+    <div className="mt-10 min-h-screen">
+      <main className="container mx-auto px-4 py-24">
+        <div className="grid gap-24">
+          <section className="grid gap-8 md:grid-cols-2 md:gap-12">
+            <div className="relative h-64 w-64 overflow-hidden rounded-full shadow-xl">
+              <Avatar
+                src={speakerData.img}
+                alt={speakerData.name}
+                fallback={speakerData.name.charAt(0)}
+                className="absolute h-full w-full object-cover transition-transform duration-300 hover:scale-110"
               />
             </div>
-            
-            <div className="flex-grow space-y-4">
-              <h1 className="text-3xl font-bold">{name}</h1>
-              
-              <p className="text-gray-600">
-                {bio}
+            <div className="space-y-4">
+              <h1 className="text-5xl font-bold tracking-tight">{speakerData.name}</h1>
+              <p className="text-lg text-muted-foreground">
+                {speakerData.bio || `Distinguished speaker at ${speakerData.institute}`}
               </p>
-              
-              <div className="space-y-2">
-                <div className="flex items-center gap-2">
-                  <Globe className="w-5 h-5 text-gray-500" />
-                  <span>{location}</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Briefcase className="w-5 h-5 text-gray-500" />
-                  <span>{jobTitle}</span>
-                </div>
+            </div>
+          </section>
+          <section className="space-y-8">
+            <h2 className="text-3xl font-bold">Profile</h2>
+            <p className="max-w-8xl text-muted-foreground">
+              {speakerData.about || `Distinguished faculty member at ${speakerData.institute}`}
+            </p>
+            <div className="space-y-2">
+              <div className="flex items-center gap-2">
+                <Globe className="w-5 h-5 text-gray-500" />
+                <span>{speakerData.location || speakerData.institute}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Briefcase className="w-5 h-5 text-gray-500" />
+                <span>{speakerData.jobTitle || speakerData.institute}</span>
+              </div>
+              {speakerData.hobbies && (
                 <div className="flex items-center gap-2">
                   <Heart className="w-5 h-5 text-gray-500" />
-                  <span>{hobbies}</span>
+                  <span>{speakerData.hobbies}</span>
                 </div>
-              </div>
-              
+              )}
+            </div>
+            {speakerData.skills && (
               <div className="space-x-2">
-                {skills.map((skill, index) => (
+                {speakerData.skills.map((skill, index) => (
                   <Badge key={index}>{skill}</Badge>
                 ))}
               </div>
-              
-              <div className="flex gap-4 pt-4">
-                {socialLinks.map((link, index) => (
-                  <a key={index} href={link.url} className="text-blue-500 hover:text-blue-600">
-                    {link.platform}
-                  </a>
-                ))}
-              </div>
-            </div>
-          </div>
+            )}
+            
+          </section>
         </div>
-      </div>
+      </main>
     </div>
   );
-};
-
-AboutMe.defaultProps = {
-  name: 'Jane Doe',
-  location: 'San Francisco, CA',
-  jobTitle: 'Senior Web Developer at Tech Innovators Inc.',
-  hobbies: 'Hiking, Cooking, Photography',
-  bio: "Hi there! I'm Jane, a passionate web developer with a love for creating beautiful and functional websites. When I'm not coding, you can find me exploring nature trails or experimenting with new recipes in the kitchen.",
-  skills: ['React', 'Node.js', 'TypeScript', 'UI/UX Design'],
-  socialLinks: [
-    { platform: 'Twitter', url: '#' },
-    { platform: 'LinkedIn', url: '#' },
-    { platform: 'GitHub', url: '#' }
-  ],
-  avatarSrc: '/api/placeholder/192/192',
-  avatarFallback: 'JD'
 };
 
 export default AboutMe;
