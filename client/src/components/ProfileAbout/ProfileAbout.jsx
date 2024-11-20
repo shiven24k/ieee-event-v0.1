@@ -1,98 +1,86 @@
 import React from 'react';
-import { Globe, Briefcase, Heart } from 'lucide-react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 
-const Avatar = ({ src, alt, fallback, className }) => (
-  <div className={`relative inline-block rounded-full overflow-hidden bg-gray-200 ${className}`}>
-    {src ? (
-      <img src={src} alt={alt} className="w-full h-full object-cover" />
-    ) : (
-      <div className="w-full h-full flex items-center justify-center text-gray-600 text-2xl font-semibold">
-        {fallback}
-      </div>
-    )}
-  </div>
-);
-
-const Badge = ({ children }) => (
-  <span className="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-gray-100 text-gray-800">
-    {children}
-  </span>
-);
-
-const AboutMe = () => {
-  const location = useLocation();
+function ProfileAbout({ speakers }) {
+  const { id } = useParams();
   const navigate = useNavigate();
-  const speakerData = location.state?.speakerData;
+  
+  // Find the speaker data based on the ID
+  const speaker = speakers.find(s => s.name === decodeURIComponent(id));
 
-  React.useEffect(() => {
-    if (!speakerData) {
-      navigate('/keynote-speakers');
-    }
-  }, [speakerData, navigate]);
-
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
-  if (!speakerData) {
-    return <div className="pt-20 text-center">Loading...</div>;
+  if (!speaker) {
+    return <div>Speaker not found</div>;
   }
 
   return (
-    <div className="mt-10 min-h-screen">
-      <main className="container mx-auto px-4 py-24">
-        <div className="grid gap-24">
-          <section className="grid gap-8 md:grid-cols-2 md:gap-12">
-            <div className="relative h-64 w-64 overflow-hidden rounded-full shadow-xl">
-              <Avatar
-                src={speakerData.img}
-                alt={speakerData.name}
-                fallback={speakerData.name.charAt(0)}
-                className="absolute h-full w-full object-cover transition-transform duration-300 hover:scale-110"
-              />
-            </div>
-            <div className="space-y-4">
-              <h1 className="text-5xl font-bold tracking-tight">{speakerData.name}</h1>
-              <p className="text-lg text-muted-foreground">
-                {speakerData.bio || `Distinguished speaker at ${speakerData.institute}`}
-              </p>
-            </div>
-          </section>
-          <section className="space-y-8">
-            <h2 className="text-3xl font-bold">Profile</h2>
-            <p className="max-w-8xl text-muted-foreground">
-              {speakerData.about || `Distinguished faculty member at ${speakerData.institute}`}
-            </p>
-            <div className="space-y-2">
-              <div className="flex items-center gap-2">
-                <Globe className="w-5 h-5 text-gray-500" />
-                <span>{speakerData.location || speakerData.institute}</span>
+    <div className="container mx-auto p-4 pt-20">
+      <button
+        onClick={() => navigate(-1)}
+        className="mb-6 text-red-600 hover:text-red-700 flex items-center"
+      >
+        <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+        Back
+      </button>
+
+      <div className="bg-white rounded-lg shadow-lg p-6">
+        <div className="flex flex-col md:flex-row gap-8">
+          <div className="md:w-1/3">
+            <img
+              src={speaker.img}
+              alt={speaker.name}
+              className="w-full rounded-lg shadow-md"
+            />
+          </div>
+
+          <div className="md:w-2/3">
+            <h1 className="text-3xl font-bold mb-4">{speaker.name}</h1>
+            <p className="text-xl text-gray-600 mb-6">{speaker.institute}</p>
+
+            <div className="space-y-6">
+              <div>
+                <h2 className="text-xl font-semibold mb-2">About</h2>
+                <p className="text-gray-700">{speaker.about}</p>
               </div>
-              <div className="flex items-center gap-2">
-                <Briefcase className="w-5 h-5 text-gray-500" />
-                <span>{speakerData.jobTitle || speakerData.institute}</span>
+
+              <div>
+                <h2 className="text-xl font-semibold mb-2">Biography</h2>
+                <p className="text-gray-700">{speaker.bio}</p>
               </div>
-              {speakerData.hobbies && (
-                <div className="flex items-center gap-2">
-                  <Heart className="w-5 h-5 text-gray-500" />
-                  <span>{speakerData.hobbies}</span>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <h2 className="text-xl font-semibold mb-2">Location</h2>
+                  <p className="text-gray-700">{speaker.location}</p>
+                </div>
+                <div>
+                  <h2 className="text-xl font-semibold mb-2">Position</h2>
+                  <p className="text-gray-700">{speaker.jobTitle}</p>
+                </div>
+              </div>
+
+              {speaker.skills && (
+                <div>
+                  <h2 className="text-xl font-semibold mb-2">Expertise</h2>
+                  <div className="flex flex-wrap gap-2">
+                    {speaker.skills.map((skill, index) => (
+                      <span
+                        key={index}
+                        className="bg-red-100 text-red-800 px-4 py-1 rounded-full"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
-            {speakerData.skills && (
-              <div className="space-x-2">
-                {speakerData.skills.map((skill, index) => (
-                  <Badge key={index}>{skill}</Badge>
-                ))}
-              </div>
-            )}
-            
-          </section>
+          </div>
         </div>
-      </main>
+      </div>
     </div>
   );
-};
+}
 
-export default AboutMe;
+export default ProfileAbout;

@@ -16,7 +16,7 @@ const sections = [
         name: "Prof. Noor Zaman Jhanjhi",
         institute: "School of Computer Science, Taylor's University, Malaysia",
         bio: "A distinguished professor with expertise in cybersecurity and blockchain technology.",
-        about: "Professor Dr. Noor Zaman Jhanjhi, currently serving as a Professor and Programme Director of Postgraduate Research Programmes (Computing) at Taylor’s University, Malaysia, is a distinguished scholar with over 24 years of teaching, research, and industry experience. Recognized among the world's top 2% scientists for 2022, 2023, and 2024, he has achieved numerous accolades, including the Vice Chancellor’s Award as Taylor’s University Most Cited Researcher for 2023 and being ranked among the top three Computer Science researchers in Malaysia by the AD Scientific Index for 2025. With a prolific research portfolio comprising over 700 publications, including 400+ SCIE-indexed journal articles and 60+ authored or edited books with leading publishers, his work spans cybersecurity, IoT security, wireless networks, and machine learning. Holding an impressive Google Scholar H-index of 71 with over 17,400 citations, Dr. Jhanjhi has delivered 60+ keynote speeches globally, secured 13 international patents, supervised 38 postgraduate theses, and successfully led international research collaborations with over 50 universities and industries worldwide. Additionally, his leadership roles include curriculum design, academic planning, and securing ABET accreditation for multiple programs, showcasing his exceptional expertise in academia, research, and innovation.",
+        about: "Prof. Dr. Noor Zaman Jhanjhi is a highly esteemed Senior Professor of Computer Science, specializing in Artificial Intelligence and Cybersecurity. He currently holds the position of Professor at the School of Computer Science at Taylor's University, Malaysia, and serves as the Program Director for Postgraduate Research Degree Programmes as well as the Director of the Center for Smart Society (CSS5). With a career marked by academic leadership and groundbreaking research, Prof. Jhanjhi has been pivotal in advancing research and education in computer science. Recognized globally, Prof. Jhanjhi has been ranked among the world's top 2% research scientists for three consecutive years (2022, 2023, and 2024). In Malaysia, he is ranked among the top three computer science researchers and was honored with the Outstanding Faculty Member award by MDEC Malaysia in 2022, as well as the Vice Chancellor's Best Research Citations Award from Taylor's University in 2023. His impressive academic portfolio includes over 60 research books edited or authored with prestigious publishers such as Springer, Elsevier, Taylor & Francis, Wiley, and IGI Global USA. His research has garnered more than 1000 points in impact factor, reflecting the depth and breadth of his contributions to the field. A dedicated mentor, Prof. Jhanjhi has supervised and co-supervised 38 postgraduate students to successful graduation and has served as an external examiner for over 60 Ph.D. and Master's theses globally. In addition to his academic accomplishments, Prof. Jhanjhi holds Associate Editor and Editorial Board positions with several high-ranking journals, including PeerJ Computer Science, CMC Computers, Materials & Continua, and Frontiers in Communication and Networks. He was also recognized as an Outstanding Associate Editor for IEEE ACCESS. His contributions to research and innovation are further demonstrated by his successful management of over 40 internationally funded research grants. A sought-after keynote speaker, Prof. Jhanjhi has delivered over 60 invited talks at international conferences and has chaired numerous sessions. His commitment to academic excellence and accreditation extends to his involvement with ABET, NCAAA, and NCEAC over the past decade.",
         location: "Kuala Lumpur, Malaysia",
         jobTitle: "Professor at Taylor's University",
         hobbies: "Research, Writing, Technology Innovation",
@@ -80,7 +80,7 @@ const sections = [
         name: "Prof. Shashi Kant Gupta",
         institute: "Eudoxia Research University, New Castle, Delaware, USA",
         bio: "An expert in artificial intelligence applications for the Metaverse, focusing on augmented reality, mixed reality, and NLP.",
-        about: "Dr. Shashi Kant Gupta pursued Bachelor of Technology from Northern India Engineering College, Lucknow, U.P., India in 2008 and Post Graduate Diploma in Information technology form Symbiosis Centre for Distance Learning, Pune in the year 2011. He has completed his Master of Technology from Azad Institute of Engineering & Technology, Lucknow, U.P., India in the year 2015. He has completed his Ph.D. in CSE from Integral University, Lucknow, UP, India in the year 2022. He is currently doing Post Doctoral Fellow from Eudoxia Research University, USA. He is CEO & Founder of Chinmay Research Education and Publication Private Limited, Lucknow, UP, India. He is also working as an editor-in-chief of a reputed peer-reviewed scholarly International Journal of Data Informatics and Intelligent computing (IJDIIC). He has worked as Assistant Professor in the Department of Computer Science and Engineering, PSIT, Kanpur, U.P., India. He has also served as an Associate Professor in School of Computer Applications at BBD University. He has worked in many other reputed Universities and colleges as a faculty. He is an author and an editor in many CRC Press and Taylor & Francis group Book Series. He is a member of Spectrum IEEE & Potentials Magazine IEEE since 2019 and many more international organizations for research activities. He has got various International Awards. He has more than 15 Indian patents and 2 Germany patents. He has published many research papers in reputed international journals with SCOPUS, (ESCI & SCI) WOS indexed journals and published many papers in National and International conferences and as well as presented papers in Seminars. He has organized various Faculty Development Programmes, Seminars, Workshops, Short Term Courses at University level. His main research work focuses on performance enhancement through cloud computing, Big Data Analytics, IoT, Blockchain and Computational Intelligence-based Education. He has published many books related to green computing, Computer Organization and Architecture and many more. He has edited many books as an editor. He is currently working as a reviewer in various international journals like BJIT and many more. He is working as editorial board member of various reputed national and international journals. He has more than 12 years of teaching experience and 2 years of Industrial Experience.",
+        about: "Dr. Shashi Kant Gupta, Post-Doctoral Fellow and Researcher, Computer Science and Engineering, Eudoxia Research University, USA in collaboration with Eudoxia Research Centre, India. ORCID: 0000-0001-6587-5607. He is currently working as an Adjunct Research Faculty, Centre for Research Impact & Outcome, Chitkara University Institute of Engineering and Technology. Chitkara University, Rajpura, 140401, Punjab, India. He is working as an Adjunct Faculty in the Department of PURE & APPLIED MATHEMATICS, Saveetha School of Engineering University, India. He is working as Honorary Adjunct Faculty, School of Computing, Maryam Abacha American University of Nigeria (MAAUN), Nigeria. He is working as an Honorary Senior Research Fellow, Department of Scientific Research, Innovation and Training of Scientific and Pedagogical Staff, University of Economics and Pedagogy, Karshi City, Uzbekistan. He is working as a Research Collaborator and Invited Visiting Senior Scientist at the Research Institute of IoT and Cybersecurity, Department of Electronic Engineering, National Kaohsiung University of Science and Technology, Taiwan. He has completed his Ph.D. (CSE) from Integral University, Lucknow, UP, India, & Worked as Assistant Professor in the Department of Computer Science and Engineering, ITM, Lucknow, U.P., India & Worked as Assistant Professor in the Department of Computer Science and Engineering, PSIT, Kanpur, U.P., India, Worked as Associate Professor, School of Computer Applications, BBD University, Lucknow, UP, India, Worked as Assistant Professor, Department of Computer Science and Engineering, Ambalika Institute of Management and Technology, Lucknow, UP, India. & Also worked as Senior Lecturer, Department of IT, MCSCET, Lucknow, UP, India. He is currently working as Founder and CEO of CREP PVT. LTD., Lucknow, UP, India. He is a member of Spectrum IEEE & Potentials Magazine IEEE since 2019 and many more international organizations for research activities. He is an Editor-in-chief of International Journal of Data Informatics and Intelligent computing (IJDIIC) also Editor-in-chief of International Journal of Emerging Technologies in Computer and Communication (LJETCC). Senior Editor in Global Research Journal form London Organization of Skill Development, London, United Kingdom. He has published many research papers in reputed international journals, conferences & seminars with SCOPUS and SCI indexing. He has got many awards from many International and national organizations. He has organized various Faculty Development Programs, Seminars, Workshops, and Short- Term Courses at University level. His main research work focuses on Cloud computing, Big Data Analytics, IoT and Computational Intelligence-based Education. He is currently working as a reviewer and editorial in various international journals. He is currently editor in many edited books of different publishers like CRC Press, Taylor and Francis group Publication, Routledge Publisher, Bentham Science Publishers, Springer Nature Publisher, Wiley Publisher etc. He has published many patents like Indian, Germany, UK etc in the field of CSE and IT. He has more than 12 years of teaching experience, 2 years of Industrial Experience and more than 2.5 years as CEO and Founder of a firm.",
         location: "New Castle, Delaware, USA",
         jobTitle: "Professor at Eudoxia Research University",
         hobbies: "Research, Innovation, Writing",
@@ -142,24 +142,25 @@ const sections = [
 ];
 
 function Advisory() {
+  // Flatten all items from all sections into a single array
+  const allSpeakers = sections.reduce((acc, section) => {
+    return [...acc, ...section.items];
+  }, []);
+
   return (
     <div className="container mx-auto p-4 pt-20 sm:pt-4">
       <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">Keynote Speakers</h1>
-      {sections.map((section, index) => (
-        <div key={index}>
-          <div className="flex flex-wrap justify-center">
-            {section.items.map((item, idx) => (
-              <ProfileCard
-                key={idx}
-                name={item.name}
-                title={item.institute}
-                imageSrc={item.img}
-                speakerData={item}
-              />
-            ))}
-          </div>
-        </div>
-      ))}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {allSpeakers.map((item, idx) => (
+          <ProfileCard
+            key={idx}
+            name={item.name}
+            title={item.institute}
+            imageSrc={item.img}
+            speakerData={item}
+          />
+        ))}
+      </div>
     </div>
   );
 }
