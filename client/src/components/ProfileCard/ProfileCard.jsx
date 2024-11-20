@@ -103,8 +103,8 @@ function ProfileCard({ name, title, imageSrc, speakerData }) {
   }
 
   return (
-    <div className="w-full max-w-sm bg-white rounded-lg shadow-lg overflow-hidden h-[600px] flex flex-col">
-      <div className="flex-shrink-0 h-96 w-full">
+    <div className="w-full max-w-xs bg-white rounded-lg shadow-lg overflow-hidden m-4 h-[500px] flex flex-col mx-auto">
+      <div className="flex-shrink-0 h-72 w-full">
         <img
           className="w-full h-full object-cover object-center"
           src={imageSrc}
