@@ -1,75 +1,103 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+
 function Footer() {
   return (
-    
+    <footer className="bg-gradient-to-r from-red-800 to-red-600 shadow-lg">
+      <div className="mx-auto w-full max-w-screen-xl p-4 py-8 lg:py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Logo and Address Section */}
+          <div className="space-y-4">
+            <a href="https://www.cgc.ac.in/" 
+               className="inline-block transform hover:scale-105 transition-transform duration-200">
+              <img 
+                src="https://www.cgc.ac.in/public/course/assets/images/header-footer/cgc-jhanjeri-logo-white.png" 
+                className="h-12 w-auto" 
+                alt="CGC Logo" 
+              />
+            </a>
+            <p className="text-white/90 text-sm leading-relaxed">
+              Chandigarh Group of Colleges Jhanjeri Mohali,<br/>
+              State Highway 12A Jhanjeri,<br/>
+              Sahibzada Ajit Singh Nagar,<br/>
+              Punjab 140307
+            </p>
+          </div>
 
-<footer className="bg-gradient-to-r from-red-700 to-red-500 ">
-    <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
-              <a href="https://www.cgc.ac.in/" className="flex items-center pb-5">
-                  <img src="	https://www.cgc.ac.in/public/course/assets/images/header-footer/cgc-jhanjeri-logo-white.png" className="h-10 me-2" alt="FlowBite Logo" />
+          {/* Contact Section */}
+          <div className="space-y-4">
+            <h2 className="text-white text-lg font-semibold border-b border-red-400 pb-2 mb-4">
+              Contact Us
+            </h2>
+            <div className="text-white/90 space-y-2">
+              <p className="font-medium">Dr. Pradeep Kumar Jindal</p>
+              <a href="tel:+919872495684" 
+                 className="block hover:text-white transition-colors duration-200">
+                +91 98724 95684
               </a>
-              <p className="self-center text-white  font-small">Chandigarh Group of Colleges Jhanjeri Mohali, <br/> State Highway 12A Jhanjeri, <br/>Sahibzada Ajit Singh Nagar, <br/> Punjab 140307 </p>
+              <a href="mailto:icetis@cgc.ac.in" 
+                 className="block hover:text-white transition-colors duration-200">
+                icetis@cgc.ac.in
+              </a>
+            </div>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6">
-              
-              <div>
-                  <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Contact Us :</h2>
-                  
-                  <ul className="text-white font-medium">
-                     <li className="mb-4">
-                          <p>Dr. Pradeep Kumar Jindal </p>
-                          <a href="#" className="hover:underline">+91 98724 95684</a><br/>
-                          <a href="#" className="hover:underline">icetis@cgc.ac.in</a>
-                      </li>
-                      
-                  </ul>
-              </div>
-              
-              <div>
-  <h2 className="mb-6 text-sm font-semibold text-white uppercase">quick link</h2>
-  <div className="flex gap-5">
-    <div>
-      <ul className="text-white  font-medium">
-        <li className="mb-4">
-          <Link to="/" className="hover:underline">Home</Link>
-        </li>
-        <li className="mb-4">
-          <Link to="/about" className="hover:underline">About</Link>
-        </li>
-        <li>
-          <Link to="/callforpaper" className="hover:underline">Call for Paper</Link>
-        </li>
-      </ul>
-    </div>
-    <div>
-      <ul className="text-white  font-medium">
-        <li className="mb-4">
-          <Link to="/papersubmission" className="hover:underline">Paper Submission</Link>
-        </li>
-        <li className="mb-4">
-          <Link to="/registration" className="hover:underline">Registration</Link>
-        </li>
-        <li>
-          <Link to="/contact" className="hover:underline">Contact</Link>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-          </div>
-      </div>
-      <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
-      <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-white sm:text-center">© 2025 <a href="#" className="hover:underline">ICETIS</a>. All Rights Reserved.
-          </span>
-          <span className="text-sm text-white sm:text-center"> Designed by <a href="https://www.linkedin.com/in/shiven-kashyap-964819220/">Shiven Kashyap</a></span>
-      </div>
-    </div>
-</footer>
 
+          {/* Quick Links Section */}
+          <div className="space-y-4">
+            <h2 className="text-white text-lg font-semibold border-b border-red-400 pb-2 mb-4">
+              Quick Links
+            </h2>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="space-y-3">
+                <Link to="/" 
+                      className="block text-white/90 hover:text-white hover:translate-x-1 transition-all duration-200">
+                  Home
+                </Link>
+                <Link to="/about" 
+                      className="block text-white/90 hover:text-white hover:translate-x-1 transition-all duration-200">
+                  About
+                </Link>
+                <Link to="/callforpaper" 
+                      className="block text-white/90 hover:text-white hover:translate-x-1 transition-all duration-200">
+                  Call for Paper
+                </Link>
+              </div>
+              <div className="space-y-3">
+                <Link to="/papersubmission" 
+                      className="block text-white/90 hover:text-white hover:translate-x-1 transition-all duration-200">
+                  Paper Submission
+                </Link>
+                <Link to="/registration" 
+                      className="block text-white/90 hover:text-white hover:translate-x-1 transition-all duration-200">
+                  Registration
+                </Link>
+                <Link to="/contact" 
+                      className="block text-white/90 hover:text-white hover:translate-x-1 transition-all duration-200">
+                  Contact
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr className="my-8 border-red-400/30" />
+
+        <div className="flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0 text-sm text-white/90">
+          <span>
+            © 2025 <a href="#" className="hover:text-white transition-colors duration-200">ICETIS</a>. 
+            All Rights Reserved.
+          </span>
+          <span>
+            Designed by{" "}
+            <a href="https://www.linkedin.com/in/shiven-kashyap-964819220/" 
+               className="hover:text-white transition-colors duration-200">
+              Shiven Kashyap
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer>
   );
 }
+
 export default Footer;

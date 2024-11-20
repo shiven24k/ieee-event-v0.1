@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ieeelogo from '../../assets/ieeelogo.png';
-import ceclogo from '../../assets/cgclogo.png';
+import ceclogo from '../../assets/ceclogo.png';
 import naac from '../../assets/naac.png';
 import nirf from '../../assets/nirf.png';
-import cgclogo from '../../assets/cgc-logo.png';
+import cgclogo from '../../assets/cgclogo.png';
 
 import { Link } from 'react-router-dom';
 
