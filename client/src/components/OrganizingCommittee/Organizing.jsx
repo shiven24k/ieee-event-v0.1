@@ -21,6 +21,7 @@ const sections = [
     items: [
       "Dr. Ch. Pradeep Reddy, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       "Dr. Hunny Pahuja, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Dr. Arun Kumar Singh, PEC, Chandigarh, India"
       
     ]
   },

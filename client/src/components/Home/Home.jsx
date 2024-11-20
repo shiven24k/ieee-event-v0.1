@@ -26,55 +26,72 @@ const dates = [
 
 function Home() {
   return (
-    <div>
-      <div className="relative pl-5 pr-5 w-full h-screen bg-cover bg-center overflow-hidden" style={{ backgroundImage: "url('https://library.cgc.ac.in/images/slider/slide-1.jpg')", backgroundPositionY: "center" }}>
-        <div className="flex justify-center items-center min-h-screen">
-          <div className="absolute top-30 flex flex-col justify-center items-center text-center m-auto pb-5" style={{ paddingTop: '5rem' }}>
-            <div className="text-white text-[2vw] sm:text-[1.5vw] md:text-[1.25vw] lg:text-[1vw] xl:text-[0.75vw] tracking-widest font-extrabold text-shadow-lg pb-3 sm:pb-5">
-              <div className="text-center">
-                INTERNATIONAL CONFERENCE <br /> ON <br /> EMERGING TECHNOLOGIES IN AI AND COMMUNICATION SYSTEMS <br />
-                (ICETIS-2025)
-              </div>
-            </div>
-            <div className="w-full container mx-auto px-2 sm:px-4">
-              <div className="flex flex-col sm:flex-row flex-wrap p-2 sm:p-5">
-                <div className="w-full sm:w-1/2 px-2 sm:px-4 py-2 flex justify-center items-center pt-10 sm:pt-[5em]">
-                  <h4 className="text-center text-white text-shadow-lg leading-relaxed font-normal text-[2vw] sm:text-[1.5vw] md:text-[1.25vw] lg:text-[1vw] xl:text-[0.75vw] px-2 sm:px-10">
-                    <i>
-                      All selected, presented and registered paper will be submitted to IEEE Xplore for consideration.
-                    </i>
-                  </h4>
-                </div>
-                <div className="w-full sm:w-1/2 px-2 sm:px-4">
-                  <h4 className="text-center font-sans text-white font-bold text-shadow-lg text-[2vw] sm:text-[1.5vw] md:text-[1.25vw] lg:text-[1vw] xl:text-[0.75vw] leading-snug title">
-                    Important Dates:
-                    <br /> <br />
-                    <table className="table-auto w-full">
-                      <tbody>
-                        {dates.map((item, index) => (
-                          <tr key={index}>
-                            <td className="text-left font-sans text-white font-semibold text-shadow-lg text-[2vw] sm:text-[1.5vw] md:text-[1.25vw] lg:text-[1vw] xl:text-[0.75vw] leading-snug whitespace-nowrap">
-                              {item.label}
-                            </td>
-                            <td className="text-left font-sans text-white font-semibold text-shadow-lg text-[2vw] sm:text-[1.5vw] md:text-[1.25vw] lg:text-[1vw] xl:text-[0.75vw] leading-snug pl-2 sm:pl-4 md:pl-6 lg:pl-8 whitespace-nowrap">
-                              {item.date}
-                            </td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <h4 className="uppercase text-center font-sans font-semibold text-white text-shadow-lg text-[2vw] sm:text-[1.5vw] md:text-[1.25vw] lg:text-[1vw] xl:text-[0.75vw] pt-5 sm:pt-10 md:pt-15 lg:pt-20 break-words">
-              Organised by <br />
-              DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING,<br />
-              Chandigarh Engineering College,<br/> Chandigarh Group of Colleges, Jhanjeri, Mohali, <br />
-              Punjab-140307
+    
+    <div className="relative w-full min-h-screen bg-cover bg-center bg-no-repeat py-16">
+    <div 
+      className="absolute inset-0 z-0 bg-no-repeat" 
+      style={{
+        backgroundImage: "url('https://library.cgc.ac.in/images/slider/slide-1.jpg')",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        filter: "brightness(0.7)"
+      }}
+    />
+    
+    <div className="relative z-10 container mx-auto px-4 flex flex-col items-center justify-center min-h-[calc(100vh-8rem)]">
+      {/* Main Title - Reduced sizes */}
+      <div className="text-white text-xl md:text-2xl lg:text-3xl tracking-wider font-extrabold mb-8 text-center">
+        <div>
+          INTERNATIONAL CONFERENCE <br />
+          ON <br />
+          EMERGING TECHNOLOGIES IN AI AND COMMUNICATION SYSTEMS <br />
+          (ICETIS-2025)
+        </div>
+      </div>
+
+      {/* Content Container */}
+      <div className="w-full max-w-6xl">
+        <div className="flex flex-col lg:flex-row gap-8 mb-8">
+          {/* IEEE Notice - Reduced sizes */}
+          <div className="lg:w-1/2">
+            <h4 className="text-center text-white text-base md:text-lg lg:text-xl italic">
+              Request has been submitted to IEEE Delhi Section for Technical sponsorship.
             </h4>
           </div>
+
+          {/* Important Dates - Reduced sizes */}
+          <div className="lg:w-1/2">
+            <h4 className="text-center text-white font-bold text-lg md:text-xl lg:text-2xl mb-4">
+              Important Dates:
+            </h4>
+            <div className=" p-4 rounded-lg">
+              <table className="w-full">
+                <tbody>
+                  {dates.map((item, index) => (
+                    <tr key={index} className="border-b border-white/20 last:border-0">
+                      <td className="py-2 text-white text-xs md:text-sm lg:text-base font-semibold">
+                        {item.label}
+                      </td>
+                      <td className="py-2 text-white text-xs md:text-sm lg:text-base font-semibold pl-4">
+                        {item.date}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
+
+        {/* Organization Details - Reduced sizes */}
+        <div className="text-center text-white text-base md:text-lg lg:text-xl font-semibold mt-8">
+          <p className="mb-2">Organised by</p>
+          <p className="mb-2">DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING,</p>
+          <p className="mb-2">Chandigarh Engineering College,</p>
+          <p className="mb-2">Chandigarh Group of Colleges, Jhanjeri, Mohali,</p>
+          <p>Punjab-140307</p>
+        </div>
+      </div>
       </div>
     </div>
   );
