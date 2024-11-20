@@ -1,4 +1,16 @@
 import React from 'react';
+import Advisory from '../AdvisoryCommittee/AdvisoryCommittee';
+import Steering from '../SteeringCommittee/SteeringCommittee';
+import Technical from '../TechnicalProgramCommittee/TechnicalProgram';
+import Finance from '../FinanceCommittee/FinanceCommittee';
+import Publication from '../PublicationCommittee/PublicationCommittee';
+import Publicity from '../PublicityCommittee/PublicityCommittee';
+import Hospitality from '../HospitalityCommittee/HospitalityCommittee';
+import Accommodation from '../AccommodationCommittee/AccommodationCommittee';
+import Transportation from '../TransportationCommittee/TransportationCommittee';
+import StudentTeam from '../StudentTeam/StudentTeam';
+
+
 
 const sections = [
   {
@@ -104,6 +116,7 @@ const sections = [
 
 const FacultyTable = () => {
   return (
+    <>
     <div className="container mx-auto p-4 pt-20 sm:pt-4">
       <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">Organising Committee</h1>
       {sections.map((section, index) => (
@@ -125,7 +138,21 @@ const FacultyTable = () => {
         </div>
       ))}
     </div>
+    <Advisory />
+    <Steering />
+    <Technical />
+    <Finance/>
+    <Publication/>
+    <Publicity/>
+    <Hospitality/>
+    <Accommodation/>
+    <Transportation/>
+    <StudentTeam/>
+    
+    
+    </>
   );
+  
 };
 
 export default FacultyTable;

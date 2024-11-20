@@ -98,102 +98,15 @@ function Navbar() {
                 About
               </Link>
             </li>
-            <li>
-              <button
-                id="dropdownNavbarLink"
-                onClick={toggleDropdown}
-                className="flex items-center justify-between w-full px-2 font-medium text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-gray-400 focus:outline-none"
-              >
-                Committee
-                <svg
-                  className="w-2.5 h-2.5 ms-3"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 10 6"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="m1 1 4 4 4-4"
-                  />
-                </svg>
-              </button>
-              {/* Dropdown menu */}
-              <div
-                id="dropdownNavbar"
-                ref={dropdownRef}
-                className={` ${isDropdownOpen ? 'opacity-100 visible translate-y-0 transition ease' : 'opacity-0 invisible -translate-y-5 transition ease'} mt-1 z-10 font-normal absolute bg-white divide-gray-100 rounded-lg shadow w-44`}
-                style={{ transitionDuration: 'var(--speed)' }}
-              >
-                <ul
-                  className="py-2 text-sm font-medium"
-                  aria-labelledby="dropdownLargeButton"
-                >
-                  <li>
-                    <Link to="./keynotespeaker" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick} >
-                      Keynote Speaker
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./organizing" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
-                      Organizing Committee
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./advisory" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
-                      Advisory Committee
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./steering" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
-                      Steering Committee
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./technical" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
-                      Technical Program Committee
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./finance" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
-                      Finance Committee
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./publication" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
-                      Publication Committee
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./publicity" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
-                    Publicity Committee
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./hospitality" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
-                    Hospitality Committee
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./accommodation" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
-                      Accommodation Committee
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./transportation" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
-                    Transportation Committee 
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./studentteam" className="block px-4 py-2 hover:bg-gray-100" onClick={handleOptionClick}>
-                      Student Team
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+            <li className="cursor-pointer">
+              <Link to="./keynotespeaker" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
+                Keynote Speaker
+              </Link>
+            </li>
+            <li className="cursor-pointer">
+              <Link to="./organizing" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
+                Community
+              </Link>
             </li>
             <li className="cursor-pointer">
               <Link className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" to="./callforpaper">
