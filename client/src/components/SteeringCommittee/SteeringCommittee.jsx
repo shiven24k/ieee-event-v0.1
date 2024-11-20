@@ -5,20 +5,26 @@ const steeringCommittee = [
         sno: 1,
         name: "Prof. Vinay Goyal",
         title: "Executive Director",
-        institute: "CGC Jhanjeri, Mohali, Punjab"
+        institute: "CGC Jhanjeri, Mohali, Punjab, India"
     },
     {
         sno: 2,
         name: "Prof. Anish Gupta",
         title: "Director Academics",
-        institute: "CGC Jhanjeri, Mohali, Punjab"
+        institute: "CGC Jhanjeri, Mohali, Punjab, India"
     },
     {
         sno: 3,
         name: "Prof. Pradeep Reddy",
         title: "CEC",
-        institute: "CGC Jhanjeri, Mohali, Punjab"
-    }
+        institute: "CGC Jhanjeri, Mohali, Punjab, India"
+    },
+    {
+      sno: 3,
+      name: "Prof. Sridhar Iyer",
+      title: "CEC",
+      institute: "KLA Technological University, Belagavi, Karnataka, India"
+  }
 ];
 
 
@@ -36,7 +42,7 @@ const Steering = () => {
         <div className="flex w-full text-2xl">
           <ul className="list-disc pl-5">
             {steeringCommittee.map((member, index) => (
-              <li key={index} className="text-[1rem]">
+              <li key={index} className="text-lg sm:text-2xl mb-4">
                 {member.name}, {member.institute}
               </li>
             ))}

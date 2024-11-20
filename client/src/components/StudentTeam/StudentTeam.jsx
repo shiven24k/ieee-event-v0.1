@@ -154,7 +154,7 @@ const studentData = [
 function StudentTeam() {
   return (
     <div className="container mx-auto pt-20 p-1 sm:p-4 ">
-    <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">Student Team</h1>
+    <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center uppercase">Student Team</h1>
 
     <div className="mt-4 p-2 sm:p-4">
       <div className="flex flex-wrap justify-center mb-5">
@@ -166,7 +166,7 @@ function StudentTeam() {
           { name: "Anchal Sangwan", role: "Vice-Chair" },
           { name: "Aakanksha Dubey", role: "WebMaster" }
         ].map((member, index) => (
-          <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2 sm:p-4 flex flex-col items-center">
+          <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2 sm:p-4 text-lg sm:text-2xl mb-4 flex flex-col items-center">
             <span className="font-semibold">{member.name}</span>
             <span>{member.role}</span>
           </div>
@@ -189,7 +189,7 @@ function StudentTeam() {
         </thead>
         <tbody className="text-xs sm:text-sm font-light">
           {studentData.map((student) => (
-            <tr key={student.index} className="border-b border-gray-200 hover:bg-gray-100">
+            <tr key={student.index} className="border-b border-gray-200 hover:bg-gray-100 font-semibold">
               <td className="py-2 sm:py-3 px-2 sm:px-6 text-left whitespace-nowrap">{student.index}</td>
               <td className="py-2 sm:py-3 px-2 sm:px-6 text-left">{student.name}</td>
               <td className="py-2 sm:py-3 px-2 sm:px-6 text-left">{student.contact}</td>

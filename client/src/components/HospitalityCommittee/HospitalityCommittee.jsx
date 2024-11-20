@@ -1,13 +1,14 @@
 import React from 'react';
 
 const hospitalityCommittee = [
-  
-  { name: "Prof. Shikha", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },
-  { name: "Prof. Anmol", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },
-    { name: "Prof. Ankur", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },
-    { name: "Prof. Shanky", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },
-    { name: "Mr. Taranjeet Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },
-    { name: "Mr. Tirth Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" }
+  {name:"Prof. Kanwarpreet Kaur",institute: "Chandigarh University, Punjab, India"},
+  {name: "Prof.  Shonak Bansal", institute:"Chandigarh University, Mohali, Punjab, India"},
+  { name: "Prof. Shikha", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
+  { name: "Prof. Anmol", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
+    { name: "Prof. Ankur", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
+    { name: "Prof. Shanky", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
+    { name: "Mr. Taranjeet Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
+    { name: "Mr. Tirth Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" }
   ];
   
 // // const hierarchy = [
@@ -93,7 +94,7 @@ const Hospitality = () => {
         <div className="flex w-full text-2xl">
           <ul className="list-disc pl-5">
             {hospitalityCommittee.map((member, index) => (
-              <li key={index} className="text-[1rem]">
+              <li key={index} className="text-lg sm:text-2xl mb-4">
                 {member.name}, {member.institute}
               </li>
             ))}

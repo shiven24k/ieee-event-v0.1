@@ -1,33 +1,31 @@
 import React from 'react';
 
 const financeCommittee = [
-  
-      {
-        name: "Prof. Rupinder kaurr",
-        institute: "Punjabi university, Patiala, Punjab, India"
-      },
-      {
-        name: "Prof. Chirag Sharma",
-        institute: "Lovely Professional University, Punjab, India"
-      },   
-      {
-      name: "Prof. Parveen Kumar",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
-    },
-    {
-      name: "Prof. Bhupinder Kaur",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
-    },
-    {
-      name: "Prof. Shavinder Singh",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
-    },
-    {
-      name: "Prof. Manbir Kaur Brar",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
-    }
-  ];
-  
+  {
+    name: "Prof. Rupinder Kaur",
+    institute: "Punjabi University, Patiala, Punjab, India"
+  },
+  {
+    name: "Prof. Chirag Sharma",
+    institute: "Lovely Professional University, Punjab, India"
+  },
+  {
+    name: "Prof. Parveen Kumar",
+    institute: "Chandigarh Engineering College, CGC Jhanjeri, Mohali, Punjab, India"
+  },
+  {
+    name: "Prof. Bhupinder Kaur",
+    institute: "Chandigarh Engineering College, CGC Jhanjeri, Mohali, Punjab, India"
+  },
+  {
+    name: "Prof. Shavinder Singh",
+    institute: "Chandigarh Engineering College, CGC Jhanjeri, Mohali, Punjab, India"
+  },
+  {
+    name: "Prof. Manbir Kaur Brar",
+    institute: "Chandigarh Engineering College, CGC Jhanjeri, Mohali, Punjab, India"
+  }
+];
 
 // // const hierarchy = [
 // //   "Eudoxia Research University, New Castle, Delaware, USA",
@@ -112,7 +110,7 @@ const Finance= () => {
         <div className="flex w-full text-2xl">
           <ul className="list-disc pl-5">
             {financeCommittee .map((member, index) => (
-              <li key={index} className="text-[1rem]">
+              <li key={index} className="text-lg sm:text-2xl mb-4">
                 {member.name}, {member.institute}
               </li>
             ))}

@@ -1,192 +1,197 @@
 import React from 'react';
 
 const advisoryCommittee = [
-    {
-      sno: 1,
-      name: "Prof. Kulbir Singh",
-      institute: "Thapar University, Patiala"
-    },
-    // {
-    //   sno: 2,
-    //   name: "Prof. K S Sandha",
-    //   institute: "Thapar University, Patiala"
-    // },
-    {
-      sno: 3,
-      name: "Prof. Hem Dutt Joshi",
-      institute: "Thapar University, Patiala"
-    },
-    {
-      sno: 4,
-      name: "Prof. Ankush Kansal",
-      institute: "Thapar University, Patiala"
-    },
-    {
-      sno: 5,
-      name: "Prof. Anil Verma",
-      institute: "Thapar University, Patiala"
-    },
-    {
-      sno: 6,
-      name: "Prof. Moon Inder Singh",
-      institute: "Thapar University, Patiala"
-    },
-    {
-      sno: 7,
-      name: "Prof. Ajay Kakkar",
-      institute: "Thapar University, Patiala"
-    },
-    {
-      sno: 8,
-      name: "Prof. Neeru Jindal",
-      institute: "Thapar University, Patiala"
-    },
-    {
-      sno: 9,
-      name: "Prof. Balwinder Raj",
-      institute: "NIT Jalandhar"
-    },
-    {
-      sno: 10,
-      name: "Prof. Ashwani K Rana",
-      institute: "NIT Hamirpur"
-    },
-    {
-      sno: 11,
-      name: "Prof. Manoj Mittal",
-      institute: "IKGPTU Jalandhar"
-    },
-    {
-      sno: 12,
-      name: "Prof. Sharad Sharma",
-      institute: "MMU Mullana"
-    },
-    {
-      sno: 13,
-      name: "Prof. Davinder Kumar Saini",
-      institute: "CCET, Sec-26, Chandigarh"
-    },
-    {
-      sno: 14,
-      name: "Prof. Gitanjali",
-      institute: "Chitkara, Rajpura"
-    },
-    {
-      sno: 15,
-      name: "Prof. Ramanpreet Kaur",
-      institute: "CGC Landran, Mohali, Punjab"
-    },
-    {
-      sno: 16,
-      name: "Prof. Sharat Tiwari",
-      institute: "Parul University, Vadodara, Gujarat"
-    },
-    {
-      sno: 17,
-      name: "Prof. Reenuka Sharma",
-      institute: "SGT University"
-    },
-    {
-      sno: 18,
-      name: "Prof. Poonam",
-      institute: "PEC, Chandigarh"
-    },
-    {
-      sno: 19,
-      name: "Prof. Simranjeet Singh",
-      institute: "PEC, Chandigarh"
-    },
-    // {
-    //   sno: 20,
-    //   name: "Prof. Vibhav Kumar Sachan",
-    //   institute: "KIET, Ghaziabad"
-    // },
-    {
-      sno: 21,
-      name: "Prof. Ruchita Gautam",
-      institute: "KIET, Ghaziabad"
-    },
-    {
-      sno: 22,
-      name: "Prof. Praveen Kaushik",
-      institute: "KIET, Ghaziabad"
-    },
-    {
-      sno: 23,
-      name: "Prof. Shubham Shukla",
-      institute: "IIIT Pune"
-    },
-    {
-      sno: 24,
-      name: "Prof. Priya Ranjan",
-      institute: "UPES, Dehradun"
-    },
-    {
-      sno: 25,
-      name: "Prof. Manoj Sindhwani",
-      institute: "LPU, Jalandhar"
-    },
-    {
-      sno: 26,
-      name: "Prof. Abhas Kanungo",
-      institute: "KIET, Ghaziabad"
-    },
-    {
-      sno: 27,
-      name: "Prof. Rochak Bajpai",
-      institute: "UPES, Dehradun"
-    },
-    {
-      sno: 28,
-      name: "Prof. Preeti Sharma",
-      institute: "Chitkara University, Rajpura"
-    },
-    {
-      sno: 29,
-      name: "Prof. Ashwani K Sharma",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
-    },
-    {
-      sno: 30,
-      name: "Prof. Vikas Deep Mann",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
-    },
-    {
-      sno: 31,
-      name: "Prof. Sajjan Singh",
-      institute: "CCE, CGC Jhanjeri, Mohali, Punjab"
-    },
-    {
-      sno: 32,
-      name: "Prof. Rini Saxena",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
-    },
-    {
-      sno: 33,
-      name: "Prof. Anshu Tomar",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
-    },
-    {
-      sno: 34,
-      name: "Prof. Shavinder Singh",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
-    },
-    {
-      sno: 35,
-      name: "Prof. Rubal Jeet",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
-    },
-    {
-      sno: 36,
-      name: "Prof. Shanky",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
-    },
-    {
-      sno: 37,
-      name: "Prof. Puneet",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
-    }
-  ];
+  {
+    sno: 1,
+    name: "Prof. Amritpal Singh",
+    institute: "Durham University, UK"
+  },
+  {
+    sno: 2,
+    name: "Prof. Fariah Mahzabeen",
+    institute: "North South University, Dhaka, Bangladesh"
+  },
+  {
+    sno: 3,
+    name: "Prof. Bulatova Evgenia Konstantinovna",
+    institute: "ISA UrFU, Russia"
+  },
+  {
+    sno: 4,
+    name: "Prof. Kulbir Singh",
+    institute: "Thapar University, Patiala, Punjab, India"
+  },
+  {
+    sno: 5,
+    name: "Prof. Hem Dutt Joshi",
+    institute: "Thapar University, Patiala, Punjab, India"
+  },
+  {
+    sno: 6,
+    name: "Prof. Ankush Kansal",
+    institute: "Thapar University, Patiala, Punjab, India"
+  },
+  {
+    sno: 7,
+    name: "Prof. Anil Verma",
+    institute: "Thapar University, Patiala, Punjab, India"
+  },
+  {
+    sno: 8,
+    name: "Prof. Moon Inder Singh",
+    institute: "Thapar University, Patiala, Punjab, India"
+  },
+  {
+    sno: 9,
+    name: "Prof. Ajay Kakkar",
+    institute: "Thapar University, Patiala, Punjab, India"
+  },
+  {
+    sno: 10,
+    name: "Prof. Neeru Jindal",
+    institute: "Thapar University, Patiala, Punjab, India"
+  },
+  {
+    sno: 11,
+    name: "Prof. Balwinder Raj",
+    institute: "National Institute of Technology, Jalandhar, Punjab, India"
+  },
+  {
+    sno: 12,
+    name: "Prof. Ashwani K Rana",
+    institute: "National Institute of Technology, Hamirpur, Himachal Pradesh, India"
+  },
+  {
+    sno: 13,
+    name: "Prof. Manoj Mittal",
+    institute: "IK Gujral Punjab Technical University, Jalandhar, Punjab, India"
+  },
+  {
+    sno: 14,
+    name: "Prof. Sharad Sharma",
+    institute: "Maharishi Markandeshwar University, Mullana, Haryana, India"
+  },
+  {
+    sno: 15,
+    name: "Prof. Davinder Kumar Saini",
+    institute: "Chandigarh College of Engineering and Technology, Chandigarh, India"
+  },
+  {
+    sno: 16,
+    name: "Prof. Gitanjali",
+    institute: "Chitkara University, Rajpura, Punjab, India"
+  },
+  {
+    sno: 17,
+    name: "Prof. Ramanpreet Kaur",
+    institute: "Chandigarh Group of Colleges, Landran, Mohali, Punjab, India"
+  },
+  {
+    sno: 18,
+    name: "Prof. Sharat Tiwari",
+    institute: "Parul University, Vadodara, Gujarat, India"
+  },
+  {
+    sno: 19,
+    name: "Prof. Reenuka Sharma",
+    institute: "Shree Guru Gobind Singh Tricentenary University, Gurugram, Haryana, India"
+  },
+  {
+    sno: 20,
+    name: "Prof. Poonam",
+    institute: "Punjab Engineering College, Chandigarh, India"
+  },
+  {
+    sno: 21,
+    name: "Prof. Simranjeet Singh",
+    institute: "Punjab Engineering College, Chandigarh, India"
+  },
+  {
+    sno: 22,
+    name: "Prof. Ruchita Gautam",
+    institute: "KIET Group of Institutions, Ghaziabad, Uttar Pradesh, India"
+  },
+  {
+    sno: 23,
+    name: "Prof. Praveen Kaushik",
+    institute: "KIET Group of Institutions, Ghaziabad, Uttar Pradesh, India"
+  },
+  {
+    sno: 24,
+    name: "Prof. Shubham Shukla",
+    institute: "Indian Institute of Information Technology, Pune, Maharashtra, India"
+  },
+  {
+    sno: 25,
+    name: "Prof. Priya Ranjan",
+    institute: "University of Petroleum and Energy Studies, Dehradun, Uttarakhand, India"
+  },
+  {
+    sno: 26,
+    name: "Prof. Manoj Sindhwani",
+    institute: "Lovely Professional University, Jalandhar, Punjab, India"
+  },
+  {
+    sno: 27,
+    name: "Prof. Abhas Kanungo",
+    institute: "KIET Group of Institutions, Ghaziabad, Uttar Pradesh, India"
+  },
+  {
+    sno: 28,
+    name: "Prof. Rochak Bajpai",
+    institute: "University of Petroleum and Energy Studies, Dehradun, Uttarakhand, India"
+  },
+  {
+    sno: 29,
+    name: "Prof. Preeti Sharma",
+    institute: "Chitkara University, Rajpura, Punjab, India"
+  },
+  {
+    sno: 30,
+    name: "Prof. Ashwani K Sharma",
+    institute: "Chandigarh Engineering College, CGC Jhanjeri, Mohali, Punjab, India"
+  },
+  {
+    sno: 31,
+    name: "Prof. Vikas Deep Mann",
+    institute: "Chandigarh Engineering College, CGC Jhanjeri, Mohali, Punjab, India"
+  },
+  {
+    sno: 32,
+    name: "Prof. Sajjan Singh",
+    institute: "Chandigarh College of Education, CGC Jhanjeri, Mohali, Punjab, India"
+  },
+  {
+    sno: 33,
+    name: "Prof. Rini Saxena",
+    institute: "Chandigarh Engineering College, CGC Jhanjeri, Mohali, Punjab, India"
+  },
+  {
+    sno: 34,
+    name: "Prof. Anshu Tomar",
+    institute: "Chandigarh Engineering College, CGC Jhanjeri, Mohali, Punjab, India"
+  },
+  {
+    sno: 35,
+    name: "Prof. Shavinder Singh",
+    institute: "Chandigarh Engineering College, CGC Jhanjeri, Mohali, Punjab, India"
+  },
+  {
+    sno: 36,
+    name: "Prof. Rubal Jeet",
+    institute: "Chandigarh Engineering College, CGC Jhanjeri, Mohali, Punjab, India"
+  },
+  {
+    sno: 37,
+    name: "Prof. Shanky",
+    institute: "Chandigarh Engineering College, CGC Jhanjeri, Mohali, Punjab, India"
+  },
+  {
+    sno: 38,
+    name: "Prof. Puneet",
+    institute: "Chandigarh Engineering College, CGC Jhanjeri, Mohali, Punjab, India"
+  }
+];
 
 // const hierarchy = [
 //   "Eudoxia Research University, New Castle, Delaware, USA",
@@ -202,7 +207,7 @@ const advisoryCommittee = [
 //   "SGT University, Gurugram, India",
 //   "Galgotias College of Engineering and Technology, Greater Noida, India",
 //   "School of Engineering Design and Automation, GNA University, Phagwara, Punjab, India",
-//   "Thapar Institute of Engineering and Technology, Patiala, Pubjab, India",
+//   "Thapar Institute of Engineering and Technology, Patiala, Punjab, India, Pubjab, India",
 //   "Chandigarh Group of Colleges, Jhanjeri India",
 //   "Noida Institute Of Engineering and Technology, Greater Noida, U.P, India",
 //   "Galgotias College of Engg. and Technology Greater Noida, U.P, India",
@@ -269,9 +274,9 @@ const Advisory = () => {
           </h1>
         </div>
         <div className="flex w-full text-2xl">
-          <ul className="list-disc pl-5">
+          <ul className="list-disc pl-5 ">
             {advisoryCommittee.map((member, index) => (
-              <li key={index} className="text-[1rem]">
+              <li key={index} className="text-lg sm:text-2xl mb-4">
                 {member.name}, {member.institute}
               </li>
             ))}

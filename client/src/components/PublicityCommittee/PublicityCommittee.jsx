@@ -9,10 +9,10 @@ const publicityCommittee = [
     name: "Dr. Hemant Kumar Singh",
     institute: "SMS Institute of Technology, Lucknow, India"
   },
-    { name: "Prof. Richa Mehta", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },
-    { name: "Prof. Sonia Bhukra", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },
-    { name: "Prof. Puneet", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" },
-    { name: "Prof. Manbir Kaur Brar", institute: "CEC, CGC Jhanjeri, Mohali, Punjab" }
+    { name: "Prof. Richa Mehta", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
+    { name: "Prof. Sonia Bhukra", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
+    { name: "Prof. Puneet", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
+    { name: "Prof. Manbir Kaur Brar", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" }
   ];
   
 // // const hierarchy = [
@@ -98,7 +98,7 @@ const Publicity = () => {
         <div className="flex w-full text-2xl">
           <ul className="list-disc pl-5">
             {publicityCommittee.map((member, index) => (
-              <li key={index} className="text-[1rem]">
+              <li key={index} className="text-lg sm:text-2xl mb-4">
                 {member.name}, {member.institute}
               </li>
             ))}

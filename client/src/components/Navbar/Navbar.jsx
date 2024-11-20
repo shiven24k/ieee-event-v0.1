@@ -45,8 +45,8 @@ function Navbar() {
     </div>
     <div className="text-center ">
       <Link to="./" className="sm:order-1 text-[#F1F1F1] flex-none text-xs sm:text-sm font-semibold focus:outline-none focus:opacity-80">
-        ICETIS 2025 | 
-        <a> icetis@cgc.ac.in</a>
+        ICETCS 2025 | 
+        <a> icetcs@cgc.ac.in</a>
       </Link>
     </div>
     <div className='flex gap-2 sm:gap-2 items-center'>
@@ -105,7 +105,7 @@ function Navbar() {
             </li>
             <li className="cursor-pointer">
               <Link to="./organizing" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
-                Community
+                Committee
               </Link>
             </li>
             <li className="cursor-pointer">

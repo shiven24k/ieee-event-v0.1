@@ -3,7 +3,7 @@ import React from 'react';
 // TransportationCommittee.jsx
 const transportationCommittee = [
   {name:"Prof. Monica Bhutani",institute: "Bharati Vidyapeeth's College of Engineering, New Delhi, India"},
-	{name: "Prof.  Shonak Bansal", institute:"Chandigarh University, Mohali, Punjab, India"},
+	// {name: "Prof.  Shonak Bansal", institute:"Chandigarh University, Mohali, Punjab, India"},
     { name: "Mr. Tirth Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
     { name: "Mr. Taranjeet Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" }
   ];
@@ -91,7 +91,7 @@ const Transportation = () => {
         <div className="flex w-full text-2xl">
           <ul className="list-disc pl-5">
             {transportationCommittee.map((member, index) => (
-              <li key={index} className="text-[1rem]">
+              <li key={index} className="text-lg sm:text-2xl mb-4">
                 {member.name}, {member.institute}
               </li>
             ))}

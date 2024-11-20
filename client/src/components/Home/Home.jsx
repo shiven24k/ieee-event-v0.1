@@ -26,7 +26,7 @@ const dates = [
 
 function Home() {
   return (
-    <div className="relative w-full min-h-screen bg-cover bg-center bg-no-repeat py-16">
+    <div className=" mt-5 relative w-full min-h-screen bg-cover bg-center bg-no-repeat py-16">
       <div 
         className="absolute inset-0 z-0 bg-no-repeat" 
         style={{
@@ -44,7 +44,7 @@ function Home() {
             INTERNATIONAL CONFERENCE <br />
             ON <br />
             EMERGING TECHNOLOGIES IN AI AND COMMUNICATION SYSTEMS <br />
-            (ICETIS-2025)
+            (ICETCS-2025)
           </div>
         </div>
 

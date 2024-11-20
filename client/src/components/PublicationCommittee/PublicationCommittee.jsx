@@ -15,19 +15,19 @@ const publicationCommittee = [
   },
     {
       name: "Dr. Ankita Aggarwal",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
+      institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India"
     },
     {
       name: "Prof. Raj Kumar",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
+      institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India"
     },
     {
       name: "Prof. Anshu Tomar",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
+      institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India"
     },
     {
       name: "Prof. Rubal Jeet",
-      institute: "CEC, CGC Jhanjeri, Mohali, Punjab"
+      institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India"
     }
   ];
   
@@ -114,7 +114,7 @@ const Publication = () => {
         <div className="flex w-full text-2xl">
           <ul className="list-disc pl-5">
             {publicationCommittee.map((member, index) => (
-              <li key={index} className="text-[1rem]">
+              <li key={index} className="text-lg sm:text-2xl mb-4">
                 {member.name}, {member.institute}
               </li>
             ))}

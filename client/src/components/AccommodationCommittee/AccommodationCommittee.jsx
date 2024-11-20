@@ -3,7 +3,7 @@ import React from 'react';
 // AccommodationCommittee.jsx
 const accommodationCommittee = [
   {name:"Prof. Beant Kaur",institute: "Punjabi University, Patiala, Punjab, India"},
-	{name:"Prof. Kanwarpreet Kaur",institute: "Chandigarh University, Punjab, India"},
+	// {name:"Prof. Kanwarpreet Kaur",institute: "Chandigarh University, Punjab, India"},
     { name: "Prof. Ankur", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
     { name: "Prof. Bhupinder Kaur", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" }
   ];
@@ -92,7 +92,7 @@ const Accommodation = () => {
         <div className="flex w-full text-2xl">
           <ul className="list-disc pl-5">
             {accommodationCommittee.map((member, index) => (
-              <li key={index} className="text-[1rem]">
+              <li key={index} className="text-lg sm:text-2xl mb-4">
                 {member.name}, {member.institute}
               </li>
             ))}

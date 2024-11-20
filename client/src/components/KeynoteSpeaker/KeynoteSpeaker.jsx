@@ -80,7 +80,7 @@ const sections = [
         name: "Prof. Shashi Kant Gupta",
         institute: "Eudoxia Research University, New Castle, Delaware, USA",
         bio: "An expert in artificial intelligence applications for the Metaverse, focusing on augmented reality, mixed reality, and NLP.",
-        about: "Dr. Shashi Kant Gupta, Post-Doctoral Fellow and Researcher, Computer Science and Engineering, Eudoxia Research University, USA in collaboration with Eudoxia Research Centre, India. ORCID: 0000-0001-6587-5607. He is currently working as an Adjunct Research Faculty, Centre for Research Impact & Outcome, Chitkara University Institute of Engineering and Technology. Chitkara University, Rajpura, 140401, Punjab, India. He is working as an Adjunct Faculty in the Department of PURE & APPLIED MATHEMATICS, Saveetha School of Engineering University, India. He is working as Honorary Adjunct Faculty, School of Computing, Maryam Abacha American University of Nigeria (MAAUN), Nigeria. He is working as an Honorary Senior Research Fellow, Department of Scientific Research, Innovation and Training of Scientific and Pedagogical Staff, University of Economics and Pedagogy, Karshi City, Uzbekistan. He is working as a Research Collaborator and Invited Visiting Senior Scientist at the Research Institute of IoT and Cybersecurity, Department of Electronic Engineering, National Kaohsiung University of Science and Technology, Taiwan. He has completed his Ph.D. (CSE) from Integral University, Lucknow, UP, India, & Worked as Assistant Professor in the Department of Computer Science and Engineering, ITM, Lucknow, U.P., India & Worked as Assistant Professor in the Department of Computer Science and Engineering, PSIT, Kanpur, U.P., India, Worked as Associate Professor, School of Computer Applications, BBD University, Lucknow, UP, India, Worked as Assistant Professor, Department of Computer Science and Engineering, Ambalika Institute of Management and Technology, Lucknow, UP, India. & Also worked as Senior Lecturer, Department of IT, MCSCET, Lucknow, UP, India. He is currently working as Founder and CEO of CREP PVT. LTD., Lucknow, UP, India. He is a member of Spectrum IEEE & Potentials Magazine IEEE since 2019 and many more international organizations for research activities. He is an Editor-in-chief of International Journal of Data Informatics and Intelligent computing (IJDIIC) also Editor-in-chief of International Journal of Emerging Technologies in Computer and Communication (LJETCC). Senior Editor in Global Research Journal form London Organization of Skill Development, London, United Kingdom. He has published many research papers in reputed international journals, conferences & seminars with SCOPUS and SCI indexing. He has got many awards from many International and national organizations. He has organized various Faculty Development Programs, Seminars, Workshops, and Short- Term Courses at University level. His main research work focuses on Cloud computing, Big Data Analytics, IoT and Computational Intelligence-based Education. He is currently working as a reviewer and editorial in various international journals. He is currently editor in many edited books of different publishers like CRC Press, Taylor and Francis group Publication, Routledge Publisher, Bentham Science Publishers, Springer Nature Publisher, Wiley Publisher etc. He has published many patents like Indian, Germany, UK etc in the field of CSE and IT. He has more than 12 years of teaching experience, 2 years of Industrial Experience and more than 2.5 years as CEO and Founder of a firm.",
+        about: "Dr. Shashi Kant Gupta, Post-Doctoral Fellow and Researcher, Computer Science and Engineering, Eudoxia Research University, USA in collaboration with Eudoxia Research Centre, India. He is working as Honorary Adjunct Faculty, School of Computing, Maryam Abacha American University of Nigeria (MAAUN), Nigeria. He is working as an Honorary Senior Research Fellow, Department of Scientific Research, Innovation and Training of Scientific and Pedagogical Staff, University of Economics and Pedagogy, Karshi City, Uzbekistan. He is working as a Research Collaborator and Invited Visiting Senior Scientist at the Research Institute of IoT and Cybersecurity, Department of Electronic Engineering, National Kaohsiung University of Science and Technology, Taiwan. He is a member of Spectrum IEEE & Potentials Magazine IEEE since 2019 and many more international organizations for research activities. He is an Editor-in-chief of International Journal of Data Informatics and Intelligent computing (IJDIIC) also Editor-in-chief of International Journal of Emerging Technologies in Computer and Communication (LJETCC). Senior Editor in Global Research Journal form London Organization of Skill Development, London, United Kingdom. He has published many research papers in reputed international journals, conferences & seminars with SCOPUS and SCI indexing. He has got many awards from many International and national organizations. He has organized various Faculty Development Programs, Seminars, Workshops, and Short- Term Courses at University level. His main research work focuses on Cloud computing, Big Data Analytics, IoT and Computational Intelligence-based Education. He is currently working as a reviewer and editorial in various international journals. He is currently editor in many edited books of different publishers like CRC Press, Taylor and Francis group Publication, Routledge Publisher, Bentham Science Publishers, Springer Nature Publisher, Wiley Publisher etc. He has published many patents like Indian, Germany, UK etc in the field of CSE and IT. He has more than 12 years of teaching experience, 2 years of Industrial Experience and more than 2.5 years as CEO and Founder of a firm.",
         location: "New Castle, Delaware, USA",
         jobTitle: "Professor at Eudoxia Research University",
         hobbies: "Research, Innovation, Writing",
@@ -95,33 +95,33 @@ const sections = [
       {
         name: "Prof. K.S Sandha",
         institute: "Thapar University, Patiala",
-        bio: "An academic at Thapar University with contributions to computer science and interdisciplinary technologies.",
+        bio: "An academic at Thapar University with contributions to electronics engineering and interdisciplinary technologies.",
         about: "Professor K.S. Sandha, also known as Dr. Karmjit Singh Sandha, is an Associate Professor at the Thapar Institute of Engineering and Technology, specializing in the field of VLSI interconnects, with research interests including MWCNT based interconnects, optical interconnects, and embedded systems; he is primarily known for his expertise in microelectronics and related technologies within the Department of Electronics and Communication Engineering at Thapar University",
         location: "Patiala, India",
         jobTitle: "Professor at Thapar University",
         hobbies: "Teaching, Mentoring, Research",
-        skills: ["Computer Science", "Engineering", "Technology Development"],
+        skills: ["VLSI Interconnects,", "MWCNT Based Interconnects", "Optical Interconnects and Embedded Systems"],
         img:ks
       }
     ]
   },
-  {
-    title: "Valedictory Session/Plenary Talk",
-    items: [
-      {
-        name: "Prof. Kulbir Singh",
-        institute: "Thapar University, Patiala",
-        bio: "A faculty member at Thapar University known for contributions to technical education.",
-        about: "Dr. Kulbir Singh is a Professor and the Head of the Electronics and Communication Engineering Department at Thapar Institute of Engineering & Technology, Patiala, India. Renowned for his academic and leadership excellence, he has contributed significantly to advancing education and research in electronics and communication engineering. Dr. Singh's commitment to fostering innovation and excellence has established the department as a hub for cutting-edge learning and development.",
-        location: "Patiala, India",
-        jobTitle: "Professor at Thapar University",
-        hobbies: "Academic Development, Teaching",
-        skills: ["Education", "Engineering", "Technical Training"],
-        img:kubir
-      }
-    ]
-  }
-  ,
+  // {
+  //   title: "Valedictory Session/Plenary Talk",
+  //   items: [
+  //     {
+  //       name: "Prof. Kulbir Singh",
+  //       institute: "Thapar University, Patiala",
+  //       bio: "A faculty member at Thapar University known for contributions to technical education.",
+  //       about: "Dr. Kulbir Singh is a Professor and the Head of the Electronics and Communication Engineering Department at Thapar Institute of Engineering & Technology, Patiala, India. Renowned for his academic and leadership excellence, he has contributed significantly to advancing education and research in electronics and communication engineering. Dr. Singh's commitment to fostering innovation and excellence has established the department as a hub for cutting-edge learning and development.",
+  //       location: "Patiala, India",
+  //       jobTitle: "Professor at Thapar University",
+  //       hobbies: "Academic Development, Teaching",
+  //       skills: ["Education", "Engineering", "Technical Training"],
+  //       img:kubir
+  //     }
+  //   ]
+  // }
+  //,
   {
     title: "Inaugural Session/Plenary Talk",
     items: [

@@ -23,17 +23,17 @@ const sections = [
   {
     title: "PATRONS",
     items: [
-      "Dr. Vinay Goyal, Executive Director, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Anish Gupta, Director Academics, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Anupamdeep Sharma, Registrar, CGC Jhanjeri, Mohali, Punjab, India"
+      "Prof. Vinay Goyal, Executive Director, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Anish Gupta, Director Academics, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Anupamdeep Sharma, Registrar, CGC Jhanjeri, Mohali, Punjab, India"
     ]
   },
   {
     title: "GENERAL CHAIR",
     items: [
-      "Dr. Ch. Pradeep Reddy, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Hunny Pahuja, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Arun Kumar Singh, PEC, Chandigarh, India"
+      "Prof. Ch. Pradeep Reddy, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Hunny Pahuja, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Arun Kumar Singh, PEC, Chandigarh, India"
       
     ]
   },
@@ -41,33 +41,35 @@ const sections = [
   {
     title: "CONFERENCE CHAIR",
     items: [
-      "Dr. Pardeep Kumar Jindal, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Shivani Goyal, CEC, CGC Jhanjeri, Mohali, Punjab, India"
+      "Prof. Pardeep Kumar Jindal, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Shivani Goyal, CEC, CGC Jhanjeri, Mohali, Punjab, India"
     ]
   },
   {
     title: "ORGANIZING SECRETARY",
     items: [
-      "Dr. Ashwani K Sharma, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Sarabpreet Kaur, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Raj Kumar, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Ashwani K Sharma, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Vikasdeep Mann, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Sarabpreet Kaur, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Raj Kumar, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       
-      // "Dr. Vikas Deep Mann, HoD ME-Civil, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      // "Dr. Rini Saxena, HoD, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      // "Dr. Anmol Gautam, Associate Professor, CCE, CGC Jhanjeri, Mohali, Punjab, India"
+      // "Prof. Vikas Deep Mann, HoD ME-Civil, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      // "Prof. Rini Saxena, HoD, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      // "Prof. Anmol Gautam, Associate Professor, CCE, CGC Jhanjeri, Mohali, Punjab, India"
     ]
   },
   {
     title: "TECHNICAL PROGRAM CHAIR",
     items: [
-      "Dr. K.S Sandha, Thapar University, Patiala, Punjab, India",
-      "Dr. Vibhav Kumar Sachan, KIET, Ghaziabad, Uttar Pradesh, India",
+      "Prof. Vineet Mehan, NIMS University Jaipur, Rajasthan, India",
+      "Prof. K.S Sandha, Thapar University, Patiala, Punjab, India",
+      "Prof. Vibhav Kumar Sachan, KIET, Ghaziabad, Uttar Pradesh, India",
 
-      "Dr. Sajjan Singh, CCE, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Vikas Deep Mann, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Rini Saxena, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Sajjan Singh, CCE, CGC Jhanjeri, Mohali, Punjab, India",
+      
+      "Prof. Rini Saxena, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       ,
-      // "Dr. Anmol Gautam, Associate Professor, CCE, CGC Jhanjeri, Mohali, Punjab, India"
+      // "Prof. Anmol Gautam, Associate Professor, CCE, CGC Jhanjeri, Mohali, Punjab, India"
 
     ]
   },
@@ -76,38 +78,38 @@ const sections = [
     title: "PUBLICATION CHAIR",
     items: [
    
-      "Dr. Mirgendar Kumar, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      // "Dr. Sarabpreet Kaur, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Ankita Aggarwal, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      // "Dr. Mirgendra, CEC, CGC Jhanjeri, Mohali, Punjab, India"
+      "Prof. Mirgendar Kumar, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      // "Prof. Sarabpreet Kaur, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Ankita Aggarwal, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      // "Prof. Mirgendra, CEC, CGC Jhanjeri, Mohali, Punjab, India"
     ]
   },
   {
     title: "PUBLICITY CHAIR",
     items: [
       
-      "Dr. Ankur Garg, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Ankur Garg, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       
-      // "Dr. Sarabpreet Kaur, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Ankita Aggarwal, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      // "Dr. Mirgendra, CEC, CGC Jhanjeri, Mohali, Punjab, India"
+      // "Prof. Sarabpreet Kaur, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Ankita Aggarwal, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      // "Prof. Mirgendra, CEC, CGC Jhanjeri, Mohali, Punjab, India"
     ]
   },
   {
     title: "FINANCE CHAIR",
     items: [
       
-      "Dr. Sarabpreet Kaur, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      "Dr. Shivani Goyal, CEC, CGC Jhanjeri, Mohali, Punjab, India"
-      // "Dr. Mirgendra, CEC, CGC Jhanjeri, Mohali, Punjab, India"
+      "Prof. Sarabpreet Kaur, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Shivani Goyal, CEC, CGC Jhanjeri, Mohali, Punjab, India"
+      // "Prof. Mirgendra, CEC, CGC Jhanjeri, Mohali, Punjab, India"
     ]
   },
   {
     title: "REGISTRATION CHAIR",
     items: [
-      "Dr. Ankur Garg, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Ankur Garg, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       // "Dr. Sarabpreet Kaur, CEC, CGC Jhanjeri, Mohali, Punjab, India",
-      "Ms. Bhupinder Kaur, CEC, CGC Jhanjeri, Mohali, Punjab, India",
+      "Prof. Bhupinder Kaur, CEC, CGC Jhanjeri, Mohali, Punjab, India",
       // "Dr. Mirgendra, CEC, CGC Jhanjeri, Mohali, Punjab, India"
     ]
   }
@@ -118,11 +120,11 @@ const FacultyTable = () => {
   return (
     <>
     <div className="container mx-auto p-4 pt-20 sm:pt-4">
-      <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">Organising Committee</h1>
+      <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center uppercase">Organising Committee</h1>
       {sections.map((section, index) => (
         <div >
           <div className="flex flex-wrap mt-6 w-full relative flex-col flex-auto">
-            <h1 className="mb-5 text-xl sm:text-[1.75rem] font-bold text-dark uppercase">
+            <h1 className="mb-5 sm:text-[1.75rem] font-bold text-dark uppercase">
               {section.title}
             </h1>
           </div>
@@ -138,9 +140,9 @@ const FacultyTable = () => {
         </div>
       ))}
     </div>
-    <Advisory />
     <Steering />
     <Technical />
+    <Advisory />
     <Finance/>
     <Publication/>
     <Publicity/>
