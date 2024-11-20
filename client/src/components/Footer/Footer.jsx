@@ -37,7 +37,7 @@ function Footer() {
               </a>
               <a href="mailto:icetis@cgc.ac.in" 
                  className="block hover:text-white transition-colors duration-200">
-                icetis@cgc.ac.in
+                icetcs@cgc.ac.in
               </a>
             </div>
           </div>
@@ -84,7 +84,7 @@ function Footer() {
 
         <div className="flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0 text-sm text-white/90">
           <span>
-            © 2025 <a href="#" className="hover:text-white transition-colors duration-200">ICETIS</a>. 
+            © 2025 <a href="#" className="hover:text-white transition-colors duration-200">ICETCS</a>. 
             All Rights Reserved.
           </span>
           <span>

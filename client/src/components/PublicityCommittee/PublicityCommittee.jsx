@@ -2,11 +2,11 @@ import React from 'react';
 
 const publicityCommittee = [
   {
-    name: "Dr. Deepak Kumar",
+    name: "Prof. Deepak Kumar",
     institute: "Punjab Engineering College, Chandigarh, India"
   },
   {
-    name: "Dr. Hemant Kumar Singh",
+    name: "Prof. Hemant Kumar Singh",
     institute: "SMS Institute of Technology, Lucknow, India"
   },
     { name: "Prof. Richa Mehta", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },

@@ -7,8 +7,8 @@ const hospitalityCommittee = [
   { name: "Prof. Anmol", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
     { name: "Prof. Ankur", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
     { name: "Prof. Shanky", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
-    { name: "Mr. Taranjeet Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
-    { name: "Mr. Tirth Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" }
+    { name: "Prof. Taranjeet Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" },
+    { name: "Prof. Tirth Singh", institute: "CEC, CGC Jhanjeri, Mohali, Punjab, India" }
   ];
   
 // // const hierarchy = [

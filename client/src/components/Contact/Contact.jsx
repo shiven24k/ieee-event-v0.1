@@ -67,7 +67,7 @@ function Contact() {
               <p>Phone: +91 98724 95684</p>
               <p>Dr. Shivani Goyal</p>
               <p>Phone: +91 8264239901</p>
-              <p>Email at: <a href="mailto:icetis@cgc.ac.in" className="text-blue-500">icetis@cgc.ac.in</a></p>
+              <p>Email at: <a href="mailto:icetis@cgc.ac.in" className="text-blue-500">icetcs@cgc.ac.in</a></p>
               
             </div>
           </div>
