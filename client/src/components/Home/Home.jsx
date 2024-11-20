@@ -54,7 +54,7 @@ function Home() {
             {/* IEEE Notice */}
             <div className="lg:w-1/2 flex items-center">
               <p className="text-white text-base md:text-lg lg:text-xl italic text-left">
-                All selected, presented and registered paper will be submitted to IEEE Xplore for consideration.
+              Request has been submitted to IEEE Delhi Section for Technical sponsorship.
               </p>
             </div>
 
