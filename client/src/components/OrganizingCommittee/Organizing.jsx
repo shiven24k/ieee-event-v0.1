@@ -16,7 +16,7 @@ const sections = [
   {
     title: "CHIEF PATRONS",
     items: [
-      "S. Rashpal Singh Dhaliwal, Chairman, CGC Jhanjeri, Mohali, Punjab, India",
+      "Sardar Rashpal Singh Dhaliwal, Chairman, CGC Jhanjeri, Mohali, Punjab, India",
       "Mr. Arsh Dhaliwal, Managing Director, CGC Jhanjeri, Mohali, Punjab, India"
     ]
   },
