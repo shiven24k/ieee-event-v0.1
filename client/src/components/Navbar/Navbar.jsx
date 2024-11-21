@@ -68,7 +68,7 @@ function Navbar() {
       <div className="w-full mx-auto px-4 flex basis-full items-center justify-between">
         {/* left side logo */}
         <div className="block">
-      <a href="https://www.cgc.ac.in">
+      <a href="./">
         <img src={cgclogo} alt="CGC Logo" className="w-[100px] sm:w-[250px]" />
       </a>
     </div>
