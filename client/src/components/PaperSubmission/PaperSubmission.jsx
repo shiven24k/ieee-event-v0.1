@@ -25,8 +25,12 @@ const dates = [
 
 function PaperSubmission() {
   return (
-    <div className="w-full min-h-screen px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24">  {/* Added pt-20 sm:pt-24 for top margin */}
+    <div className="w-full min-h-screen px-4 sm:px-6 lg:px-8 pt-5 sm:pt-10">  {/* Added pt-20 sm:pt-24 for top margin */}
+      <h2 className="text-2xl sm:text-3xl uppercase lg:text-3xl font-bold sm:mb-10 mb-4 text-center">
+            Paper Submission
+          </h2>
       <div className="max-w-7xl mx-auto">
+      
         <div className="bg-gray-100 rounded-lg shadow-lg p-4 sm:p-6 lg:p-8">
           
           {/* Guidelines Section */}

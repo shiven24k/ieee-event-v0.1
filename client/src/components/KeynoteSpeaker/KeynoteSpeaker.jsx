@@ -126,7 +126,7 @@ const sections = [
     title: "Inaugural Session/Plenary Talk",
     items: [
       {
-        name: "Dr. Balwinder Raj",
+        name: "Prof. Balwinder Raj",
         institute: "National Institute of Technology, Jalandhar, Punjab, India",
         img: balwinder,
         bio: "He is an accomplished researcher in computer science and engineering.",

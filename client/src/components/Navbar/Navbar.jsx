@@ -28,6 +28,9 @@ function Navbar() {
       document.removeEventListener("mousedown", handler);
     };
   }, []);
+  const closeBurger = () => {
+    setIsBurgerOpen(false);
+  };
   
   return (
     <div>
@@ -62,77 +65,78 @@ function Navbar() {
 </div>
       {/* Main Navbar */}
       <div className="fixed top-0 md:pt-14 sm:pt-10 left-0 w-full flex p-4 text-sm bg-white shadow-md z-40">
-  <div className="w-full mx-auto px-4 flex basis-full items-center justify-between">
-    {/* left side logo */}
-    <div className="block">
+      <div className="w-full mx-auto px-4 flex basis-full items-center justify-between">
+        {/* left side logo */}
+        <div className="block">
       <a href="https://www.cgc.ac.in">
         <img src={cgclogo} alt="CGC Logo" className="w-[100px] sm:w-[250px]" />
       </a>
     </div>
-    {/* Nav Items */}
-    <div className='flex-2'>
-      <div className="sm:order-3 flex flex-col items-center gap-x-2">
-        <button type="button" onClick={toggleBurger} className="sm:hidden flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none">
-          <svg className={`${isBurgerOpen ? 'hidden' : 'block'} shrink-0`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <line x1="3" x2="21" y1="6" y2="6" />
-            <line x1="3" x2="21" y1="12" y2="12" />
-            <line x1="3" x2="21" y1="18" y2="18" />
-          </svg>
-          <svg className={`${isBurgerOpen ? 'block' : 'hidden'} shrink-0`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M18 6 6 18" />
-            <path d="m6 6 12 12" />
-          </svg>
-          <span className="sr-only">Toggle</span>
-        </button>
-      </div>
-      <div className={`${isBurgerOpen ? 'block' : 'hidden'} hs-collapse overflow-hidden transition-all duration-300 sm:basis-auto sm:block sm:order-3`}>
-        <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
-          <ul className="flex flex-col sm:flex-row gap-5 sm:items-center">
-            <li className="cursor-pointer">
-              <Link to="./" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
-                Home
-              </Link>
-            </li>
-            <li className="cursor-pointer">
-              <Link to="./about" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
-                About
-              </Link>
-            </li>
-            <li className="cursor-pointer">
-              <Link to="./keynotespeaker" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
-                Keynote Speaker
-              </Link>
-            </li>
-            <li className="cursor-pointer">
-              <Link to="./organizing" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
-                Committee
-              </Link>
-            </li>
-            <li className="cursor-pointer">
-              <Link className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" to="./callforpaper">
-                Call for Paper
-              </Link>
-            </li>
-            <li className="cursor-pointer">
-              <Link to="./papersubmission" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
-                Paper Submission
-              </Link>
-            </li>
-            <li className="cursor-pointer">
-              <Link to="./registration" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
-                Registration
-              </Link>
-            </li>
-            <li className="cursor-pointer">
-              <Link to="./contact" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
-                Contact
-              </Link>
-            </li>
-          </ul>
+        {/* Nav Items */}
+        <div className='flex-2'>
+          <div className="flex justify-between items-center">
+            {/* Burger Icon */}
+            <button type="button" onClick={toggleBurger} className="sm:hidden flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none">
+              <svg className={`${isBurgerOpen ? 'hidden' : 'block'} shrink-0`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="3" x2="21" y1="6" y2="6" />
+                <line x1="3" x2="21" y1="12" y2="12" />
+                <line x1="3" x2="21" y1="18" y2="18" />
+              </svg>
+              <svg className={`${isBurgerOpen ? 'block' : 'hidden'} shrink-0`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </svg>
+              <span className="sr-only">Toggle</span>
+            </button>
+          </div>
+          <div className={`${isBurgerOpen ? 'block' : 'hidden'} hs-collapse overflow-hidden transition-all duration-300 sm:basis-auto sm:block sm:order-3`}>
+            <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
+              <ul className="flex flex-col sm:flex-row gap-5 sm:items-center">
+                <li className="cursor-pointer">
+                  <Link to="./" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" onClick={closeBurger}>
+                    Home
+                  </Link>
+                </li>
+                <li className="cursor-pointer">
+                  <Link to="./about" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" onClick={closeBurger}>
+                    About
+                  </Link>
+                </li>
+                <li className="cursor-pointer">
+                  <Link to="./keynotespeaker" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" onClick={closeBurger}>
+                    Keynote Speaker
+                  </Link>
+                </li>
+                <li className="cursor-pointer">
+                  <Link to="./organizing" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" onClick={closeBurger}>
+                    Committee
+                  </Link>
+                </li>
+                <li className="cursor-pointer">
+                  <Link className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" to="./callforpaper" onClick={closeBurger}>
+                    Call for Paper
+                  </Link>
+                </li>
+                <li className="cursor-pointer">
+                  <Link to="./papersubmission" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" onClick={closeBurger}>
+                    Paper Submission
+                  </Link>
+                </li>
+                <li className="cursor-pointer">
+                  <Link to="./registration" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" onClick={closeBurger}>
+                    Registration
+                  </Link>
+                </li>
+                <li className="cursor-pointer">
+                  <Link to="./contact" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" onClick={closeBurger}>
+                    Contact
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    {/* right side logos */}
+        {/* right side logos */}
     <div className="hidden sm:flex items-center justify-end gap-4 sm:pl-20">
       <img src={ceclogo} className="hidden sm:block w-[3em] sm:w-[4em]" alt="CGC Logo" />
       <div className="hidden sm:block ms-2">
@@ -167,8 +171,8 @@ function Navbar() {
         </div>
       </div>
     </div>
-  </div>
-</div>
+      </div>
+    </div>
       {/* Add margin-top to the content below */}
       <div className='mt-40 hidden sm:block'>
   {/* Main content goes here */}
