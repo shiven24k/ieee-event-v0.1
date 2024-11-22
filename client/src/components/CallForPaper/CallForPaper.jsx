@@ -143,7 +143,7 @@ function CallForPaper() {
               TECHNICAL TRACKS
             </h2>
             <p className="text-gray-700 mb-4">
-              IEEE - International Conference on Emerging Technology in AI, and Communication Systems (ICETCS-2025) - Invites original and unpublished manuscripts for submission in the following tracks (but not limited to):
+              IEEE - International Conference on Emerging Technologies in AI and Communication Systems (ICETCS-2025) - Invites original and unpublished manuscripts for submission in the following tracks (but not limited to):
             </p>
 
             {tracks.map((track, index) => (
