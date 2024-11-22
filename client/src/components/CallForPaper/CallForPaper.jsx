@@ -125,7 +125,7 @@ function CallForPaper() {
           <div className="flex flex-col-reverse md:flex-row items-center mb-6 gap-4">
             <div className="flex-1 text-gray-700 text-base sm:text-lg text-justify">
               <p>
-                The objective of the International Conference on Emerging Technology in AI, and Communication Systems (ICETCS-2025) is to provide a global forum for researchers, practitioners, industry experts, and academicians to present and discuss the latest advancements, challenges, and innovations in the fields of emerging technologies and intelligent systems. 
+                The objective of the International Conference on Emerging Technologies in AI and Communication Systems (ICETCS-2025) is to provide a global forum for researchers, practitioners, industry experts, and academicians to present and discuss the latest advancements, challenges, and innovations in the fields of emerging technologies and intelligent systems. 
               </p>
             </div>
             <div className="w-full md:w-1/3 flex-shrink-0">

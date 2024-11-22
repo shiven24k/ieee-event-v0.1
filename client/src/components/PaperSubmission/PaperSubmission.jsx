@@ -54,7 +54,7 @@ function PaperSubmission() {
             <li className="flex flex-col sm:flex-row sm:items-center gap-2">
               <span>Paper to be submitted through Microsoft CMT.</span>
               <a 
-                href="https://cmt3.research.microsoft.com/Conference" 
+                href="https://cmt3.research.microsoft.com/Conference/Recent" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-blue-600 hover:text-blue-800 underline inline-block"

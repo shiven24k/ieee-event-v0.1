@@ -28,20 +28,17 @@ function About() {
             </p>
             <div className="pt-5">
               <p>
-                <span className="font-bold">VISION :</span> To become a
-                top-notch technical institution offering professional training
-                for the long-term advancement of society.
+                <span className="font-extrabold">VISION OF THE INSTITUTE:</span> To emerge as an Institution of Technical excellence imparting professional education for sustainable development of society
               </p>
               <p>
-                <span className="font-bold">MISSION :</span> To attain academic
-                flexibility via robust industry-academia interactions and
-                emphasize employability, and entrepreneurship.
-              </p>
-              <p>
-                <span className="font-bold">QUALITY POLICY :</span> To give
-                children access to first-rate facilities, state-of-the-art
-                technology, and highly trained teachers.
-              </p>
+  <span className="font-extrabold">MISSION OF THE INSTITUTE:</span>
+</p>
+<ul className="list-disc pl-5">
+  <li>To provide quality technical education through state-of-the-art infrastructure and well qualified and experienced faculty.</li>
+  <li>Having academic flexibility through strong industry-academia interactions.</li>
+  <li>Focus on students' employability, entrepreneurship, higher education and competitive examinations.</li>
+  <li>Inculcate ethical and moral values in students.</li>
+</ul>
             </div>
           </div>
         </div>
@@ -70,7 +67,7 @@ function About() {
         The objective of the
         {" "}
         <strong>
-          “International Conference on Emerging Technology in AI, and Communication Systems (ICETCS-2025)”
+          “International Conference on Emerging Technologies in AI and Communication Systems (ICETCS-2025)”
         </strong>{" "}
         is to provide a global forum for researchers, practitioners, industry experts, and academicians to present and discuss the latest advancements, challenges, and innovations in the fields of emerging technologies and intelligent systems. The conference aims to facilitate the exchange of knowledge, foster interdisciplinary collaboration, and explore the integration of intelligent systems with emerging technologies to address complex global challenges.
       </p>

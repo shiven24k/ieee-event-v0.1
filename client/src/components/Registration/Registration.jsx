@@ -81,7 +81,7 @@ function Regestration() {
     <p className="mb-2 text-xs sm:text-base"><strong>Bank Name and Address:</strong> Jhanjeri, Sirhind Road 140307</p>
   </div>
   <p className="text-center mt-5 text-xs sm:text-base">
-    <strong>Note:</strong> After making payment, participants are requested to share transaction details along with paper ID <a href='https://forms.gle/5QakEniKZvrvfuDu8' className="cursor-pointer text-blue-600">Click Here</a>.
+    <strong>Note:</strong> After making payment, participants are requested to share transaction details along with paper ID <a href='https://forms.gle/AVwGJfBgA5ocQoPx9' className="cursor-pointer text-blue-600">Click Here</a>.
   </p>
 </div>
   );
